@@ -15,7 +15,7 @@ Clase 1, pre-requsitos, contenido y evaluación para la materia en el periodo 20
 - Respuesta en Frecuencia <br/>
 - Espacio Estados (Retroalimentacion Estados y observaciones) <br/>
 
-## 3. Evaluacion
+## 3. Evaluación
 1er Corte (20%): <br/>
 - Parcial (15%) <br/>
 - Apuntes (5%) <br/>
@@ -30,5 +30,5 @@ Clase 1, pre-requsitos, contenido y evaluación para la materia en el periodo 20
 - Apuntes (5%): <br/>
 - Proyecto (25%): <br/>
 
-## 11. Referencias
+## 4. Referencias
 Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.

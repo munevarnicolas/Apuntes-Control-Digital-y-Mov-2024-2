@@ -1,4 +1,4 @@
-# Electiva de Profundizacion Control Digital y de Movimiento
+# Electiva de Profundización Control Digital y de Movimiento
 Clase 1, pre-requsitos, contenido y evaluación para la materia en el periodo 2024-II
 ## 1. Pre-requisitos
 - Control (7mo semestre) <br/>

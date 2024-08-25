@@ -1,7 +1,7 @@
 # Control Digital
-Clase 1, prerequsitos, contenido y evaluacion para la materia en el periodo 2024-II
+Clase 1, pre-requsitos, contenido y evaluacion para la materia en el periodo 2024-II
 ## 1. Pre-requisitos
-Control (7mo semstre)
+Control (7mo semstre) <br/>
 Programación
 
 ## 2. Contenido

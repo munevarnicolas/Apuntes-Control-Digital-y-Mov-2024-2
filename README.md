@@ -1,19 +1,19 @@
 # Control Digital
 Clase 1, pre-requsitos, contenido y evaluación para la materia en el periodo 2024-II
 ## 1. Pre-requisitos
-Control (7mo semestre) <br/>
-Programación
+- Control (7mo semestre) <br/>
+- Programación
 
 ## 2. Contenido
-Conversion A/D y D/A <br/>
-Ecuaciones en diferencias <br/>
-Transformada Z <br/>
-Funciones de Transferencia <br/>
-Estabilidad (Test Jury) <br/>
-Discretizacion Controladores <br/>
-Metodos Algebraicos <br/>
-Respuesta en Frecuencia <br/>
-Espacio Estados (Retroalimentacion Estados y observaciones) <br/>
+- Conversion A/D y D/A <br/>
+- Ecuaciones en diferencias <br/>
+- Transformada Z <br/>
+- Funciones de Transferencia <br/>
+- Estabilidad (Test Jury) <br/>
+- Discretizacion Controladores <br/>
+- Metodos Algebraicos <br/>
+- Respuesta en Frecuencia <br/>
+- Espacio Estados (Retroalimentacion Estados y observaciones) <br/>
 
 ## 3. Evaluacion
 1er Corte (20%): <br/>

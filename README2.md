@@ -2,13 +2,12 @@
 La clase estuvo dirigida a comprender como es el control digital en comparacion al control análogo, por este motivo se revisaron temas como las señales análogas y digitales, las conversiones entre estas y los modelos matemáticos aplicados.
 ## 1. Control Digital
 ### 1.1. Señales Analógicas
-
+Véase Figura 1
 ### 1.2. Señales Digitales
-Las señales digitales representan información mediante valores discretos,  utilizando un sistema binario de unos y ceros. Su forma de onda es cuadrada.
+Véase Figura 1
 
 ## 2. Definiciones
->🔑 *Señal Analógica:* Las señales analógicas transmiten información a través de variaciones continuas en una magnitud física, como voltaje o corriente, estas señales pueden adoptar cualquier valor dentro de un rango específico y son representables mediante funciones matemáticas en tiempo continuo. <br/>
->🔑*Señales Digitales:* Las señales digitales representan información mediante valores discretos,  utilizando un sistema binario de unos y ceros. Su forma de onda es cuadrada.
+
 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.

@@ -9,7 +9,7 @@ Las señales digitales representan información mediante valores discretos,  uti
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Señal Analógica:* Las señales analógicas transmiten información a través de variaciones continuas en una magnitud física, como voltaje o corriente, estas señales pueden adoptar cualquier valor dentro de un rango específico y son representables mediante funciones matemáticas en tiempo continuo.
-> *Señales Digitales:* Las señales digitales representan información mediante valores discretos,  utilizando un sistema binario de unos y ceros. Su forma de onda es cuadrada.
+>🔑*Señales Digitales:* Las señales digitales representan información mediante valores discretos,  utilizando un sistema binario de unos y ceros. Su forma de onda es cuadrada.
 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.

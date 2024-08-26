@@ -28,7 +28,7 @@ Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las
 
 💡**Ejemplo 2:**
 
-![Figura de prueba](images/)
+![Figura de prueba](images/señalesdigyana.jpg)
 
 Figura 1. Figura de prueba
 

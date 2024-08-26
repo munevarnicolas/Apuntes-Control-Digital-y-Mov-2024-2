@@ -30,7 +30,7 @@ Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las
 
 ![Figura de prueba](images/señalesdigyana.jpg)
 
-Figura 1. Figura de prueba
+Figura 1. Figura Tipos de Señales
 
 Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
 

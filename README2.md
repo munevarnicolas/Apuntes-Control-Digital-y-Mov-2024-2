@@ -7,7 +7,6 @@ La clase estuvo dirigida a comprender como es el control digital en comparacion 
 Las señales digitales representan información mediante valores discretos,  utilizando un sistema binario de unos y ceros. Su forma de onda es cuadrada.
 
 ## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
 >🔑 *Señal Analógica:* Las señales analógicas transmiten información a través de variaciones continuas en una magnitud física, como voltaje o corriente, estas señales pueden adoptar cualquier valor dentro de un rango específico y son representables mediante funciones matemáticas en tiempo continuo. <br/>
 >🔑*Señales Digitales:* Las señales digitales representan información mediante valores discretos,  utilizando un sistema binario de unos y ceros. Su forma de onda es cuadrada.
 

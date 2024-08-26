@@ -28,7 +28,7 @@ Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las
 
 💡**Ejemplo 2:**
 
-![Figura de prueba](images/Captura2.PNG)
+![Figura de prueba](images/senales-analogicas-digitales-grafico-info-1024x1024 (1).jpg)
 
 Figura 1. Figura de prueba
 

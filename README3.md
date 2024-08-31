@@ -29,7 +29,7 @@ Donde:
 
 Figura 2. Señales analógicas y digitales
 
-Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+Señal en tiempo discreto con periodo de muestreo de T= 0.5 seg
 
 
 💡**Figura 3:** <br/>
@@ -37,7 +37,7 @@ Las señales analógicas y digitales son dos formas fundamentales de representar
 
 Figura 3. Señales analógicas y digitales
 
-Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+Señal en tiempo discreto con periodo de muestreo de T= 0.1 seg
 
 ### 1.3. ¿Por qué Control Digital?
 Los controladores digitales ofrecen varias ventajas significativas que los hacen preferibles en muchas aplicaciones. Aquí se detallan las razones clave por las que se eligen los controladores digitales, relacionadas con tus puntos de interés:

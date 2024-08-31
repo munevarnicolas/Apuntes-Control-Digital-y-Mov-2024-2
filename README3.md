@@ -39,7 +39,7 @@ Figura 3. Señales analógicas y digitales
 
 Señal en tiempo discreto con periodo de muestreo de T= 0.1 seg
 
-### 1.3. ¿Por qué Control Digital?
+## 2. Representación matemática de los sistemas
 Los controladores digitales ofrecen varias ventajas significativas que los hacen preferibles en muchas aplicaciones. Aquí se detallan las razones clave por las que se eligen los controladores digitales, relacionadas con tus puntos de interés:
 #### Exactitud:
 Los controladores digitales pueden ofrecer una mayor exactitud en la medición y control de variables debido a la capacidad de procesar señales digitales de manera precisa y consistente. Esto se debe a que las señales digitales son menos propensas a la degradación y al ruido en comparación con las señales analógicas.

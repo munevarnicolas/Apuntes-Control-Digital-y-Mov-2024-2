@@ -24,8 +24,15 @@ Los controladores digitales son altamente flexibles. Pueden ser programados para
 La velocidad de procesamiento es una ventaja significativa de los controladores digitales. Pueden procesar y responder a señales de entrada mucho más rápidamente que los controladores analógicos, lo que es crucial en aplicaciones que requieren respuestas rápidas y precisas.
 #### Costos:
 Aunque el costo inicial de un controlador digital puede ser mayor que el de uno analógico, a largo plazo, los controladores digitales pueden ser más económicos. Esto se debe a su capacidad para automatizar procesos, reducir la necesidad de intervención manual y mejorar la eficiencia general del sistema
-## 2. Conversión Análoga a Digital
 
+## 2. Conversión Análoga a Digital
+### 2.1. Procedimiento de Conversión
+#### 1. Muestreo: 
+El muestreo es el proceso de tomar valores de una señal analógica (como voltaje) en momentos específicos.
+#### 2. Cuantización:
+La cuantización es el proceso de convertir los valores continuos de una señal analógica en valores discretos que pueden ser representados digitalmente.
+#### 3. Codificación:
+La codificación es el proceso de convertir los valores discretos de una señal cuantizada en códigos binarios, permitiendo su procesamiento y manipulación en sistemas digitales.
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

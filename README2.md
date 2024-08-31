@@ -27,11 +27,11 @@ Aunque el costo inicial de un controlador digital puede ser mayor que el de uno 
 
 ## 2. Conversión Análoga a Digital
 ### 2.1. Procedimiento de Conversión
-#### 1. Muestreo: 
+#### * Muestreo: 
 El muestreo es el proceso de tomar valores de una señal analógica (como voltaje) en momentos específicos.
-#### 2. Cuantización:
+#### * Cuantización:
 La cuantización es el proceso de convertir los valores continuos de una señal analógica en valores discretos que pueden ser representados digitalmente.
-#### 3. Codificación:
+#### * Codificación:
 La codificación es el proceso de convertir los valores discretos de una señal cuantizada en códigos binarios, permitiendo su procesamiento y manipulación en sistemas digitales.
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.

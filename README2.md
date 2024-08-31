@@ -94,6 +94,10 @@ El método de red escalera R-2R es un método eficiente para convertir señales 
 * DAC: Aunque no es explícito, la señal analógica generada se mantiene estable para su uso.
   
 Estos componentes son esenciales para asegurar que las señales se procesen de manera precisa y consistente en ambos tipos de convertidores.
+
+### 4.2. Zer Order Hold (ZOH)
+El ZOH mantiene el valor de una muestra durante un período específico, llamado período de muestreo, hasta que se toma la siguiente muestra.
+
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

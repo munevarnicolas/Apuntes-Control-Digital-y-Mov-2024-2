@@ -4,9 +4,9 @@ La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos 
 ### 1.1. Muestreo en términos matemáticos
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 💡**Figura 1:** <br/>
-![Figura de prueba](images/señalesdigyana.jpg)
+![Figura de prueba](images/terminosmat.jpg)
 
-Figura 1. Señales analógicas y digitales
+Figura 1. Señales continua representada a discreta
 
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 

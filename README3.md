@@ -3,6 +3,7 @@ La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos 
 ## 1. Tiempo continuo y discreto
 ### 1.1. Muestreo en términos matemáticos
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
+
 💡**Figura 1:** <br/>
 ![Figura de prueba](images/terminosmat.png)
 

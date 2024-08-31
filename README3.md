@@ -1,5 +1,5 @@
 # Transformada Z de adelantos y atrasos
-La clase estuvo dirigida a comprender como es el control digital en comparacion al control análogo, por este motivo se revisaron temas como las señales análogas y digitales, las conversiones entre estas y los modelos matemáticos aplicados.
+La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos y adelantos temporales, los cuales son herramientas poderosas para entender y manipular señales digitales, lo que es crucial en diversas aplicaciones de ingeniería y procesamiento de señales.
 ## 1. Control Digital
 ### 1.1. Señales Analógicas
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.

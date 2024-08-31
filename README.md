@@ -31,4 +31,4 @@ Clase 1, pre-requsitos, contenido y evaluación para la materia en el periodo 20
 - Proyecto (25%): <br/>
 
 ## 4. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
+[1] "Apuntes Clase - Lunes 29 Julio 2024"

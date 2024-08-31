@@ -36,6 +36,7 @@ La codificación es el proceso de convertir los valores discretos de una señal 
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 
 💡**Figura 2:** <br/>
+
 ![Figura de prueba](images/converanalogdigital.jpg)
 
 Figura 2. Muestreo, codificación y cuantizacion en ADC.

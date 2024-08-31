@@ -70,9 +70,9 @@ Los conversores digitales a analogos (DAC) toman señales digitales y las convie
 
 ![Figura de prueba](images/ponderadas.png)
 
-Figura 4. Esquematico Resistencias ponderadas.
+Figura 4. Esquemático Resistencias ponderadas.
 
-El mnetodo de resistencias ponderadas utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las contribuciones ponderadas de cada bit para producir la tensión de salida.
+El método de resistencias ponderadas utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las contribuciones ponderadas de cada bit para producir la tensión de salida.
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

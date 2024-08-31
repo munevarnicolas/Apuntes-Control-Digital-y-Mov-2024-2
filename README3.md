@@ -3,6 +3,13 @@ La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos 
 ## 1. Tiempo continuo y discreto
 ### 1.1. Muestreo en términos matemáticos
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
+💡**Figura 1:** <br/>
+![Figura de prueba](images/señalesdigyana.jpg)
+
+Figura 1. Señales analógicas y digitales
+
+Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+
 ### 1.2. Función en términos de muestras
 Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
 

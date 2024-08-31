@@ -100,7 +100,7 @@ El ZOH mantiene el valor de una muestra durante un período específico, llamado
 
 💡**Figura 6:** <br/>
 
-![Figura de prueba](images/zoh.jpg)
+![Figura de prueba](images/zorh.jpg)
 
 Figura 6. Zero Order Hold.
 

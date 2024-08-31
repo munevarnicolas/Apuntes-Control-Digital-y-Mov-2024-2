@@ -9,7 +9,9 @@ Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada
 💡**Figura 1:** <br/>
 ![Figura de prueba](images/señalesdigyana.jpg)
 
-Figura 1. Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+Figura 1. Señales analógicas y digitales
+
+Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 
 ### 1.3. ¿Por qué Control Digital?
 Los controladores digitales ofrecen varias ventajas significativas que los hacen preferibles en muchas aplicaciones. Aquí se detallan las razones clave por las que se eligen los controladores digitales, relacionadas con tus puntos de interés:

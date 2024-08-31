@@ -78,7 +78,7 @@ El método de resistencias ponderadas utiliza una red de resistencias y conmutad
 
 💡**Figura 5:** <br/>
 
-![Figura de prueba](images/ponderadas.png)
+![Figura de prueba](images/escalera.png)
 
 Figura 5. Esquemático Red escalera R-2R.
 

@@ -5,6 +5,7 @@ La clase estuvo dirigida a comprender como es el control digital en comparacion 
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 ### 1.2. Señales Digitales
 Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
+
 💡**Figura 1:**
 
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.

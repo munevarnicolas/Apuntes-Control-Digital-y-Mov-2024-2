@@ -107,7 +107,7 @@ Figura 6. Zero Order Hold.
 Matemáticamente el Zero Order Hold, se puede representar como una señal que es constante entre los puntos de muestreo, formando una serie de rectángulos.
 
 ### Funcion de Transferencia de ZOH
-**Dominio Z**
+* **Dominio Z**
 
 La función de transferencia del ZOH en el dominio Z se puede expresar como:
 
@@ -116,7 +116,7 @@ H(z) = \frac{T_s (1 - z^{-1})}{z - 1} = \frac{T_s}{z}
 $$
 
 
-**Dominio S**
+* **Dominio S**
 
 La función de transferencia del ZOH en el dominio S se puede expresar como:
 

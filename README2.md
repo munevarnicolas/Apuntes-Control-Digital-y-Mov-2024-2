@@ -8,6 +8,7 @@ Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada
 
 💡**Figura 1:** <br/>
 
+
 ![Figura de prueba](images/señalesdigyana.jpg)
 
 Figura 1. Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.

@@ -126,6 +126,11 @@ $$
 
 
 Estas funciones de transferencia capturan el comportamiento del ZOH en ambos dominios, discretos y continuos.
+
+### 4.3. DAC de Orden Superior
+- First order hold es un DAC que considera un modelo lineal durante el intervalo de muestreo
+- Second order hold es un DAC que considera un modelo parabólico durante el intervalo de tiempo de muestreo
+
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

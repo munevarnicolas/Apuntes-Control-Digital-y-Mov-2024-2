@@ -21,9 +21,7 @@ y = 3 \sin(1.05 \cdot k \cdot T)
 $$
 
 Donde:
-- \( y \) es la variable dependiente.
-- \( k \) es una constante.
-- \( T \) es el período.
+- \( T \) es el período de muestreo.
 
 
 💡**Figura 2:** <br/>

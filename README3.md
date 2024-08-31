@@ -14,7 +14,7 @@ Las señales analógicas y digitales son dos formas fundamentales de representar
 ### 1.2. Función en términos de muestras
 Para estos casos T es el período de muestreo, el cual al ser menor se obtiene mas información sin embargo eso requiere mas potencia de procesamiento, esto mejora demasiado en la reconstrucción de la señal <br/>
 
-La ecuación que estamos utilizando es:
+La función que estamos utilizando es:
 
 $$
 y = 3 \sin(1.05 \cdot k \cdot T)

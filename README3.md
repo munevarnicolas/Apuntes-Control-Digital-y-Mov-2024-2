@@ -22,6 +22,8 @@ Donde:
 - \( y \) es la variable dependiente.
 - \( k \) es una constante.
 - \( T \) es el período.
+
+
 💡**Figura 2:** <br/>
 ![Figura de prueba](images/ejem1.png)
 

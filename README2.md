@@ -2,11 +2,15 @@
 La clase estuvo dirigida a comprender como es el control digital en comparacion al control análogo, por este motivo se revisaron temas como las señales análogas y digitales, las conversiones entre estas y los modelos matemáticos aplicados.
 ## 1. Control Digital
 ### 1.1. Señales Analógicas
-Véase Figura 1
+Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 ### 1.2. Señales Digitales
-Véase Figura 1
+Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada
+💡**Figura 1:**
 
-## 2. Definiciones
+Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+![Figura de prueba](images/señalesdigyana.jpg)
+
+Figura 1. Figura Tipos de Señales
 
 
 ## 4. Ejemplos
@@ -20,12 +24,7 @@ Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y fina
 $$R=\frac{V}{I}$$
 
 ## 6. Figuras 
-💡**Figura 1:**
 
-Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
-![Figura de prueba](images/señalesdigyana.jpg)
-
-Figura 1. Figura Tipos de Señales
 
 ## 7. Tablas
 En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:

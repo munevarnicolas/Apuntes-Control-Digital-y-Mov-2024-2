@@ -73,6 +73,8 @@ Los conversores digitales a analogos (DAC) toman señales digitales y las convie
 Figura 4. Esquemático Resistencias ponderadas.
 
 El método de resistencias ponderadas utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las contribuciones ponderadas de cada bit para producir la tensión de salida.
+<br/>
+<br/>
 
 * **Red escalera R-2R:** Es un tipo de circuito electrónico utilizado en convertidores digitales-analógicos (DAC), que se compone de resistencias con dos valores posibles R y 2R, estas resistencias se alternan en una configuración que se asemeja a una escalera.
 

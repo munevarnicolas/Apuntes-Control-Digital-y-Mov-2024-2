@@ -14,10 +14,18 @@ Las señales analógicas y digitales son dos formas fundamentales de representar
 ### 1.2. Función en términos de muestras
 Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
 
-💡**Figura 1:** <br/>
-![Figura de prueba](images/señalesdigyana.jpg)
+💡**Figura 2:** <br/>
+![Figura de prueba](images/ejem1.png)
 
-Figura 1. Señales analógicas y digitales
+Figura 2. Señales analógicas y digitales
+
+Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+
+
+💡**Figura 3:** <br/>
+![Figura de prueba](images/ejem2.png)
+
+Figura 3. Señales analógicas y digitales
 
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 

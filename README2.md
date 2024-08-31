@@ -62,8 +62,9 @@ El muestreador en un conversor ADC es responsable de tomar muestras periódicas 
 ## 3. Conversión Digital a Análoga
 ### 3.1. Conversor Digital/Analógico
 Los conversores digitales a analogos (DAC) toman señales digitales y las convierte en señales analógicas, permitiendo que los dispositivos digitales interactúen con el mundo analógico.
-* Resolución DAC: Determina la cantidad de niveles discretos que puede producir, lo que afecta directamente la precisión y la calidad de la señal de salida analógica.
-* 
+* **Resolución DAC:** Determina la cantidad de niveles discretos que puede producir, lo que afecta directamente la precisión y la calidad de la señal de salida analógica.
+* **Métodos de Conversión:**
+      * Resistencias ponderados: Utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las             contribuciones ponderadas de cada bit para producir la tensión de salida.
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

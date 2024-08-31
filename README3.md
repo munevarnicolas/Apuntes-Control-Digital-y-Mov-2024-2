@@ -1,4 +1,4 @@
-# Introducción Control Digital
+# Transformada Z de adelantos y atrasos
 La clase estuvo dirigida a comprender como es el control digital en comparacion al control análogo, por este motivo se revisaron temas como las señales análogas y digitales, las conversiones entre estas y los modelos matemáticos aplicados.
 ## 1. Control Digital
 ### 1.1. Señales Analógicas

@@ -4,7 +4,7 @@ La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos 
 ### 1.1. Muestreo en términos matemáticos
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 💡**Figura 1:** <br/>
-![Figura de prueba](images/terminosmat.jpg)
+![Figura de prueba](images/terminosmat.png)
 
 Figura 1. Señales continua representada a discreta
 

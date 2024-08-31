@@ -1,9 +1,9 @@
 # Transformada Z de adelantos y atrasos
 La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos y adelantos temporales, los cuales son herramientas poderosas para entender y manipular señales digitales, lo que es crucial en diversas aplicaciones de ingeniería y procesamiento de señales.
-## 1. Control Digital
-### 1.1. Señales Analógicas
+## 1. Tiempo continuo y discreto
+### 1.1. Muestreo en términos matemáticos
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
-### 1.2. Señales Digitales
+### 1.2. Función en términos de muestras
 Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
 
 💡**Figura 1:** <br/>

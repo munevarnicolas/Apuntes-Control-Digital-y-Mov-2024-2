@@ -7,7 +7,7 @@ Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 💡**Figura 1:** <br/>
 ![Figura de prueba](images/terminosmat.png)
 
-Figura 1. Señales continua representada a discreta
+Figura 1. Señal continua representada a discreta
 
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 

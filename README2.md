@@ -7,7 +7,6 @@ Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
 
 💡**Figura 1:**
-
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 ![Figura de prueba](images/señalesdigyana.jpg)
 

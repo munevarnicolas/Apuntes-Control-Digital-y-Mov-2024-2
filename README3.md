@@ -12,7 +12,7 @@ Figura 1. Señal continua representada a discreta
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 
 ### 1.2. Función en términos de muestras
-Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
+Para estos casos T es el período de muestreo, el cual al ser menor se obtiene mas informacion sin embargo eso requiere mas potencia de procesamiento <br/>
 
 💡**Figura 2:** <br/>
 ![Figura de prueba](images/ejem1.png)

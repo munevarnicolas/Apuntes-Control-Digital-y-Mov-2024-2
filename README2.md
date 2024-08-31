@@ -6,11 +6,11 @@ Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 ### 1.2. Señales Digitales
 Señal que tiene solo 2 posibles valores o estados. Su forma de onda es cuadrada <br/>
 
-💡**Figura 1:**
-Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+💡**Figura 1:** <br/>
+
 ![Figura de prueba](images/señalesdigyana.jpg)
 
-Figura 1. Figura Tipos de Señales
+Figura 1. Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 
 ### 1.3. ¿Por qué Control Digital?
 Los controladores digitales ofrecen varias ventajas significativas que los hacen preferibles en muchas aplicaciones. Aquí se detallan las razones clave por las que se eligen los controladores digitales, relacionadas con tus puntos de interés:
@@ -36,11 +36,10 @@ La codificación es el proceso de convertir los valores discretos de una señal 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 
-💡**Figura 2:**
-Muestreo, codificacion y cuantificacion en ADC.
+💡**Figura 2:** <br/>
 ![Figura de prueba](images/converanalogdigital.jpg)
 
-Figura 2. Figura Tipos de Señales
+Figura 2. Muestreo, codificación y cuantizacion en ADC.
 ## 5. Ecuaciones
 Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
 

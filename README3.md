@@ -21,7 +21,7 @@ y = 3 \sin(1.05 \cdot k \cdot T)
 $$
 
 Donde:
-- \( T \) es el período de muestreo.
+- T = es el período de muestreo.
 
 
 💡**Figura 2:** <br/>

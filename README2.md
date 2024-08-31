@@ -53,11 +53,11 @@ Los conversores A/D comerciales tienen limitaciones inherentes en términos del 
 
 💡**Figura 3:** <br/>
 
-![Figura de prueba](images/converanalogdigital.jpg)
+![Figura de prueba](images/muestreador.jpg)
 
-Figura 3. Muestreo, codificación y cuantizacion en ADC.
+Figura 3. Tiempo de Muestreador - Retenedor.
 
-Los conversores analógico-digital convierten señales continuas en señales discretas que pueden ser procesadas por sistemas digitales, permitiendo la manipulación y análisis de datos en un formato que las computadoras pueden entender.
+El muestreador en un conversor ADC es responsable de tomar muestras periódicas de la señal analógica y retener estos valores para su posterior procesamiento, lo que es fundamental para la conversión precisa de señales analógicas a digitales.
 
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.

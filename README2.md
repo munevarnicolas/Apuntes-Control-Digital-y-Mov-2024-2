@@ -84,7 +84,16 @@ Figura 5. Esquemático Red escalera R-2R.
 
 El método de red escalera R-2R es un método eficiente para convertir señales digitales en analógicas, utilizando solo dos valores de resistencia y ofreciendo una buena precisión y velocidad.
 
-
+## 4. Modelo Matemático
+### 4.1. Modelo matemático conversores A/D y D/A
+* **Muestreador:** Toma muestras de la señal en momentos específicos.
+** ADC: Muestra la señal analógica para convertirla en valores discretos.
+** DAC: Procesa la señal digital en intervalos discretos.
+* **Retenedor:** Mantiene el valor de la muestra para su procesamiento.
+** ADC: Retiene el valor de la muestra hasta su conversión en digital.
+**DAC: Aunque no es explícito, la señal analógica generada se mantiene estable para su uso.
+  
+Estos componentes son esenciales para asegurar que las señales se procesen de manera precisa y consistente en ambos tipos de convertidores.
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

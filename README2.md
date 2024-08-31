@@ -27,11 +27,10 @@ Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las
 
 💡**Ejemplo 2:**
 
+Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 ![Figura de prueba](images/señalesdigyana.jpg)
 
 Figura 1. Figura Tipos de Señales
-
-Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
 
 ## 7. Tablas
 En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:

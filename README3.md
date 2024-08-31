@@ -16,8 +16,9 @@ Para estos casos T es el período de muestreo, el cual al ser menor se obtiene m
 
 La ecuación que estamos utilizando es:
 
-$$\[ y = 3 \sin(1.05 \cdot k \cdot T) \]
-
+$$
+\[ y = 3 \sin(1.05 \cdot k \cdot T) \]
+$$
 Donde:
 - \( y \) es la variable dependiente.
 - \( k \) es una constante.

@@ -68,11 +68,11 @@ Los conversores digitales a analogos (DAC) toman señales digitales y las convie
 
 💡**Figura 4:** <br/>
 
-![Figura de prueba](images/muestreador.jpg)
+![Figura de prueba](images/ponderadas.png)
 
 Figura 4. Esquematico Resistencias ponderadas.
 
-El muestreador en un conversor ADC es responsable de tomar muestras periódicas de la señal analógica y retener estos valores para su posterior procesamiento, lo que es fundamental para la conversión precisa de señales analógicas a digitales.
+El mnetodo de resistencias ponderadas utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las contribuciones ponderadas de cada bit para producir la tensión de salida.
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 

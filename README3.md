@@ -49,6 +49,7 @@ Por medio de la ecuaciones en diferencias se representa la dinámica del sistema
 * Lineal, variante en el tiempo, homogénea
 ### 2.3 Solución de ecuaciones en diferencias:
 * Métodos iterativos:
+
 $$
 y(k) = \frac{1}{4} \left( -3y(k-1) + 2y(k-2) + u(k-1) - 2u(k-2) \right)
 $$

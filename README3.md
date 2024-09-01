@@ -352,7 +352,7 @@ Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas t
 ## 6. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
-## 10. Referencias
+## 7. Referencias
 []
 []
 []

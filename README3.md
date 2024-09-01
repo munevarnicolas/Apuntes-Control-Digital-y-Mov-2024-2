@@ -234,11 +234,63 @@ $$
 \[ z^2 X(z) = z^2 \cdot 1 = z^2 \]
 $$
 
-## 3: Función de transferencia discreta
+## 3. Función de transferencia discreta
 ### 3.1. Funciones de transferencia en el dominio Z
 La función de transferencia discreta es una herramienta matemática que describe cómo un sistema lineal e invariante en el tiempo responde a una entrada en el dominio discreto (es decir, en intervalos de tiempo discretos), por medio de esto se puede identificar el comportamiento del Sistema desde la identificación de parámetros.
 ### 3.2. Función de transferencia pulso
 Describe la relación entre la entrada y la salida de un sistema discreto en el dominio Z, considerando el muestreo de señales y también permite analizar y diseñar sistemas de control discretos, especialmente en lazos cerrados, y predecir su comportamiento en respuesta a señales muestreadas.
+
+Supongamos que tenemos un sistema discreto con la siguiente función de transferencia de pulso:
+
+$$
+\[
+Y(z) = \frac{U(z) \cdot (z^{-1} - 2z^{-2})}{2 + z^{-1} - 3z^{-2}}
+\]
+$$
+
+Despejando salida / entrada:
+
+$$
+\[
+\frac{Y(z)}{U(z)} = \frac{z^{-1} - 2z^{-2}}{2 + z^{-1} - 3z^{-2}}
+\]
+$$
+
+### 3.3 Pasar función de transferencia a Adelantos
+
+La función de transferencia de pulso es:
+
+$$
+\[
+H(z) = \frac{Y(z)}{U(z)} = \frac{z^{-1} - 2z^{-2}}{2 + z^{-1} - 3z^{-2}}
+\]
+$$
+
+* Multiplicar por \( z^2 \) para eliminar retrasos: Para eliminar los términos de retraso, multiplicamos tanto el numerador como el denominador por \( z^2 \):
+
+$$
+\[
+H(z) = \frac{z^2(z^{-1} - 2z^{-2})}{z^2(2 + z^{-1} - 3z^{-2})}
+\]
+$$
+
+* Simplificar la expresión:
+
+$$
+\[
+H(z) = \frac{z - 2}{2z^2 + z - 3}
+\]
+$$
+
+Según el requerimiento:
+- Si lo que se quiere es programar la función de transferencia se recomienda en atrasos.
+- Si lo que se quiere es analizar y diseñar un controlador se recomienda en adelantos.
+
+
+## 4. Sistemas No Causales
+Son aquellos en los que la salida del sistema depende no solo de las entradas actuales o pasadas, sino también de entradas futuras. 
+
+
 
 💡**Figura 2:** <br/>
 

@@ -1,10 +1,10 @@
-# Transformada Z de adelantos y atrasos
+# Estabilidad en sistemas discretos
 La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos y adelantos temporales, los cuales son herramientas poderosas para entender y manipular señales digitales, lo que es crucial en diversas aplicaciones de ingeniería y procesamiento de señales.
-## 1. Tiempo continuo y discreto
-### 1.1. Muestreo en términos matemáticos
+## 1. Estabilidad Absoluta
+### 1.1. Espacio LaPlace vs Z
 Señal continua que puede tomar cualquier valor en el dominio del tiempo.
 
-💡**Figura 1:** <br/>
+💡**Ejemplo 1:** <br/>
 ![Figura de prueba](images/terminosmat.png)
 
 Figura 1. Señal continua representada a discreta

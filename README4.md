@@ -1,15 +1,21 @@
-# Transformada Z de adelantos y atrasos
-La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos y adelantos temporales, los cuales son herramientas poderosas para entender y manipular señales digitales, lo que es crucial en diversas aplicaciones de ingeniería y procesamiento de señales.
-## 1. Tiempo continuo y discreto
-### 1.1. Muestreo en términos matemáticos
-Señal continua que puede tomar cualquier valor en el dominio del tiempo.
+# Discretización de controladores Analógicos
+La clase estuvo dirigida a comprnder el proceso de convertir un controlador continuo en uno discreto para que pueda ser implementado en sistemas digitales.
+## 1. Método de Invarianza al impulso
+### 1.1. Invarianza al impulso
+El Método de Invarianza al Impulso es una técnica utilizada para convertir sistemas de control analógicos (continuos) en sistemas de control digitales (discretos) de manera que se preserve la respuesta al impulso del sistema original.
 
-💡**Figura 1:** <br/>
-![Figura de prueba](images/terminosmat.png)
+💡**Ejemplo 1:** <br/>
+* Sea la función de transferencia:
 
-Figura 1. Señal continua representada a discreta
+$$ H(s) = \frac{3(s + 4)}{(s + 2)(s + 5)} $$
 
-Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+* Descomposición en fracciones parciales:
+
+$$ H(s) = \frac{A}{s + 2} + \frac{B}{s + 5} $$
+
+* Transformada inversa de Laplace:
+
+$$ h(t) = 2 e^{-2t} + e^{-5t} $$
 
 ### 1.2. Función en términos de muestras
 Para estos casos T es el período de muestreo, el cual al ser menor se obtiene mas información sin embargo eso requiere mas potencia de procesamiento, esto mejora demasiado en la reconstrucción de la señal <br/>

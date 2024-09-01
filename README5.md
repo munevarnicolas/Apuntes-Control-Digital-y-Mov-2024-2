@@ -14,7 +14,7 @@ Figura 1. Estabilidad en el espacio de LaPlace
 💡**Figura 2:** <br/>
 ![Figura de prueba](images/Estabilidadz.png)
 
-Figura 1. Estabilidad en el espacio de Z
+Figura 2. Estabilidad en el espacio de Z
 
 
 💡**Ejemplo 1:** <br/>
@@ -23,11 +23,25 @@ $$
 \[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
 $$
 
+<p align="center">
+Se busca la ubicacion de los polos:
+</p>
+
 $$
 \[ z^3 - 7.8z^2 + 13.4z + 3 = 0 \]  
 $$
 
-Se busca la ubicacion de los polos
+<p align="center">
+z = 5
+</p>
+<p align="center">
+z = 3
+</p>
+<p align="center">
+z = -0.2
+</p>
+
+
 
 ### 1.2. Función en términos de muestras
 Para estos casos T es el período de muestreo, el cual al ser menor se obtiene mas información sin embargo eso requiere mas potencia de procesamiento, esto mejora demasiado en la reconstrucción de la señal <br/>

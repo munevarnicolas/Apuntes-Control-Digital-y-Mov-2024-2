@@ -48,7 +48,9 @@ Por medio de la ecuaciones en diferencias se representa la dinámica del sistema
 * No lineal, invariante en el tiempo, homogénea 
 * Lineal, variante en el tiempo, homogénea
 ### 2.3 Solución de ecuaciones en diferencias:
-* Métodos iterativos:
+* Métodos iterativos: <br/>
+
+💡**Ejemplo 1:** <br/>
 
 $$
 y(k) = \frac{1}{4} \left( -3y(k-1) + 2y(k-2) + u(k-1) - 2u(k-2) \right)
@@ -153,7 +155,9 @@ $$
 \( y(2) = \frac{149}{64} \)
 $$
 
-* Transformada Z:
+* Transformada Z: La solución numérica no permite identificar características generales del funcionamiento del sistema y es la contraparte discreta de LaPlace, el cual es un procedimiento similar a la solución de ecuaciones diferenciales y en donde la transformada Z es muy importante para el área de control.
+  
+
 #### Velocidad:
 La velocidad de procesamiento es una ventaja significativa de los controladores digitales. Pueden procesar y responder a señales de entrada mucho más rápidamente que los controladores analógicos, lo que es crucial en aplicaciones que requieren respuestas rápidas y precisas.
 #### Costos:

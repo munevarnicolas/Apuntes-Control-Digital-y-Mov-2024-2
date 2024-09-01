@@ -5,10 +5,10 @@ Un Sistema es estable cuando tiene una salida limitada producto de una entrada l
 ### 1.1. Espacio LaPlace vs Z
 La estabilidad es el mismo concepto en el espacio de LaPlace y de la Z, sin embargo la ubicacion de los polos es distinta. 
 
-💡**Ejemplo 1:** <br/>
+💡**Figura 1:** <br/>
 ![Figura de prueba](images/terminosmat.png)
 
-Figura 1. Señal continua representada a discreta
+Figura 1. Estabilidad en el espacio de LaPlace
 
 Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
 

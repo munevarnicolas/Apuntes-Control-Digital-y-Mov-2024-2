@@ -143,12 +143,30 @@ $$
 \[ f_s > 2f_N \]
 $$
 
+💡**Figura 1:** <br/>
+
+![Figura de prueba](images/nyquist.jpg)
+
+Figura 1. Teorema de Nyquist 
+
+
+### Aliasing
+
+
+💡**Figura 2:** <br/>
+
+![Figura de prueba](images/Aliasing.jpg)
+
+Figura 2. Aliasing 
+
+Se evita subiendo la frecuencia de muestreo o agregando un filtro a la señal de entrada parea eliminar componentes que sean más altas que la frecuencia de muestreo.
+## 6. Teorema de Muestreo
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
-## 6. Conclusiones
+## 7. Conclusiones
 Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
-## 10. Referencias
+## 8. Referencias
 []
 []
 []

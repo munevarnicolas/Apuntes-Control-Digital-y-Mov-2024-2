@@ -160,7 +160,19 @@ Figura 1. Teorema de Nyquist
 Figura 2. Aliasing 
 
 Se evita subiendo la frecuencia de muestreo o agregando un filtro a la señal de entrada parea eliminar componentes que sean más altas que la frecuencia de muestreo.
-## 6. Teorema de Muestreo
+
+### Muestreo en control
+
+$$
+\[ T_m < \frac{T_p}{10} \]
+$$
+
+$$
+\[ T_m < \frac{T_s}{10} \]
+$$
+
+
+## 6. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
 ## 7. Conclusiones

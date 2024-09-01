@@ -6,11 +6,17 @@ Un Sistema es estable cuando tiene una salida limitada producto de una entrada l
 La estabilidad es el mismo concepto en el espacio de LaPlace y de la Z, sin embargo la ubicacion de los polos es distinta. 
 
 💡**Figura 1:** <br/>
-![Figura de prueba](images/terminosmat.png)
+![Figura de prueba](images/Estabilidadplace.png)
 
 Figura 1. Estabilidad en el espacio de LaPlace
 
-Las señales analógicas y digitales son dos formas fundamentales de representar y transmitir información en sistemas electrónicos.
+
+💡**Figura 2:** <br/>
+![Figura de prueba](images/Estabilidadz.png)
+
+Figura 1. Estabilidad en el espacio de Z
+
+
 
 ### 1.2. Función en términos de muestras
 Para estos casos T es el período de muestreo, el cual al ser menor se obtiene mas información sin embargo eso requiere mas potencia de procesamiento, esto mejora demasiado en la reconstrucción de la señal <br/>

@@ -56,7 +56,9 @@ $$
 
 # Condiciones Iniciales
 
-- \( y(-2) = 3 \)
+- $$
+  (y(-2) = 3)
+  $$
 - \( y(-1) = -1 \)
 - \( u(k) = 1 \) para \( k \geq 0 \)
 - \( u(k) = 0 \) para \( k < 0 \)

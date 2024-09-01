@@ -48,7 +48,7 @@ Por medio de la ecuaciones en diferencias se representa la dinámica del sistema
 * No lineal, invariante en el tiempo, homogénea 
 * Lineal, variante en el tiempo, homogénea
 ### 2.3 Solución de ecuaciones en diferencias:
-* Métodos iterativos: <br/>
+### Métodos iterativos: <br/>
 
 💡**Ejemplo 1:** <br/>
 
@@ -56,7 +56,7 @@ $$
 y(k) = \frac{1}{4} \left( -3y(k-1) + 2y(k-2) + u(k-1) - 2u(k-2) \right)
 $$
 
-### Condiciones Iniciales
+#### Condiciones Iniciales
 
 $$
 (y(-2) = 3)
@@ -77,7 +77,7 @@ $$
 ( u(k) = 0 \) para \( k < 0 \)
 $$
 
-### Cálculo de \( y(0) \)
+#### Cálculo de \( y(0) \)
 
 Ya calculamos \( y(0) \) anteriormente:
 
@@ -85,7 +85,7 @@ $$
 (y(0) = \frac{9}{4})
 $$
 
-### Cálculo de \( y(1) \)
+#### Cálculo de \( y(1) \)
 
 Sustituyendo \( k = 1 \) en la ecuación y utilizando las condiciones iniciales y el valor de \( y(0) \):
 
@@ -114,7 +114,7 @@ $$
 $$
 
 
-### Cálculo de \( y(2) \)
+#### Cálculo de \( y(2) \)
 
 Sustituyendo \( k = 2 \) en la ecuación y utilizando las condiciones iniciales y los valores de \( y(0) \) y \( y(1) \):
 
@@ -143,7 +143,7 @@ $$
 $$
 
 
-### Resultados
+#### Resultados
 
 Por lo tanto, los valores son:
 
@@ -155,22 +155,90 @@ $$
 \( y(2) = \frac{149}{64} \)
 $$
 
-* Transformada Z: La solución numérica no permite identificar características generales del funcionamiento del sistema y es la contraparte discreta de LaPlace, el cual es un procedimiento similar a la solución de ecuaciones diferenciales y en donde la transformada Z es muy importante para el área de control.
-  
+### Transformada Z: 
+La solución numérica no permite identificar características generales del funcionamiento del sistema y es la contraparte discreta de LaPlace, el cual es un procedimiento similar a la solución de ecuaciones diferenciales y en donde la transformada Z es muy importante para el área de control.
 
-#### Velocidad:
-La velocidad de procesamiento es una ventaja significativa de los controladores digitales. Pueden procesar y responder a señales de entrada mucho más rápidamente que los controladores analógicos, lo que es crucial en aplicaciones que requieren respuestas rápidas y precisas.
-#### Costos:
-Aunque el costo inicial de un controlador digital puede ser mayor que el de uno analógico, a largo plazo, los controladores digitales pueden ser más económicos. Esto se debe a su capacidad para automatizar procesos, reducir la necesidad de intervención manual y mejorar la eficiencia general del sistema
+* Atrasos: En el contexto de atrasos, la transformada Z es particularmente útil para entender cómo los sistemas discretos responden a retrasos o desplazamientos en el tiempo.
+#### Ejemplo de Transformada Z de un Atraso
 
-## 2. Conversión Análoga a Digital
-### 2.1. Procedimiento de Conversión
-* Muestreo: 
-El muestreo es el proceso de tomar valores de una señal analógica (como voltaje) en momentos específicos.
-* Cuantización:
-La cuantización es el proceso de convertir los valores continuos de una señal analógica en valores discretos que pueden ser representados digitalmente.
-* Codificación:
-La codificación es el proceso de convertir los valores discretos de una señal cuantizada en códigos binarios, permitiendo su procesamiento y manipulación en sistemas digitales.
+#### Señal Original
+
+Supongamos que tenemos una señal discreta \( f(k) \) definida por:
+
+$$
+\[ f(k) = \delta(k) \]
+$$
+
+donde \( \delta(k) \) es la función delta de Dirac, que es 1 cuando \( k = 0 \) y 0 en cualquier otro caso.
+
+#### Atraso de 2 Muestras
+
+Queremos encontrar la transformada Z de la señal \( f(k) \) retrasada 2 muestras. La señal retrasada se denota como \( f(k-2) \).
+
+#### Transformada Z de la Señal Original
+
+La transformada Z de \( f(k) = \delta(k) \) es:
+
+$$
+\[ F(z) = \sum_{k=-\infty}^{\infty} f(k) z^{-k} = z^0 = 1 \]
+$$
+
+#### Transformada Z del Atraso
+
+Según el teorema de desplazamiento temporal, si la señal original tiene una transformada Z \( F(z) \), entonces la transformada Z de la señal retrasada 2 muestras es:
+
+$$
+\[ F(z) \cdot z^{-2} \]
+$$
+
+Por lo tanto, la transformada Z de \( f(k-2) \) es:
+
+$$
+\[ F(z) \cdot z^{-2} = 1 \cdot z^{-2} = z^{-2} \]
+$$
+
+<br/>
+<br/>
+
+* Adelantos: Un adelanto en el tiempo se representa multiplicando la transformada Z original por \( z^k \), donde \( k \) es el número de muestras del adelanto.
+
+#### Ejemplo de Transformada Z de un Adelanto
+
+#### Señal Original
+
+Supongamos que tenemos una señal discreta \( x(n) \) definida por:
+
+$$
+\[ x(n) = \delta(n) \]
+$$
+
+donde \( \delta(n) \) es la función delta de Dirac, que es 1 cuando \( n = 0 \) y 0 en cualquier otro caso.
+
+#### Transformada Z de la Señal Original
+
+La transformada Z de \( x(n) = \delta(n) \) es:
+
+$$
+\[ X(z) = \sum_{n=-\infty}^{\infty} x(n) z^{-n} = z^0 = 1 \]
+$$
+
+#### Adelanto de 2 Muestras
+
+Queremos encontrar la transformada Z de la señal \( x(n) \) adelantada 2 muestras. La señal adelantada se denota como \( x(n + 2) \).
+
+#### Transformada Z del Adelanto
+
+Según la propiedad de adelanto temporal, la transformada Z de la señal adelantada 2 muestras es:
+
+$$
+\[ z^2 X(z) = z^2 \cdot 1 = z^2 \]
+$$
+
+## 3: Función de transferencia discreta
+### 3.1. Funciones de transferencia en el dominio Z
+La función de transferencia discreta es una herramienta matemática que describe cómo un sistema lineal e invariante en el tiempo responde a una entrada en el dominio discreto (es decir, en intervalos de tiempo discretos), por medio de esto se puede identificar el comportamiento del Sistema desde la identificación de parámetros.
+### 3.2. Función de transferencia pulso
+Describe la relación entre la entrada y la salida de un sistema discreto en el dominio Z, considerando el muestreo de señales y también permite analizar y diseñar sistemas de control discretos, especialmente en lazos cerrados, y predecir su comportamiento en respuesta a señales muestreadas.
 
 💡**Figura 2:** <br/>
 
@@ -178,97 +246,6 @@ La codificación es el proceso de convertir los valores discretos de una señal 
 
 Figura 2. Muestreo, codificación y cuantizacion en ADC.
 
-Los conversores analógico-digital convierten señales continuas en señales discretas que pueden ser procesadas por sistemas digitales, permitiendo la manipulación y análisis de datos en un formato que las computadoras pueden entender.
-
-### 2.2 Consideraciones Prácticas:
-Los conversores A/D comerciales tienen limitaciones inherentes en términos del rango de voltajes que pueden manejar y los tiempos de retraso asociados con el muestreo y la cuantización, lo que hace necesario considerar estos factores en el diseño y la selección de estos dispositivos para aplicaciones específicas.
-
-### 2.3 Tiempo de Muestreador - Retenedor:
-* Ta (tiempo de adquisición): es el tiempo que transcurre desde que se da la orden de muestreo hasta que se retiene dentro de cierto margen de tolerancia.
-* Tp (tiempo de apertura): el tiempo que transcurre desde que se inicia la retención hasta que abre el muestreador.
-* Ts (tiempo de establecimiento): El movimiento del interruptor puede crear una capactancia parásita, la cual a su vez puede producir un transitorio. El tiempo necesario para que la oscilación desaparezca se conoce como tiempo de establecimiento.
-
-💡**Figura 3:** <br/>
-
-![Figura de prueba](images/muestreador.jpg)
-
-Figura 3. Tiempo de Muestreador - Retenedor.
-
-El muestreador en un conversor ADC es responsable de tomar muestras periódicas de la señal analógica y retener estos valores para su posterior procesamiento, lo que es fundamental para la conversión precisa de señales analógicas a digitales.
-
-## 3. Conversión Digital a Análoga
-### 3.1. Conversor Digital/Analógico
-Los conversores digitales a analogos (DAC) toman señales digitales y las convierte en señales analógicas, permitiendo que los dispositivos digitales interactúen con el mundo analógico.
-* Resolución DAC: Determina la cantidad de niveles discretos que puede producir, lo que afecta directamente la precisión y la calidad de la señal de salida analógica.
-### 3.2. Métodos de Conversión:
-* **Resistencias ponderadas:** Utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las            contribuciones ponderadas de cada bit para producir la tensión de salida.
-
-💡**Figura 4:** <br/>
-
-![Figura de prueba](images/ponderadas.png)
-
-Figura 4. Esquemático Resistencias ponderadas.
-
-El método de resistencias ponderadas utiliza una red de resistencias y conmutadores para convertir los bits del código digital en una señal analógica, sumando las contribuciones ponderadas de cada bit para producir la tensión de salida.
-<br/>
-<br/>
-
-* **Red escalera R-2R:** Es un tipo de circuito electrónico utilizado en convertidores digitales-analógicos (DAC), que se compone de resistencias con dos valores posibles R y 2R, estas resistencias se alternan en una configuración que se asemeja a una escalera.
-
-💡**Figura 5:** <br/>
-
-![Figura de prueba](images/escalera.jpg)
-
-Figura 5. Esquemático Red escalera R-2R.
-
-El método de red escalera R-2R es un método eficiente para convertir señales digitales en analógicas, utilizando solo dos valores de resistencia y ofreciendo una buena precisión y velocidad.
-
-## 4. Modelo Matemático
-### 4.1. Modelo matemático conversores A/D y D/A
-#### Muestreador: Toma muestras de la señal en momentos específicos.
-* ADC: Muestra la señal analógica para convertirla en valores discretos.
-* DAC: Procesa la señal digital en intervalos discretos.
-#### Retenedor: Mantiene el valor de la muestra para su procesamiento.
-* ADC: Retiene el valor de la muestra hasta su conversión en digital.
-* DAC: Aunque no es explícito, la señal analógica generada se mantiene estable para su uso.
-  
-Estos componentes son esenciales para asegurar que las señales se procesen de manera precisa y consistente en ambos tipos de convertidores.
-
-### 4.2. Zero Order Hold (ZOH)
-El ZOH mantiene el valor de una muestra durante un período específico, llamado período de muestreo, hasta que se toma la siguiente muestra.
-
-💡**Figura 6:** <br/>
-
-![Figura de prueba](images/zorh.jpg)
-
-Figura 6. Zero Order Hold.
-
-Matemáticamente el Zero Order Hold, se puede representar como una señal que es constante entre los puntos de muestreo, formando una serie de rectángulos.
-
-### Funcion de Transferencia de ZOH
-* **Dominio Z**
-
-La función de transferencia del ZOH en el dominio Z se puede expresar como:
-
-$$
-H(z) = \frac{T_s (1 - z^{-1})}{z - 1} = \frac{T_s}{z}
-$$
-
-
-* **Dominio S**
-
-La función de transferencia del ZOH en el dominio S se puede expresar como:
-
-$$
-H(s) = \frac{1 - e^{-sT_s}}{s}
-$$
-
-
-Estas funciones de transferencia capturan el comportamiento del ZOH en ambos dominios, discretos y continuos.
-
-### 4.3. DAC de Orden Superior
-- First order hold es un DAC que considera un modelo lineal durante el intervalo de muestreo.
-- Second order hold es un DAC que considera un modelo parabólico durante el intervalo de tiempo de muestreo.
 
 ## 5. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚

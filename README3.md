@@ -54,58 +54,105 @@ $$
 y(k) = \frac{1}{4} \left( -3y(k-1) + 2y(k-2) + u(k-1) - 2u(k-2) \right)
 $$
 
-# Condiciones Iniciales
+### Condiciones Iniciales
 
 $$
 (y(-2) = 3)
 $$
-- \( y(-1) = -1 \)
-- \( u(k) = 1 \) para \( k \geq 0 \)
-- \( u(k) = 0 \) para \( k < 0 \)
 
-## Cálculo de \( y(0) \)
+
+$$
+( y(-1) = -1)
+$$
+
+
+$$
+( u(k) = 1 \) para \( k \geq 0 \)
+$$
+
+
+$$
+( u(k) = 0 \) para \( k < 0 \)
+$$
+
+### Cálculo de \( y(0) \)
 
 Ya calculamos \( y(0) \) anteriormente:
-\[ y(0) = \frac{9}{4} \]
 
-## Cálculo de \( y(1) \)
+$$
+(y(0) = \frac{9}{4})
+$$
+
+### Cálculo de \( y(1) \)
 
 Sustituyendo \( k = 1 \) en la ecuación y utilizando las condiciones iniciales y el valor de \( y(0) \):
 
-\[ y(1) = \frac{1}{4} (-3y(0) + 2y(-1) + u(0) - 2u(-1)) \]
+$$
+(y(1) = \frac{1}{4} (-3y(0) + 2y(-1) + u(0) - 2u(-1)))
+$$
 
+$$
 \[ y(1) = \frac{1}{4} \left( -3\left(\frac{9}{4}\right) + 2(-1) + 1 - 2(0) \right) \]
+$$
 
+$$
 \[ y(1) = \frac{1}{4} \left( -\frac{27}{4} - 2 + 1 \right) \]
+$$
 
+$$
 \[ y(1) = \frac{1}{4} \left( -\frac{27}{4} - 1 \right) \]
+$$
 
+$$
 \[ y(1) = \frac{1}{4} \left( -\frac{31}{4} \right) \]
+$$
 
+$$
 \[ y(1) = -\frac{31}{16} \]
+$$
 
-## Cálculo de \( y(2) \)
+
+### Cálculo de \( y(2) \)
 
 Sustituyendo \( k = 2 \) en la ecuación y utilizando las condiciones iniciales y los valores de \( y(0) \) y \( y(1) \):
 
+$$
 \[ y(2) = \frac{1}{4} (-3y(1) + 2y(0) + u(1) - 2u(0)) \]
+$$
 
+$$
 \[ y(2) = \frac{1}{4} \left( -3\left(-\frac{31}{16}\right) + 2\left(\frac{9}{4}\right) + 1 - 2(1) \right) \]
+$$
 
+$$
 \[ y(2) = \frac{1}{4} \left( \frac{93}{16} + \frac{18}{4} - 1 \right) \]
+$$
 
+$$
 \[ y(2) = \frac{1}{4} \left( \frac{93}{16} + \frac{72}{16} - \frac{16}{16} \right) \]
+$$
 
+$$
 \[ y(2) = \frac{1}{4} \left( \frac{149}{16} \right) \]
+$$
 
+$$
 \[ y(2) = \frac{149}{64} \]
+$$
 
-## Resultados
+
+### Resultados
 
 Por lo tanto, los valores son:
 
-- \( y(1) = -\frac{31}{16} \)
-- \( y(2) = \frac{149}{64} \)
+$$
+\( y(1) = -\frac{31}{16} \)
+$$
+
+$$
+\( y(2) = \frac{149}{64} \)
+$$
+
 * Transformada Z:
 #### Velocidad:
 La velocidad de procesamiento es una ventaja significativa de los controladores digitales. Pueden procesar y responder a señales de entrada mucho más rápidamente que los controladores analógicos, lo que es crucial en aplicaciones que requieren respuestas rápidas y precisas.

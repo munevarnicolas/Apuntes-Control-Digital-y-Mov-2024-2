@@ -27,7 +27,7 @@ Donde:
 💡**Figura 2:** <br/>
 ![Figura de prueba](images/ejem1.png)
 
-Figura 2. Señales analógicas y digitales
+Figura 2. Gráfica función con periodo 0.5 seg.
 
 Señal en tiempo discreto con periodo de muestreo de T= 0.5 seg
 
@@ -35,7 +35,7 @@ Señal en tiempo discreto con periodo de muestreo de T= 0.5 seg
 💡**Figura 3:** <br/>
 ![Figura de prueba](images/ejem2.png)
 
-Figura 3. Señales analógicas y digitales
+Figura 3. Gráfica función con periodo 0.1 seg.
 
 Señal en tiempo discreto con periodo de muestreo de T= 0.1 seg
 
@@ -286,18 +286,65 @@ Según el requerimiento:
 - Si lo que se quiere es programar la función de transferencia se recomienda en atrasos.
 - Si lo que se quiere es analizar y diseñar un controlador se recomienda en adelantos.
 
+## 4. Sistemas  Causales
 
-## 4. Sistemas No Causales
+💡**Figura 4:** <br/>
+
+![Figura de prueba](images/causal.png)
+
+Figura 4. Sistemas Causales.
+
+Son aquellos en los que la salida depende solo de las entradas actuales o pasadas, y no de entradas futuras. 
+El sistema solo da respuesta al haber aplicado una entrada.
+
+La función de transferencia \( G(z) \) se define como:
+
+$$
+\[
+G(z) = \frac{N(z)}{D(z)}
+\]
+$$
+
+**Consideraciones sobre el Grado del Numerador y Denominador:**
+
+- **Grado del Numerador (n) y Denominador (m):** Si \( m > n \), la función de transferencia es propia.
+
+## 5. Sistemas No Causales
+
+💡**Figura 5:** <br/>
+
+![Figura de prueba](images/nocausal.png)
+
+Figura 5. Sistemas No Causales.
+
 Son aquellos en los que la salida del sistema depende no solo de las entradas actuales o pasadas, sino también de entradas futuras. 
+Implica que el sistema da respuesta sin haber aplicado ninguna entrada aún.
 
+La función de transferencia \( G(z) \) se define como:
 
+$$
+\[
+G(z) = \frac{N(z)}{D(z)}
+\]
+$$
 
-💡**Figura 2:** <br/>
+**Consideraciones sobre el Grado del Numerador y Denominador:**
 
-![Figura de prueba](images/converanalogdigital.jpg)
+- **Grado del Numerador (n) y Denominador (m):** Si \( m < n \), la función de transferencia es impropia.
 
-Figura 2. Muestreo, codificación y cuantizacion en ADC.
+## 6. Tiempo muerto en sistemas discretos
+El tiempo muerto (dead time) en sistemas discretos se refiere al período de tiempo durante el cual no hay un efecto observable en la variable de proceso después de un cambio en la variable de control. 
+* Comparando el grado de los polinomios de la función de transferencia:
+<p align="center">
+Exceso polo - zero
+</p>
 
+$$
+r= m-n
+$$
+
+* El valor de r es la cantidad de muestras que hay de tiempo muerto.
+* Si r=0 el Sistema es bipropio
 
 ## 5. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚

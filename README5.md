@@ -1,8 +1,9 @@
 # Estabilidad en sistemas discretos
 La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos y adelantos temporales, los cuales son herramientas poderosas para entender y manipular señales digitales, lo que es crucial en diversas aplicaciones de ingeniería y procesamiento de señales.
 ## 1. Estabilidad Absoluta
+Un Sistema es estable cuando tiene una salida limitada producto de una entrada limitada.
 ### 1.1. Espacio LaPlace vs Z
-Señal continua que puede tomar cualquier valor en el dominio del tiempo.
+La estabilidad es el mismo concepto en el espacio de LaPlace y de la Z, sin embargo la ubicacion de los polos es distinta. 
 
 💡**Ejemplo 1:** <br/>
 ![Figura de prueba](images/terminosmat.png)

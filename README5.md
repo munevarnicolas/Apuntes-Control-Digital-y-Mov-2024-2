@@ -16,6 +16,11 @@ Figura 1. Estabilidad en el espacio de LaPlace
 
 Figura 1. Estabilidad en el espacio de Z
 
+💡**Ejemplo 1:** <br/>
+
+$$
+\[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
+$$
 
 
 ### 1.2. Función en términos de muestras

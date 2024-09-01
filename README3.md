@@ -41,12 +41,16 @@ Señal en tiempo discreto con periodo de muestreo de T= 0.1 seg
 
 ## 2. Representación matemática de los sistemas
 Los controladores digitales ofrecen varias ventajas significativas que los hacen preferibles en muchas aplicaciones. Aquí se detallan las razones clave por las que se eligen los controladores digitales, relacionadas con tus puntos de interés:
-#### Exactitud:
-Los controladores digitales pueden ofrecer una mayor exactitud en la medición y control de variables debido a la capacidad de procesar señales digitales de manera precisa y consistente. Esto se debe a que las señales digitales son menos propensas a la degradación y al ruido en comparación con las señales analógicas.
-#### Errores de implementación:
-Aunque los controladores digitales pueden ser más complejos de implementar que los analógicos, su diseño y ajuste pueden ser más precisos y menos susceptibles a errores humanos una vez configurados. Las técnicas de implementación digital, como la aproximación rectangular y trapezoidal en controladores PID, permiten una mayor flexibilidad y precisión en el ajuste de parámetros.
-#### Flexibilidad:
-Los controladores digitales son altamente flexibles. Pueden ser programados para realizar diversas tareas y ajustes, lo que los hace adecuados para una amplia gama de aplicaciones. Por ejemplo, pueden incluir funciones como temporizadores y rampas, permitiendo la automatización de procesos complejos.
+### 2.1 Ecuación en diferencias:
+Por medio de la ecuaciones en diferencias se representa la dinámica del sistema y el comportamiento de las señales de entrada (u) y salida (y).
+### 2.2 Características ecuaciones en diferencias:
+* Lineal, invariante en el tiempo, no homogénea 
+* No lineal, invariante en el tiempo, homogénea 
+* Lineal, variante en el tiempo, homogénea
+### 2.3 Solución de ecuaciones en diferencias:
+* Métodos iterativos:
+
+* Transformada Z:
 #### Velocidad:
 La velocidad de procesamiento es una ventaja significativa de los controladores digitales. Pueden procesar y responder a señales de entrada mucho más rápidamente que los controladores analógicos, lo que es crucial en aplicaciones que requieren respuestas rápidas y precisas.
 #### Costos:

@@ -139,8 +139,8 @@ Estas funciones de transferencia capturan el comportamiento del ZOH en ambos dom
 * Resistencias R/2R: Utilizan solo dos valores de resistencias, lo que las hace más económicas y fáciles de fabricar, con una mayor velocidad de funcionamiento y menor complejidad en la selección de componentes.
 * Los conversores ADC y DAC son componentes críticos en la interfaz entre el mundo analógico y el mundo digital, permitiendo el procesamiento y análisis de señales en una variedad de aplicaciones. Su diseño y características influyen significativamente en su desempeño y precisión.
 ## 6. Referencias
-[1] “ Señales analógicas vs. señales digitales: Entendiendo las diferencias ”. Administracion de Sistemas. [En línea]. Disponible: https://administraciondesistemas.com/senales-analogicas-vs-digitales/
-[2] 
-[]
-[]
-[]
+[1] "Señales analógicas vs. señales digitales: Entendiendo las diferencias." Administracion de Sistemas. [En línea]. Disponible: https://administraciondesistemas.com/senales-analogicas-vs-digitales/ <br/>
+[2] "03 Muestreo, Cuantificación y codificación en ADC." (28 de marzo de 2023). [Video en línea]. Disponible: https://www.youtube.com/watch?v=wce5Ine9a5o <br/>
+[3] "TuTronic. Funcionamiento del Convertidor digital a analógico R2R." (19 de mayo de 2015). [Video en línea]. Disponible: https://www.youtube.com/watch?app=desktop&amp;v=FNLnyGZOS10 <br/>
+[4] "S. W. Mechatronics. The Zero Order Hold [EN]." (20 de abril de 2023). [Video en línea]. Disponible: https://www.youtube.com/watch?app=desktop&amp;v=4ytJaQ3YEVs <br/>
+

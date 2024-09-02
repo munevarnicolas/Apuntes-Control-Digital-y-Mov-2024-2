@@ -91,7 +91,7 @@ La condición para la estabilidad es que `P(z)` en `z = -1` debe satisfacer:
 ### 4.1 Arreglo de Jury
 
 💡**Ejemplo 1:** <br/>
-![Figura de prueba](images/Estabilidadplace.png)
+![Figura de prueba](images/tabla.jpg)
 
 Tabla 1. Estabilidad en el espacio de LaPlace
 

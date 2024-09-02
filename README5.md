@@ -100,13 +100,15 @@ Tabla 1. Estabilidad en el espacio de LaPlace
 
 
 ![Figura de prueba](images/2.png)
-## 5. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
-## 6. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
 
-## 10. Referencias
+## 5. Conclusiones
+* La estabilidad en sistemas discretos se garantiza si todos los polos están dentro del círculo unitario en el plano Z.
+* El período de muestreo tiene un impacto crítico en la estabilidad y debe ser elegido cuidadosamente.
+* La discretización de un sistema continuo debe realizarse de forma que preserve la estabilidad del sistema.
+* El análisis de estabilidad puede realizarse mediante herramientas como el criterio de Jury y el diagrama de polos y ceros en el plano Z.
+* El diseño de controladores digitales debe tener en cuenta la estabilidad tanto en lazo abierto como cerrado.
+## 6. Referencias
 []
 []
 []

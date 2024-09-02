@@ -90,13 +90,14 @@ La condición para la estabilidad es que `P(z)` en `z = -1` debe satisfacer:
 
 ### 4.1 Arreglo de Jury
 
-💡**Ejemplo 1:** <br/>
+💡**Ejemplo 2:** <br/>
 ![Figura de prueba](images/tabla.jpg)
 
 Tabla 1. Estabilidad en el espacio de LaPlace
 
+![Figura de prueba](images/1.jpg)
 
-
+![Figura de prueba](images/2.jpg)
 ## 5. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 

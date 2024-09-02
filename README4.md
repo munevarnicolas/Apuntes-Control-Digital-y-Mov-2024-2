@@ -172,13 +172,15 @@ $$
 $$
 
 
-## 6. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
-## 7. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
+## 6. Conclusiones
+* Es vital preservar la dinámica original del sistema al pasar al dominio digital.
+* El período de muestreo debe seleccionarse cuidadosamente para balancear entre desempeño y complejidad.
+* Es necesario considerar y, si es posible, compensar los errores de aproximación introducidos por la discretización.
+* La estabilidad del sistema en el dominio Z debe ser evaluada y asegurada.
+* La implementación digital ofrece numerosas ventajas, pero requiere un análisis cuidadoso durante la discretización.
 
-## 8. Referencias
+## 7. Referencias
 []
 []
 []

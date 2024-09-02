@@ -346,13 +346,13 @@ $$
 * El valor de r es la cantidad de muestras que hay de tiempo muerto.
 * Si r=0 el Sistema es bipropio
 
-## 5. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
-## 6. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
-
-## 7. Referencias
+## 5. Conclusiones
+* Control Digital y Transformada Z: La Transformada Z permite representar las operaciones de atraso y adelanto de forma algebraica, lo que facilita el análisis y diseño de controladores digitales. Esto es crucial para predecir y ajustar la respuesta de un sistema en tiempo discreto.
+* Relación con la Respuesta del Sistema: Entender cómo los atrasos y adelantos afectan la función de transferencia en Z permite a los ingenieros diseñar controladores que ajusten la dinámica del sistema (como el tiempo de respuesta y la estabilidad).
+* Uno de los desafíos con los métodos iterativos es garantizar su convergencia. En control digital, es crucial que el método converja a una solución adecuada dentro de un tiempo razonable, especialmente en sistemas en tiempo real.
+* La estabilidad del sistema de control puede depender directamente de la rapidez y confiabilidad con la que convergen los métodos iterativos empleados.
+## 6. Referencias
 []
 []
 []

@@ -68,6 +68,28 @@ $$
 $$
 
 Donde 𝑏𝑦 es un número real o complejo que actúa como cota para y.
+
+## 4. Test de Jury
+El test de Jury es un método utilizado en teoría de control para determinar si un sistema de control discreto es estable. Para aplicar el criterio de Jury deben cumplirse todas las condiciones para afirmar que un sistema es estable
+
+$$
+\( a_0 > 0 \)
+$$
+
+$$
+\(|a_n| > a_0 \)
+$$
+
+$$
+P(z) z=1 > 0
+$$
+
+La condición para la estabilidad es que `P(z)` en `z = -1` debe satisfacer:
+- `P(-1) > 0` para `n` par
+- `P(-1) < 0` para `n` impar
+
+
+
 ## 5. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 

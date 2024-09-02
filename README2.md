@@ -133,13 +133,12 @@ Estas funciones de transferencia capturan el comportamiento del ZOH en ambos dom
 - First order hold es un DAC que considera un modelo lineal durante el intervalo de muestreo.
 - Second order hold es un DAC que considera un modelo parabólico durante el intervalo de tiempo de muestreo.
 
-## 5. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
-## 6. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
-
-## 10. Referencias
+## 5. Conclusiones
+* Resistencias Ponderadas: Utilizan resistencias con valores relacionados con el peso binario de cada bit, lo que puede ser complicado de fabricar para un número elevado de bits.
+* Resistencias R/2R: Utilizan solo dos valores de resistencias, lo que las hace más económicas y fáciles de fabricar, con una mayor velocidad de funcionamiento y menor complejidad en la selección de componentes.
+* Los conversores ADC y DAC son componentes críticos en la interfaz entre el mundo analógico y el mundo digital, permitiendo el procesamiento y análisis de señales en una variedad de aplicaciones. Su diseño y características influyen significativamente en su desempeño y precisión.
+## 6. Referencias
 []
 []
 []

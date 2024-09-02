@@ -88,6 +88,12 @@ La condición para la estabilidad es que `P(z)` en `z = -1` debe satisfacer:
 - `P(-1) > 0` para `n` par
 - `P(-1) < 0` para `n` impar
 
+### 4.1 Arreglo de Jury
+
+💡**Ejemplo 1:** <br/>
+![Figura de prueba](images/Estabilidadplace.png)
+
+Tabla 1. Estabilidad en el espacio de LaPlace
 
 
 ## 5. Ejercicios

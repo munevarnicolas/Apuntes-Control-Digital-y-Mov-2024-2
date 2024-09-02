@@ -181,8 +181,5 @@ $$
 * La implementación digital ofrece numerosas ventajas, pero requiere un análisis cuidadoso durante la discretización.
 
 ## 7. Referencias
-[1] "T. S. M. d. C. Rosario - Santa Fe - Argentina. “TECNOLOGÍA DIGITAL APLICADA AL AUDIO”. https://digital-audio-tech.blogspot.com/." [En línea]. Disponible: https://digital-audio-tech.blogspot.com/p/teorema-del-muestreo-nyquist.html
-[]
-[]
-[]
-[]
+[1] "T. S. M. d. C. Rosario - Santa Fe - Argentina. “TECNOLOGÍA DIGITAL APLICADA AL AUDIO”. https://digital-audio-tech.blogspot.com/." [En línea]. Disponible: https://digital-audio-tech.blogspot.com/p/teorema-del-muestreo-nyquist.html <br/>
+[2] "Apuntes Clase - Lunes 29 Julio 2024" <br/>

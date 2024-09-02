@@ -354,8 +354,8 @@ $$
 * La estabilidad del sistema de control puede depender directamente de la rapidez y confiabilidad con la que convergen los métodos iterativos empleados.
 
 ## 6. Referencias
-[1] “Capítulo 2: Sistemas de Comunicación”. http://tesis.uson.mx/digital/tesis/docs/22070/Capitulo2.pdf. [En línea]. Disponible: http://tesis.uson.mx/digital/tesis/docs/22070/Capitulo2.pdf 
-[]
+[1] “Capítulo 2: Sistemas de Comunicación”. http://tesis.uson.mx/digital/tesis/docs/22070/Capitulo2.pdf. [En línea]. Disponible: http://tesis.uson.mx/digital/tesis/docs/22070/Capitulo2.pdf <br/>
+[2] 
 []
 []
 []

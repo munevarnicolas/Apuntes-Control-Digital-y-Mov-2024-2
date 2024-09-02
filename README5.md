@@ -109,7 +109,7 @@ Tabla 1. Estabilidad en el espacio de LaPlace
 * El análisis de estabilidad puede realizarse mediante herramientas como el criterio de Jury y el diagrama de polos y ceros en el plano Z.
 * El diseño de controladores digitales debe tener en cuenta la estabilidad tanto en lazo abierto como cerrado.
 ## 6. Referencias
-[]
+[1] 
 []
 []
 []

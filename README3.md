@@ -352,8 +352,9 @@ $$
 * Relación con la Respuesta del Sistema: Entender cómo los atrasos y adelantos afectan la función de transferencia en Z permite a los ingenieros diseñar controladores que ajusten la dinámica del sistema (como el tiempo de respuesta y la estabilidad).
 * Uno de los desafíos con los métodos iterativos es garantizar su convergencia. En control digital, es crucial que el método converja a una solución adecuada dentro de un tiempo razonable, especialmente en sistemas en tiempo real.
 * La estabilidad del sistema de control puede depender directamente de la rapidez y confiabilidad con la que convergen los métodos iterativos empleados.
+
 ## 6. Referencias
-[]
+[1] “Capítulo 2: Sistemas de Comunicación”. http://tesis.uson.mx/digital/tesis/docs/22070/Capitulo2.pdf. [En línea]. Disponible: http://tesis.uson.mx/digital/tesis/docs/22070/Capitulo2.pdf 
 []
 []
 []

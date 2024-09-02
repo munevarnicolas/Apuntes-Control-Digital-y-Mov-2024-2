@@ -95,12 +95,15 @@ La condición para la estabilidad es que `P(z)` en `z = -1` debe satisfacer:
 
 Tabla 1. Estabilidad en el espacio de LaPlace
 
-La ecuación para \( b_{n-1} \) es:
-
 $$
-\[ b_{n-1} = \begin{vmatrix} a_n & a_{n-1} \\ a_0 & a_1 \end{vmatrix} = a_n a_1 - a_0 a_{n-1} \]
+b_{n-1} = \begin{vmatrix} a_n & a_{n-1} \\ a_0 & a_1 \end{vmatrix} = a_n a_1 - a_0 a_{n-1}
 $$
 
+La matriz es:
+
+| $$ a_n $$ | $$ a_{n-1} $$ |
+|-----------|---------------|
+| $$ a_0 $$ | $$ a_1 $$     |
 
 ## 5. Ejercicios
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚

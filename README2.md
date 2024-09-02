@@ -143,4 +143,5 @@ Estas funciones de transferencia capturan el comportamiento del ZOH en ambos dom
 [2] "03 Muestreo, Cuantificación y codificación en ADC." (28 de marzo de 2023). [Video en línea]. Disponible: https://www.youtube.com/watch?v=wce5Ine9a5o <br/>
 [3] "TuTronic. Funcionamiento del Convertidor digital a analógico R2R." (19 de mayo de 2015). [Video en línea]. Disponible: https://www.youtube.com/watch?app=desktop&amp;v=FNLnyGZOS10 <br/>
 [4] "S. W. Mechatronics. The Zero Order Hold [EN]." (20 de abril de 2023). [Video en línea]. Disponible: https://www.youtube.com/watch?app=desktop&amp;v=4ytJaQ3YEVs <br/>
+[5] "Apuntes Clase - Lunes 29 Julio 2024"
 

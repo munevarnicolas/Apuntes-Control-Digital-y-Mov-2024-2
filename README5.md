@@ -92,7 +92,7 @@ FALTANNNN
 *
 *
 ## 5. Referencias
-[1] "Apuntes Clase - Lunes 29 Julio 2024"
-[2] "Ingeniería de control Moderno, Ogata"
-[3] "Diseño de control Análogo y Digital, Chen"
-[4] "E.P.1. Control digital y de mov-05909-2463 - Aulas ECCI"
+[1] "Apuntes Clase - Lunes 29 Julio 2024" <br/>
+[2] "Ingeniería de control Moderno, Ogata" <br/>
+[3] "Diseño de control Análogo y Digital, Chen" <br/>
+[4] "E.P.1. Control digital y de mov-05909-2463 - Aulas ECCI" <br/>

@@ -76,26 +76,19 @@ El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
 
 ### 2.1. Ecuaciones diofánticas
 Las ecuaciones diofánticas son ecuaciones algebraicas que involucran dos o más incógnitas y cuyos coeficientes son números enteros. Este metodo algebraico es de gran ayuda debido a que simplifica el metodo de igualacion de coeficientes.
-
+FALTA HACER EL EJEMPLO 3
 💡**Ejemplo 3:** <br/>
 
-![Figura de prueba](images/tabla.jpg)
-
-Tabla 1. Estabilidad en el espacio de LaPlace
-
-![Figura de prueba](images/1.png)
 
 
-![Figura de prueba](images/2.png)
 
-
-## 3. Conclusiones
-*
-*
-*
+## 3. Ejercicios
+FALTANNNN
 
 ## 4. Conclusiones
-
+*
+*
+*
 ## 5. Referencias
 [1] "Apuntes Clase - Lunes 29 Julio 2024"
 [2] "Ingeniería de control Moderno, Ogata"

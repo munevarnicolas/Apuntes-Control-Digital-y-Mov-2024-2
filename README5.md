@@ -74,53 +74,10 @@ z = -0.2
 El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
 </p>
 
-## 2. Estabilidad Asintótica
-La estabiidad asintótica se refiere que a medida que el tiempo avanza, las variables del sistema convergen hacia un punto de equilibrio estable, garantiza que el sistema se estabilice en un punto de equilibrio estable a largo plazo, lo cual es crucial para el control y la estabilidad de sistemas dinámicos.
+### 2.1. Ecuaciones diofánticas
+Las ecuaciones diofánticas son ecuaciones algebraicas que involucran dos o más incógnitas y cuyos coeficientes son números enteros. Este metodo algebraico es de gran ayuda debido a que simplifica el metodo de igualacion de coeficientes.
 
-$$
-\[ \lim_{k \to \infty} y(k) = 0 \]
-$$
-
-<p align="center">
-Si la respuesta se mantiene limitada pero no decae a 0, se dice que es marginalmente estable.
-</p>
-
-## 3. Estabilidad BIBO (Bounded input – Bounded Output)
-### 3.1. Estabilidad BIBO
-Es una propiedad de los sistemas que garantiza que, si se introduce una señal de entrada que no excede un cierto límite (acotada), la salida del sistema también permanecerá dentro de un límite razonable; es crucial porque garantiza que el sistema se comportará de manera predecible y controlada, incluso cuando se le aplican señales de entrada variadas pero acotadas.
-
-$$
-\[ |y(k)| = b \quad \text{para} \quad k = 0, 1, 2, \ldots \]
-$$
-
-$$
-\[ 0 < b_y < \infty \]
-$$
-
-Donde 𝑏𝑦 es un número real o complejo que actúa como cota para y.
-
-## 4. Test de Jury
-El test de Jury es un método utilizado en teoría de control para determinar si un sistema de control discreto es estable. Para aplicar el criterio de Jury deben cumplirse todas las condiciones para afirmar que un sistema es estable
-
-$$
-\( a_0 > 0 \)
-$$
-
-$$
-\(|a_n| > a_0 \)
-$$
-
-$$
-P(z) z=1 > 0
-$$
-
-La condición para la estabilidad es que `P(z)` en `z = -1` debe satisfacer:
-- `P(-1) > 0` para `n` par
-- `P(-1) < 0` para `n` impar
-
-### 4.1 Arreglo de Jury
-
-💡**Ejemplo 2:** <br/>
+💡**Ejemplo 3:** <br/>
 
 ![Figura de prueba](images/tabla.jpg)
 

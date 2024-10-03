@@ -47,6 +47,8 @@ Este metodo debe tener unas consideraciones importantes para su implementación:
 * Se multiplican B(z) y N(z) por lo tanto las funciones de la planta y del controlador deben ser propias.
 
 FALTA HACER EJEMPLO 2
+
+
 💡**Ejemplo 2:** <br/>
 
 $$

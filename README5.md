@@ -89,11 +89,15 @@ Tabla 1. Estabilidad en el espacio de LaPlace
 ![Figura de prueba](images/2.png)
 
 
-## 5. Conclusiones
-* La estabilidad en sistemas discretos se garantiza si todos los polos están dentro del círculo unitario en el plano Z.
-* El período de muestreo tiene un impacto crítico en la estabilidad y debe ser elegido cuidadosamente.
-* La discretización de un sistema continuo debe realizarse de forma que preserve la estabilidad del sistema.
-* El análisis de estabilidad puede realizarse mediante herramientas como el criterio de Jury y el diagrama de polos y ceros en el plano Z.
-* El diseño de controladores digitales debe tener en cuenta la estabilidad tanto en lazo abierto como cerrado.
-## 6. Referencias
+## 3. Conclusiones
+*
+*
+*
+
+## 4. Conclusiones
+
+## 5. Referencias
 [1] "Apuntes Clase - Lunes 29 Julio 2024"
+[2] "Ingeniería de control Moderno, Ogata"
+[3] "Diseño de control Análogo y Digital, Chen"
+[4] "E.P.1. Control digital y de mov-05909-2463 - Aulas ECCI"

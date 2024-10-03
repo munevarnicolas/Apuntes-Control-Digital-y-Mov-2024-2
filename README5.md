@@ -46,11 +46,11 @@ Este metodo debe tener unas consideraciones importantes para su implementación:
 * El orden de C(z) debe ser 1 grado menor con respecto a la planta en lazo abierto.
 * Se multiplican B(z) y N(z) por lo tanto las funciones de la planta y del controlador deben ser propias.
 
-FALTA HACER EJEMPLO 2
+
 
 
 💡**Ejemplo 2:** <br/>
-
+FALTA HACER EJEMPLO 2
 $$
 \[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
 $$
@@ -78,9 +78,9 @@ El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
 
 ### 2.1. Ecuaciones diofánticas
 Las ecuaciones diofánticas son ecuaciones algebraicas que involucran dos o más incógnitas y cuyos coeficientes son números enteros. Este metodo algebraico es de gran ayuda debido a que simplifica el metodo de igualacion de coeficientes.
-FALTA HACER EL EJEMPLO 3
-💡**Ejemplo 3:** <br/>
 
+💡**Ejemplo 3:** <br/>
+FALTA HACER EL EJEMPLO 3
 
 
 

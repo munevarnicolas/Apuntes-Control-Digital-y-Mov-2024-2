@@ -1,7 +1,10 @@
-# Estabilidad en sistemas discretos
+# Métodos Algebráicos
 La clase estuvo dirigida a comprender la transformada Z y el manejo de retrasos y adelantos temporales, los cuales son herramientas poderosas para entender y manipular señales digitales, lo que es crucial en diversas aplicaciones de ingeniería y procesamiento de señales.
-## 1. Estabilidad Absoluta
-Un Sistema es estable cuando tiene una salida limitada producto de una entrada limitada.
+## 1. Igualacion de modelo por metodos algebraicos
+El método algebraico por igualación de modelo es una técnica utilizada en la resolución de sistemas de ecuaciones lineales, particularmente en el contexto de la teoría de control y la modelación matemática. Este método permite encontrar los valores de las incógnitas en un sistema de ecuaciones al igualar expresiones derivadas de las mismas incógnitas. En control Si tenemos la función de lazo abierto G(z), que ya conocemos, y sabemos cuál es la respuesta que queremos lograr, expresada a través de la función de transferencia de lazo cerrado Go(z), se puede calcular la función de transferencia del controlador, C(z) que nos permitirá alcanzar ese comportamiento deseado. Sin embargo este metodo debe tener en cuenta las siguientes carateristicas:
+
+
+
 ### 1.1. Espacio LaPlace vs Z
 La estabilidad es el mismo concepto en el espacio de LaPlace y de la Z, sin embargo la ubicacion de los polos es distinta. 
 

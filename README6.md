@@ -11,6 +11,7 @@ El método algebraico por igualación de modelo es una técnica utilizada en la 
 
 💡**Ejemplo 1:** <br/>
 FALTA HACER EJEMPLO 1
+
 $$
 \[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
 $$

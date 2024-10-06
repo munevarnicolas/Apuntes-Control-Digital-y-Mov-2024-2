@@ -46,7 +46,7 @@ $$
 
 
 $$
-H(e^{j\omega T}) = \frac{1}{\cos^2(\omega T) - 5.1\sin(\omega T) - 5.1\cos(\omega T) + 0.5 + j2\cos(\omega T)\sin(\omega T)}
+H(e^{j\omega T}) = \frac{1}{\cos^2(\omega T) - \sen^2(\omega T) - 5.1\sin(\omega T) - 5.1\cos(\omega T) + 0.5 + j2\cos(\omega T)\sin(\omega T)}
 $$
 
 

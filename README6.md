@@ -3,7 +3,7 @@ La clase estuvo dirigida al análisis en frecuencia, la cual es una técnica ese
 ## 1. Analisis en Frecuencia
 El análisis de frecuencia es una técnica que evalúa cómo un sistema dinámico responde a diferentes frecuencias de entrada, permitiendo observar cambios en amplitud y fase. Su importancia radica en que ayuda a entender el comportamiento del sistema, optimizar su rendimiento y diseñar controladores efectivos. Es utilizada para evaluar la respuesta de sistemas dinámicos lineales a entradas periódicas, especialmente señales sinusoidales.Además, facilita la identificación de características críticas como la estabilidad y la resonancia en sistemas de control.
 
-## 1.1 Representacion Matematica
+### 1.1 Representacion Matematica
 Este analisis tiene una representacion matematica la cual es:
 R(t)=Asin(ωkT+ϕ) 
 la cual describe la respuesta de un sistema dinámico a una entrada sinusoidal, y se puede desglosar en sus componentes para entender su significado, en donde
@@ -26,7 +26,7 @@ Este término puede representar el tiempo transcurrido o una variable relacionad
 ϕ:
 Es el desfase o fase inicial de la señal, medida en radianes. Indica cómo se desplaza la onda sinusoidal en el tiempo respecto a una referencia. Un desfase diferente puede cambiar el momento en que se alcanza el valor máximo o mínimo de R(t).
 
-## 1.2 Sistemas en Fasores
+### 1.2 Sistemas en Fasores
 Los sistemas en fasores son representaciones de señales sinusoidales que asumen una frecuencia constante, expresando la señal en términos de amplitud y fase. En este contexto, se utilizan para simplificar el análisis de sistemas dinámicos, permitiendo representar tanto la entrada como la salida del sistema de manera más manejable. Esta representación es especialmente útil en el análisis de sistemas lineales, donde se pueden aplicar técnicas de transformada para estudiar su comportamiento en frecuencia.
 
 💡**Ejemplo 1:** <br/>
@@ -65,7 +65,7 @@ Un diagrama de Bode es una herramienta gráfica que se utiliza para analizar có
 
 💡**Figura 2:** <br/>
 
-![Figura de prueba](images/diagramapolar.png)
+![Figura de prueba](images/diagrampolar.png)
 
 Figura 2. Diagrama Polar.
 
@@ -99,8 +99,9 @@ z = -0.2
 El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
 </p>
 
-### 2.1. Ecuaciones diofánticas
-Las ecuaciones diofánticas son ecuaciones algebraicas que involucran dos o más incógnitas y cuyos coeficientes son números enteros. Este metodo algebraico es de gran ayuda debido a que simplifica el metodo de igualacion de coeficientes.
+### 2.1. Análisis Frecuencial en Tiempo Discreto
+El análisis frecuencial en tiempo discreto se refiere a cómo se estudian las señales que están definidas solo en momentos específicos, es decir, en puntos discretos de tiempo. Este tipo de análisis es fundamental para entender cómo las señales cambian con el tiempo y cómo se comportan frente a diferentes frecuencias. Para llevar a cabo este análisis, se utilizan herramientas matemáticas como la Transformada de Fourier y la Transformada Z, que permiten descomponer una señal en sus componentes de frecuencia. Debido a que no es posible hacer el analisis en frecuencia directamente en timepo completo se utiliza la transformación bilineal, también conocida como transformación de Tustin, la cual es una técnica matemática utilizada en el diseño de filtros digitales y sistemas de control, tiene como principal función convertir funciones de transferencia analógicas (que operan en el dominio continuo) a sus equivalentes discretos (en el dominio digital). Este proceso se realiza mediante un mapeo que relaciona el plano complejo s (utilizado en sistemas continuos) con el plano z (usado en sistemas discretos), permitiendo así que las características del sistema se mantengan durante la transformación.
+
 
 💡**Ejemplo 3:** <br/>
 FALTA HACER EL EJEMPLO 3

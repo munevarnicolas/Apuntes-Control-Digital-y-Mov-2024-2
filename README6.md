@@ -111,6 +111,17 @@ Si 0 < ζ < 1 la curva de magnitud presenta un pico de resonancia. A medida que 
 
 Para el caso de la fase, si ζ es pequeña la curva presenta cambios bruscos cerca de ω= ωn. Si ζ > 1 los cambios son menos bruscos por lo que la curva es mas suave.
 
+
+💡**Figura 4:** <br/>
+
+![Figura de prueba](images/efectozeros.png)
+
+Figura 1. Diagrama de Bode y su efecto en los Zeros.
+
+
+
+Encontramos que la curva de magnitud presenta un quiebre en la frecuencia natural y disminuye a una tasa de -40 dB/decada. El gráfico de fase es 0° a bajas frecuencias. A 0.1 ωn, comienza a disminuir -90°/decada y continúa hasta ω = 10ωn, donde se estabiliza en -180°.
+
 ## 3. Ejercicios
 FALTANNNN
 

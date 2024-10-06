@@ -63,6 +63,14 @@ Figura 1. Diagrama de Bode.
 
 Un diagrama de Bode es una herramienta gráfica que se utiliza para analizar cómo un sistema responde a diferentes frecuencias. Consiste en dos gráficos: uno que muestra la magnitud (o ganancia) en decibelios y otro que representa la fase en grados, ambos en función de la frecuencia. Este tipo de representación permite entender el comportamiento de circuitos eléctricos y sistemas de control, facilitando la identificación de características importantes como la estabilidad y el rendimiento del sistema.
 
+💡**Figura 2:** <br/>
+
+![Figura de prueba](images/diagramapolar.png)
+
+Figura 2. Diagrama Polar.
+
+El diagrama polar es una representación gráfica que muestra cómo un sistema responde a diferentes frecuencias, utilizando coordenadas polares. En este tipo de diagrama, la magnitud de la respuesta se representa radialmente desde el centro, mientras que la fase se indica en dirección angular. Esto permite visualizar de manera clara y compacta la relación entre magnitud y fase a medida que varía la frecuencia.
+
 
 💡**Ejemplo 2:** <br/>
 FALTA HACER EJEMPLO 2

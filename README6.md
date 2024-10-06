@@ -2,6 +2,8 @@
 La clase estuvo dirigida al análisis en frecuencia, la cual es una técnica esencial en el diseño y análisis de sistemas de control, especialmente en el ámbito de la instrumentación industrial, debido a que permite evaluar cómo un sistema responde a diferentes frecuencias de entrada, lo que es crucial para garantizar un rendimiento óptimo en aplicaciones industriales.
 ## 1. Analisis en Frecuencia
 El análisis de frecuencia es una técnica que evalúa cómo un sistema dinámico responde a diferentes frecuencias de entrada, permitiendo observar cambios en amplitud y fase. Su importancia radica en que ayuda a entender el comportamiento del sistema, optimizar su rendimiento y diseñar controladores efectivos. Es utilizada para evaluar la respuesta de sistemas dinámicos lineales a entradas periódicas, especialmente señales sinusoidales.Además, facilita la identificación de características críticas como la estabilidad y la resonancia en sistemas de control.
+
+## 1.1 Representacion Matematica
 Este analisis tiene una representacion matematica la cual es:
 R(t)=Asin(ωkT+ϕ) 
 la cual describe la respuesta de un sistema dinámico a una entrada sinusoidal, y se puede desglosar en sus componentes para entender su significado, en donde
@@ -24,34 +26,29 @@ Este término puede representar el tiempo transcurrido o una variable relacionad
 ϕ:
 Es el desfase o fase inicial de la señal, medida en radianes. Indica cómo se desplaza la onda sinusoidal en el tiempo respecto a una referencia. Un desfase diferente puede cambiar el momento en que se alcanza el valor máximo o mínimo de R(t).
 
+## 1.2 Sistemas en Fasores
+Los sistemas en fasores son representaciones de señales sinusoidales que asumen una frecuencia constante, expresando la señal en términos de amplitud y fase. En este contexto, se utilizan para simplificar el análisis de sistemas dinámicos, permitiendo representar tanto la entrada como la salida del sistema de manera más manejable. Esta representación es especialmente útil en el análisis de sistemas lineales, donde se pueden aplicar técnicas de transformada para estudiar su comportamiento en frecuencia.
 
 💡**Ejemplo 1:** <br/>
-FALTA HACER EJEMPLO 1
 
 $$
-\[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
+H(z) = \frac{1}{(z - 0.1)(z - 5)}
 $$
 
-<p align="center">
-Se busca la ubicacion de los polos:
-</p>
-
 $$
-\[ z^3 - 7.8z^2 + 13.4z + 3 = 0 \]  
+H(e^{j\omega T}) = \frac{1}{(e^{j\omega T} - 0.1)(e^{j\omega T} - 5)}
 $$
 
-<p align="center">
-z = 5
-</p>
-<p align="center">
-z = 3
-</p>
-<p align="center">
-z = -0.2
-</p>
-<p align="center">
-El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
-</p>
+
+$$
+H(e^{j\omega T}) = \frac{1}{(\cos(\omega T) + j\sin(\omega T) - 0.1)(\cos(\omega T) + j\sin(\omega T) - 5)}
+$$
+
+
+$$
+H(e^{j\omega T}) = \frac{1}{\cos^2(\omega T) - 5.1\sin(\omega T) - 5.1\cos(\omega T) + 0.5 + j2\cos(\omega T)\sin(\omega T)}
+$$
+
 
 ## 2. Igualación de coeficientes
 

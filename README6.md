@@ -100,6 +100,12 @@ $$
 
 Los diagramas de Bode, también conocidos como diagramas logarítmicos, son herramientas gráficas que ayudan a analizar cómo un sistema responde a diferentes frecuencias. Un diagrama de Bode consta de dos gráficos: uno muestra el logaritmo de la magnitud de la función de transferencia (que indica cuánta señal se amplifica o atenúa) y el otro representa el ángulo de fase (que indica el desplazamiento temporal de la señal). Ambos gráficos se trazan en función de la frecuencia, utilizando una escala logarítmica. La ventaja principal de los diagramas de Bode es que convierte la multiplicación de magnitudes en suma, lo que simplifica los cálculos. También permite dibujar curvas aproximadas utilizando líneas rectas, lo que es útil para obtener una idea general del comportamiento del sistema. Si se necesita mayor precisión, es fácil ajustar estas curvas.
 
+💡**Figura 3:** <br/>
+
+![Figura de prueba](images/efectopolos.png)
+
+Figura 1. Diagrama de Bode y su efecto en los Polos.
+
 
 Si 0 < ζ < 1 la curva de magnitud presenta un pico de resonancia. A medida que ζ disminuye el pico resonancia aumenta. Para ζ > 1 la gráfica ya no presenta pico de resonancia. Después del corte la curva presenta una pendiente de - 40dB/dec.
 

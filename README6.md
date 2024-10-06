@@ -140,6 +140,43 @@ $$
 M_r = \frac{1}{2\sqrt{\frac{(\ln(M_p))^2}{\pi^2 + (\ln(M_p))^2}} \sqrt{1 - \frac{(\ln(M_p))^2}{\pi^2 + (\ln(M_p))^2}} \cdot}
 $$
 
+💡**Ejemplo 2:** <br/>
+
+$$
+G(s) = \frac{8}{s^2 + 0.5s + 1}
+$$
+
+
+$$
+G_{o} = \frac{G}{1 + G} = \frac{8}{w^2 + 0.5w + 9}
+$$
+
+$$
+M_{p} = \frac{1.57 - 0.891}{0.891 - 0} = 0.7621
+$$
+
+$$
+\zeta = \sqrt{\frac{(\ln(0.7621))^2}{\pi^2 + (\ln(0.7621))^2}} = 0.083
+$$
+
+$$
+Mp = 0.7621
+$$
+
+$$
+\zeta = 0.083
+$$
+
+$$
+M_{r} = \frac{1}{2\sqrt{\frac{(\ln(Mp))^2}{\pi^2 + (\ln(Mp))^2} \sqrt{1 - \frac{(\ln(Mp))^2}{\pi^2 + (\ln(Mp))^2}}} \cdot}
+$$
+
+
+$$
+M_{r} = \frac{1}{2\sqrt{\frac{(\ln(0.7621))^2}{\pi^2 + (\ln(0.7621))^2}} \sqrt{1 - \frac{(\ln(0.7621))^2}{\pi^2 + (\ln(0.7621))^2}} \cdot } = 5.82 \text{ dB}
+$$
+
+
 
 ## 3. Ejercicios
 FALTANNNN

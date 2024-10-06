@@ -72,39 +72,28 @@ Figura 2. Diagrama Polar.
 El diagrama polar es una representación gráfica que muestra cómo un sistema responde a diferentes frecuencias, utilizando coordenadas polares. En este tipo de diagrama, la magnitud de la respuesta se representa radialmente desde el centro, mientras que la fase se indica en dirección angular. Esto permite visualizar de manera clara y compacta la relación entre magnitud y fase a medida que varía la frecuencia.
 
 
-💡**Ejemplo 2:** <br/>
-FALTA HACER EJEMPLO 2
-$$
-\[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
-$$
-
-<p align="center">
-Se busca la ubicacion de los polos:
-</p>
-
-$$
-\[ z^3 - 7.8z^2 + 13.4z + 3 = 0 \]  
-$$
-
-<p align="center">
-z = 5
-</p>
-<p align="center">
-z = 3
-</p>
-<p align="center">
-z = -0.2
-</p>
-<p align="center">
-El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
-</p>
-
 ### 2.1. Análisis Frecuencial en Tiempo Discreto
 El análisis frecuencial en tiempo discreto se refiere a cómo se estudian las señales que están definidas solo en momentos específicos, es decir, en puntos discretos de tiempo. Este tipo de análisis es fundamental para entender cómo las señales cambian con el tiempo y cómo se comportan frente a diferentes frecuencias. Para llevar a cabo este análisis, se utilizan herramientas matemáticas como la Transformada de Fourier y la Transformada Z, que permiten descomponer una señal en sus componentes de frecuencia. Debido a que no es posible hacer el analisis en frecuencia directamente en timepo completo se utiliza la transformación bilineal, también conocida como transformación de Tustin, la cual es una técnica matemática utilizada en el diseño de filtros digitales y sistemas de control, tiene como principal función convertir funciones de transferencia analógicas (que operan en el dominio continuo) a sus equivalentes discretos (en el dominio digital). Este proceso se realiza mediante un mapeo que relaciona el plano complejo s (utilizado en sistemas continuos) con el plano z (usado en sistemas discretos), permitiendo así que las características del sistema se mantengan durante la transformación.
 
+En la transfomación se utilizan los planos s, z y w son herramientas fundamentales en el análisis de sistemas tanto continuos como discretos. El plano s se centra en el comportamiento dinámico de sistemas analógicos, el plano z se utiliza para sistemas digitales, y el plano w ayuda a visualizar transformaciones complejas. Juntos, estos planos permiten a los ingenieros diseñar y analizar sistemas con un enfoque más profundo y preciso.
+
+
 
 💡**Ejemplo 3:** <br/>
-FALTA HACER EL EJEMPLO 3
+
+$$
+G_s = \frac{1}{s + 10}
+$$
+
+
+$$
+G_z = \frac{0.06321}{z - 0.3679}
+$$
+
+$$
+G_w = \frac{0.924 (- 0.05w + 1)}{w + 9.242}
+$$
+
 
 
 

@@ -77,7 +77,8 @@ El análisis frecuencial en tiempo discreto se refiere a cómo se estudian las s
 
 En la transfomación se utilizan los planos s, z y w son herramientas fundamentales en el análisis de sistemas tanto continuos como discretos. El plano s se centra en el comportamiento dinámico de sistemas analógicos, el plano z se utiliza para sistemas digitales, y el plano w ayuda a visualizar transformaciones complejas. Juntos, estos planos permiten a los ingenieros diseñar y analizar sistemas con un enfoque más profundo y preciso.
 
-
+En estado estacionario, las entradas sinusoidales a un sistema lineal generan respuestas sinusoidales de la misma frecuencia. Aunque estas respuestas son de la misma frecuencia que la entrada, difieren en amplitud y ángulo de fase con respecto a la entrada. Estas diferencias son funciones de la frecuencia. Antes de definir la respuesta en frecuencia, veamos una representación conveniente de las sinusoides. Las sinusoides pueden ser representadas como números complejos llamados fasores. La magnitud del número complejo es la amplitud de la sinusoide, y el ángulo del número complejo es el ángulo de fase de la sinusoide. Así, 
+M1*cos (ωt+ ϕ1) puede ser representado como M1 < ϕ1donde la frecuencia, ω es implícita. Dado que un sistema provoca cambios tanto en la amplitud como en el ángulo de fase de la entrada, podemos pensar en el sistema mismo como representado por un número complejo, definido de tal manera que el producto del fasor de entrada y la función del sistema produzca la representación fasorial de la salida.
 
 💡**Ejemplo 3:** <br/>
 
@@ -95,7 +96,14 @@ G_w = \frac{0.924 (- 0.05w + 1)}{w + 9.242}
 $$
 
 
+## 3. Diagramas de Bode
 
+Los diagramas de Bode, también conocidos como diagramas logarítmicos, son herramientas gráficas que ayudan a analizar cómo un sistema responde a diferentes frecuencias. Un diagrama de Bode consta de dos gráficos: uno muestra el logaritmo de la magnitud de la función de transferencia (que indica cuánta señal se amplifica o atenúa) y el otro representa el ángulo de fase (que indica el desplazamiento temporal de la señal). Ambos gráficos se trazan en función de la frecuencia, utilizando una escala logarítmica. La ventaja principal de los diagramas de Bode es que convierte la multiplicación de magnitudes en suma, lo que simplifica los cálculos. También permite dibujar curvas aproximadas utilizando líneas rectas, lo que es útil para obtener una idea general del comportamiento del sistema. Si se necesita mayor precisión, es fácil ajustar estas curvas.
+
+
+Si 0 < ζ < 1 la curva de magnitud presenta un pico de resonancia. A medida que ζ disminuye el pico resonancia aumenta. Para ζ > 1 la gráfica ya no presenta pico de resonancia. Después del corte la curva presenta una pendiente de - 40dB/dec.
+
+Para el caso de la fase, si ζ es pequeña la curva presenta cambios bruscos cerca de ω= ωn. Si ζ > 1 los cambios son menos bruscos por lo que la curva es mas suave.
 
 ## 3. Ejercicios
 FALTANNNN

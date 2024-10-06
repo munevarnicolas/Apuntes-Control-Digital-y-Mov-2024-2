@@ -1,13 +1,29 @@
 # Análisis en frecuencia y diagramas de Bode
 La clase estuvo dirigida al análisis en frecuencia, la cual es una técnica esencial en el diseño y análisis de sistemas de control, especialmente en el ámbito de la instrumentación industrial, debido a que permite evaluar cómo un sistema responde a diferentes frecuencias de entrada, lo que es crucial para garantizar un rendimiento óptimo en aplicaciones industriales.
 ## 1. Analisis en Frecuencia
+El análisis de frecuencia es una técnica que evalúa cómo un sistema dinámico responde a diferentes frecuencias de entrada, permitiendo observar cambios en amplitud y fase. Su importancia radica en que ayuda a entender el comportamiento del sistema, optimizar su rendimiento y diseñar controladores efectivos. Es utilizada para evaluar la respuesta de sistemas dinámicos lineales a entradas periódicas, especialmente señales sinusoidales.Además, facilita la identificación de características críticas como la estabilidad y la resonancia en sistemas de control.
+Este analisis tiene una representacion matematica la cual es:
+R(t)=Asin(ωkT+ϕ) 
+la cual describe la respuesta de un sistema dinámico a una entrada sinusoidal, y se puede desglosar en sus componentes para entender su significado, en donde
 
+R(t):
+Representa la salida del sistema en función del tiempo. Puede ser cualquier variable que se esté analizando, como desplazamiento, velocidad, o corriente.
 
-* No deben resultar cancelaciones polo-zero.
-* El modelo objetivo debe ser estable.
-* Los zeros (fase no mínima) de la planta serán retenidos en lazo cerrado.
-* Los compensadores deben ser causales.
-*  𝑟 ≤ 𝑟o
+A:
+Es la amplitud de la señal. Indica la magnitud máxima de la respuesta del sistema. Un valor mayor de A significa que el sistema responderá con una mayor intensidad a la entrada.
+
+sin:
+La función seno es una función periódica que describe oscilaciones. En este contexto, indica que la salida del sistema variará de manera sinusoidal a lo largo del tiempo.
+
+ωk:
+Es la frecuencia angular del sistema, medida en radianes por segundo. Se relaciona con la frecuencia f (en hertz) mediante la relación ωk =2πf. Esta frecuencia determina cuántas oscilaciones ocurren en un segundo.
+
+T:
+Este término puede representar el tiempo transcurrido o una variable relacionada con el tiempo que afecta a la respuesta del sistema.
+
+ϕ:
+Es el desfase o fase inicial de la señal, medida en radianes. Indica cómo se desplaza la onda sinusoidal en el tiempo respecto a una referencia. Un desfase diferente puede cambiar el momento en que se alcanza el valor máximo o mínimo de R(t).
+
 
 💡**Ejemplo 1:** <br/>
 FALTA HACER EJEMPLO 1

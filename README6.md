@@ -55,7 +55,13 @@ $$
 Cualquier función de transferencia puede dividirse en sus componentes real e imaginaria, lo que permite calcular la magnitud y la fase en el dominio de la frecuencia. Esta separación es crucial para entender cómo un sistema reacciona a distintas frecuencias, ya que proporciona información esencial sobre su comportamiento dinámico. Los resultados obtenidos se pueden graficar en un plano, facilitando así la visualización de la relación entre magnitud y fase.
 Los datos pueden representarse en escalas lineales o logarítmicas (en decibelios), lo que mejora su interpretación. También es posible graficar la magnitud frente a la fase utilizando coordenadas polares, lo que ofrece una representación más clara del comportamiento del sistema. Esta visualización relevante para el análisis y diseño de sistemas de control, ya que permite identificar características clave como la estabilidad y el rendimiento bajo diversas condiciones operativas.
 
+💡**Figura 1:** <br/>
 
+![Figura de prueba](images/diagramabode.png)
+
+Figura 1. Diagrama de Bode.
+
+Un diagrama de Bode es una herramienta gráfica que se utiliza para analizar cómo un sistema responde a diferentes frecuencias. Consiste en dos gráficos: uno que muestra la magnitud (o ganancia) en decibelios y otro que representa la fase en grados, ambos en función de la frecuencia. Este tipo de representación permite entender el comportamiento de circuitos eléctricos y sistemas de control, facilitando la identificación de características importantes como la estabilidad y el rendimiento del sistema.
 
 
 💡**Ejemplo 2:** <br/>

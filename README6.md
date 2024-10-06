@@ -104,8 +104,11 @@ Los diagramas de Bode, también conocidos como diagramas logarítmicos, son herr
 
 ![Figura de prueba](images/efectopolos.png)
 
-Figura 1. Diagrama de Bode y su efecto en los Polos.
+Figura 3. Diagrama de Bode y su efecto en los Polos.
 
+$$
+\frac{1}{w^2 + 2ζω_n w + ω_n^2}
+$$
 
 Si 0 < ζ < 1 la curva de magnitud presenta un pico de resonancia. A medida que ζ disminuye el pico resonancia aumenta. Para ζ > 1 la gráfica ya no presenta pico de resonancia. Después del corte la curva presenta una pendiente de - 40dB/dec.
 
@@ -116,11 +119,27 @@ Para el caso de la fase, si ζ es pequeña la curva presenta cambios bruscos cer
 
 ![Figura de prueba](images/efectozeros.png)
 
-Figura 1. Diagrama de Bode y su efecto en los Zeros.
+Figura 4. Diagrama de Bode y su efecto en los Zeros.
 
+
+$$
+w^2 + 2ζω_n w + w_n^2
+$$
 
 
 Encontramos que la curva de magnitud presenta un quiebre en la frecuencia natural y disminuye a una tasa de -40 dB/decada. El gráfico de fase es 0° a bajas frecuencias. A 0.1 ωn, comienza a disminuir -90°/decada y continúa hasta ω = 10ωn, donde se estabiliza en -180°.
+
+Por medio de las respuestas se puede establecer una relacion entre la respuesta en frecuencia en lazo abierto con respecto a la respuesta temporal en lazo cerrado:
+
+$$
+\zeta = \sqrt{\frac{(\ln(M_p))^2}{\pi^2 + (\ln(M_p))^2}}
+$$
+
+
+$$
+M_r = \frac{1}{2\sqrt{\frac{(\ln(M_p))^2}{\pi^2 + (\ln(M_p))^2}} \sqrt{1 - \frac{(\ln(M_p))^2}{\pi^2 + (\ln(M_p))^2}} \cdot}
+$$
+
 
 ## 3. Ejercicios
 FALTANNNN

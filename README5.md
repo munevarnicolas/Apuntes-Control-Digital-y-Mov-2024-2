@@ -10,31 +10,24 @@ El método algebraico por igualación de modelo es una técnica utilizada en la 
 *  𝑟 ≤ 𝑟o
 
 💡**Ejemplo 1:** <br/>
-FALTA HACER EJEMPLO 1
-$$
-\[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
-$$
-
-<p align="center">
-Se busca la ubicacion de los polos:
-</p>
 
 $$
-\[ z^3 - 7.8z^2 + 13.4z + 3 = 0 \]  
+C(z) = \frac{G_{0}(z)}{G(z) \cdot (1 - G_{0}(z))}
 $$
 
-<p align="center">
-z = 5
-</p>
-<p align="center">
-z = 3
-</p>
-<p align="center">
-z = -0.2
-</p>
-<p align="center">
-El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
-</p>
+
+$$
+C(z) = \frac{1.997z^2 + 0.233z - 1.529}{z^2 + 0.125z - 0.757}
+$$
+
+
+$$
+C(z) = \frac{{0.009z + 0.008)} {2x} }{ \frac{0.004(z + 1)}{z^2 - 1.819z + 0.8187} \cdot \left( 1 - \frac{(0.009z + 0.008)}{z^2 - 1.801z + 0.818} \right) }
+$$
+
+
+
+
 
 ## 2. Igualación de coeficientes
 

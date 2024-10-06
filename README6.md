@@ -50,15 +50,10 @@ H(e^{j\omega T}) = \frac{1}{\cos^2(\omega T) - \sin^2(\omega T) - 5.1\sin(\omega
 $$
 
 
-## 2. Igualación de coeficientes
+## 2. Diagramas de Frecuencia
 
-El metodo de igualacion de coeficientes, es un metodo algebraico que tabien permite encontrar los valores de las incógnitas en un sistema de ecuaciones al igualar expresiones derivadas de las mismas incógnitas, sin embargo para este metodo enfocado a control, cuando se conoce la función de transferencia en lazo abierto G(z), y también se sabe dónde se quiere que estén los polos según la respuesta deseada, se puede expresar esto en un polinomio característico. Con esta información, se puede determinar la función de transferencia del controlador C(z) que garantice el comportamiento deseado del sistema.
-Este metodo debe tener unas consideraciones importantes para su implementación: 
-
-* La igualación se realiza en el polinomio característico por lo tanto no hay control sobre la ubicación de los ceros del sistema.
-* Se multiplican A(z) y D(z) por lo tanto en lazo cerrado debe subir el orden del sistema.
-* El orden de C(z) debe ser 1 grado menor con respecto a la planta en lazo abierto.
-* Se multiplican B(z) y N(z) por lo tanto las funciones de la planta y del controlador deben ser propias.
+Cualquier función de transferencia puede dividirse en sus componentes real e imaginaria, lo que permite calcular la magnitud y la fase en el dominio de la frecuencia. Esta separación es crucial para entender cómo un sistema reacciona a distintas frecuencias, ya que proporciona información esencial sobre su comportamiento dinámico. Los resultados obtenidos se pueden graficar en un plano, facilitando así la visualización de la relación entre magnitud y fase.
+Los datos pueden representarse en escalas lineales o logarítmicas (en decibelios), lo que mejora su interpretación. También es posible graficar la magnitud frente a la fase utilizando coordenadas polares, lo que ofrece una representación más clara del comportamiento del sistema. Esta visualización relevante para el análisis y diseño de sistemas de control, ya que permite identificar características clave como la estabilidad y el rendimiento bajo diversas condiciones operativas.
 
 
 

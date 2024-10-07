@@ -59,7 +59,7 @@ Este metodo debe tener unas consideraciones importantes para su implementación:
 
 💡**Figura 1:** <br/>
 
-![Figura de prueba](images/diagramabodegananciayfase.png)
+![Figura de prueba](images/diagrambodegananciayfase.png)
 
 Figura 1. Medidas de Margenes de Ganancia y Fase en Diagrama de Bode. 
 

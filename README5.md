@@ -46,34 +46,65 @@ Este metodo debe tener unas consideraciones importantes para su implementación:
 * Se multiplican B(z) y N(z) por lo tanto las funciones de la planta y del controlador deben ser propias.
 
 
-
-
 💡**Ejemplo 2:** <br/>
-FALTA HACER EJEMPLO 2
-$$
-\[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
-$$
-
-<p align="center">
-Se busca la ubicacion de los polos:
-</p>
 
 $$
-\[ z^3 - 7.8z^2 + 13.4z + 3 = 0 \]  
+C(z) = \frac{B_{0} + B_{1} z}{A_{0} + A_{1} z}
 $$
 
-<p align="center">
-z = 5
-</p>
-<p align="center">
-z = 3
-</p>
-<p align="center">
-z = -0.2
-</p>
-<p align="center">
-El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
-</p>
+
+$$
+G(z) = \frac{0.0043}{z^2 - 1.819z + 0.8187}
+$$
+
+$$
+Go(z) = \frac{\frac{B_{0} + B_{1} z}{A_{0} + A_{1} z} \cdot \frac{0.0043}{z^2 - 1.819z + 0.8187}}{1 + \frac{B_{0} + B_{1} z}{A_{0} + A_{1} z} \cdot \frac{0.0043}{z^2 - 1.819z + 0.8187}}
+$$
+
+$$
+Go(z) = \frac{0.0043(B_{0} + B_{1} z)}{(A_{0} + A_{1} z)(z^2 - 1.819z + 0.8187) + 0.0043 B_{0} + 0.0043 B_{1} z}
+$$
+
+$$
+Go(s) = \frac{0.0043(B_{0} + B_{1} z)}{A_{1} z^3 + z^2 (A_{0} - 1.819 A_{1}) + (0.8187 A_{1} - 1.819 A_{0} + 0.0043 B_{1}) z + 0.8187 A_{0} + 0.0043 B_{0}}
+$$
+
+El Sistema es de tercer orden por eso se deben ubicar3 polos:
+* z = 0.91 + 𝑗0.23
+* z = 0.91 − 𝑗0.23
+* z = 0.91
+
+El polinomio deseado sería:
+
+$$
+(z - 0.91 + j0.23)(z - 0.91 - j0.23)(z - 0.91) = z^3 - 2.73z^2 + 2.537z - 0.8017
+$$
+
+En lazo Cerrado es:
+
+$$
+A_{1} z^3 + z^2 (A_{0} - 1.819 A_{1}) + (0.8187 A_{1} - 1.819 A_{0} + 0.0043 B_{1}) z + 0.8187 A_{0} + 0.0043 B_{0}
+$$
+
+Al igualar:
+
+$$
+z^3 - 2.73 z^2 + 2.537 z - 0.8017 = A_{1} z^3 + z^2 (A_{0} - 1.819 A_{1}) + (0.8187 A_{1} - 1.819 A_{0} + 0.0043 B_{1}) z + 0.8187 A_{0} + 0.0043 B
+$$
+
+Los coeficientes obtenidos para el controlador son:
+
+$$
+A_{1} = 1 \\
+B_{0} = -12.99 \\
+A_{0} = -0.911 \\
+B_{1} = 14.23
+$$
+
+$$
+C(z) = \frac{B_{0} + B_{1} z}{A_{0} + A_{1} z} = -12.99 + 14.23 z - 0.911 + z
+$$
+
 
 ### 2.1. Ecuaciones diofánticas
 Las ecuaciones diofánticas son ecuaciones algebraicas que involucran dos o más incógnitas y cuyos coeficientes son números enteros. Este metodo algebraico es de gran ayuda debido a que simplifica el metodo de igualacion de coeficientes.
@@ -116,7 +147,7 @@ $$
 FALTANNNN
 
 ## 4. Conclusiones
-*
+* 
 *
 *
 ## 5. Referencias

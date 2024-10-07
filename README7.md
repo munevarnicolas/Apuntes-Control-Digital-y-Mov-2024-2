@@ -17,6 +17,26 @@ Un controlador PID (Proporcional, Integral y Derivativo) es un mecanismo de cont
 
 El control PID puede considerarse un caso especial de una red de atraso-adelanto, ya que combina las características de ambos tipos de compensación. En un controlador PID, se integran tres acciones proporcional, integral y derivativa, lo que permite mejorar tanto la respuesta transitoria como la precisión en estado estacionario. La parte proporcional actúa como un compensador de adelanto, aumentando la rapidez de respuesta, mientras que la parte integral ayuda a eliminar el error en estado estacionario, similar al efecto de un compensador de atraso. Al combinar estas funciones, el controlador PID optimiza el rendimiento del sistema, mejorando los márgenes de estabilidad y el ancho de banda.
 
+### 1.2  Márgenes de fase y ganancia
+
+#### Margen de Ganancia
+El margen de ganancia es la cantidad que se puede aumentar la ganancia del sistema antes de que se produzca inestabilidad. Se expresa como un factor o en decibelios (dB). Un margen de ganancia positivo indica que el sistema puede soportar incrementos en la ganancia sin volverse inestable. 
+El margen de ganancia se define como la diferencia entre la ganancia del sistema en el punto donde la fase alcanza -180 grados y 0 dB. En términos matemáticos, si G(jω) es la función de transferencia del sistema, el margen de ganancia Gm se puede calcular como:
+
+$$
+G_m = \frac{1}{|G(j\omega_c)|}
+$$
+
+Donde ωc es la frecuencia de cruce de fase, es decir, la frecuencia en la que la fase del sistema es -180 grados. Si ∣G(jωc)∣ es mayor que 1 (0 dB), el margen de ganancia será positivo, lo que indica estabilidad. Si es igual a 1, el sistema estará marginalmente estable, y si es menor que 1, el sistema será inestable.
+
+El margen de ganancia tiene tres interpretacion de acuerfdo al valor que se obtenga:
+
+* Margen Positivo: Indica que hay un rango seguro para aumentar la ganancia sin comprometer la estabilidad del sistema. MG > o
+* Margen Cero: Significa que cualquier aumento adicional en la ganancia llevará al sistema a un estado inestable. MG = 0
+* Margen Negativo: Indica que el sistema ya está inestable y no puede tolerar ningún aumento en la ganancia. MG < 0
+
+
+
 💡**Ejemplo 1:** <br/>
 FALTA HACER EJEMPLO 1
 

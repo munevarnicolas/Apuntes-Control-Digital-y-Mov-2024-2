@@ -27,7 +27,7 @@ $$
 G_m = \frac{1}{|G(j\omega_c)|}
 $$
 
-Donde ωc es la frecuencia de cruce de fase, es decir, la frecuencia en la que la fase del sistema es -180 grados. Si ∣G(jωc)∣ es mayor que 1 (0 dB), el margen de ganancia será positivo, lo que indica estabilidad. Si es igual a 1, el sistema estará marginalmente estable, y si es menor que 1, el sistema será inestable.
+Donde ωc es la frecuencia de cruce de fase, es decir, la frecuencia en la que la fase del sistema es 180 grados. Si ∣G(jωc)∣ es mayor que 1 (0 dB), el margen de ganancia será positivo, lo que indica estabilidad. Si es igual a 1, el sistema estará marginalmente estable, y si es menor que 1, el sistema será inestable.
 
 El margen de ganancia tiene tres interpretacion de acuerfdo al valor que se obtenga:
 
@@ -35,35 +35,16 @@ El margen de ganancia tiene tres interpretacion de acuerfdo al valor que se obte
 * Margen Cero: Significa que cualquier aumento adicional en la ganancia llevará al sistema a un estado inestable. MG = 0
 * Margen Negativo: Indica que el sistema ya está inestable y no puede tolerar ningún aumento en la ganancia. MG < 0
 
+#### Margen de Fase
 
+El margen de fase mide cuánta variación de fase es necesaria para generar una pérdida de estabilidad en la frecuencia de cruce de ganancias. Se mide en la frecuencia donde la ganancia es igual a 0 dB. El margen de fase es una medición de la distancia desde la fase medida hasta el desplazamiento de fase de -180°. En otras palabras, cuantos grados debe disminuir la fase para alcanzar -180°.
 
-💡**Ejemplo 1:** <br/>
-FALTA HACER EJEMPLO 1
+El margen de FASE tiene tres interpretacion de acuerfdo al valor que se obtenga:
 
-$$
-\[ G(z) = \frac{4}{z^3 - 7.8z^2 + 13.4z + 3} \]
-$$
+* Margen Positivo: Indica que hay un rango seguro para aumentar la ganancia sin comprometer la estabilidad del sistema. MP > −180°
+* Margen Negativo: Indica que el sistema ya está inestable y no puede tolerar ningún aumento en la ganancia. MP < −180°
 
-<p align="center">
-Se busca la ubicacion de los polos:
-</p>
-
-$$
-\[ z^3 - 7.8z^2 + 13.4z + 3 = 0 \]  
-$$
-
-<p align="center">
-z = 5
-</p>
-<p align="center">
-z = 3
-</p>
-<p align="center">
-z = -0.2
-</p>
-<p align="center">
-El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
-</p>
+En un diagrama de Bode, el margen de fase se representa como la distancia entre la curva que muestra la fase del sistema y la línea horizontal correspondiente a -180 °, evaluada en la frecuencia donde la ganancia es 0 dB. Cuanto más lejos esté esta curva del -180 °, mayor será el margen de fase y mejor será la estabilidad del sistema.
 
 ## 2. Igualación de coeficientes
 

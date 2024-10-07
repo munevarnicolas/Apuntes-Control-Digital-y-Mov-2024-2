@@ -108,6 +108,10 @@ $$
 D_{0} = (z + 0.3)(z + 0.2 - 0.1j)(z + 0.2 + 0.1j) = z^3 + 0.7z^2 + 0.17z + 0.015
 $$
 
+<p align="center">
+  <img src= images/Tabladiafo.png />
+</p>
+
 ## 3. Ejercicios
 FALTANNNN
 

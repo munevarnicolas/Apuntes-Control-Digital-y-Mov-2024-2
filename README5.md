@@ -143,8 +143,6 @@ $$
   <img src= images/Tabladiafo.png />
 </p>
 
-## 3. Ejercicios
-FALTANNNN
 
 ## 4. Conclusiones
 * 

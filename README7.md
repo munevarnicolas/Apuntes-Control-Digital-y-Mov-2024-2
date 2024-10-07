@@ -46,6 +46,14 @@ El margen de FASE tiene tres interpretacion de acuerfdo al valor que se obtenga:
 
 En un diagrama de Bode, el margen de fase se representa como la distancia entre la curva que muestra la fase del sistema y la línea horizontal correspondiente a -180 °, evaluada en la frecuencia donde la ganancia es 0 dB. Cuanto más lejos esté esta curva del -180 °, mayor será el margen de fase y mejor será la estabilidad del sistema.
 
+💡**Figura 1:** <br/>
+
+![Figura de prueba](images/diagrambodegananciayfase.png)
+
+Figura 1. Medidas de Margenes de Ganancia y Fase en Diagrama de Bode. 
+
+En loa diagramas de bode se puede analizar los margenes de ganancia y de fase. Si los márgenes de ganancia (MG) y de fase (MP) son positivos, el sistema es estable en lazo cerrado; por lo tanto, es deseable que estos márgenes sean lo más grandes posible. Sin embargo, si MG y MP son cero o negativos, el sistema puede volverse inestable en lazo cerrado.
+
 ## 2. Igualación de coeficientes
 
 El metodo de igualacion de coeficientes, es un metodo algebraico que tabien permite encontrar los valores de las incógnitas en un sistema de ecuaciones al igualar expresiones derivadas de las mismas incógnitas, sin embargo para este metodo enfocado a control, cuando se conoce la función de transferencia en lazo abierto G(z), y también se sabe dónde se quiere que estén los polos según la respuesta deseada, se puede expresar esto en un polinomio característico. Con esta información, se puede determinar la función de transferencia del controlador C(z) que garantice el comportamiento deseado del sistema.
@@ -57,11 +65,6 @@ Este metodo debe tener unas consideraciones importantes para su implementación:
 * Se multiplican B(z) y N(z) por lo tanto las funciones de la planta y del controlador deben ser propias.
 
 
-💡**Figura 1:** <br/>
-
-![Figura de prueba](images/diagrambodegananciayfase.png)
-
-Figura 1. Medidas de Margenes de Ganancia y Fase en Diagrama de Bode. 
 
 
 

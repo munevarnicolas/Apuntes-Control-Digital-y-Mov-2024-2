@@ -91,12 +91,12 @@ $$
 
 * Calcular T1: Finalmente, se determina el tiempo constante T1 necesario para lograr la atenuación deseada a la frecuencia seleccionada, esto se relaciona con la frecuencia angular ω y se expresa como:
 
-Donde 𝜔𝐺 es la frecuencia de cruce de la ganancia, y la ganancia que es necesario atenuar en el diagrama (1 década antes de la nueva frecuencia).
 
 $$
 \frac{1}{T_1 a} = \frac{\omega_G}{10}
 $$
 
+  Donde 𝜔𝐺 es la frecuencia de cruce de la ganancia, y la ganancia que es necesario atenuar en el diagrama (1 década antes de la nueva frecuencia).
 
 
 ## 2. Igualación de coeficientes

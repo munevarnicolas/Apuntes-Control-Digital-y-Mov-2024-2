@@ -145,9 +145,10 @@ $$
 
 
 ## 3. Conclusiones
-* 
-*
-*
+* Los métodos algebraicos son esenciales en la teoría de control para el diseño de controladores efectivos en sistemas en lazo cerrado, destacando la importancia de la estabilidad y la causalidad.
+* La igualación de modelo y la igualación de coeficientes, junto con las ecuaciones diofánticas, proporcionan herramientas clave para lograr respuestas deseadas, aunque cada método presenta sus propias limitaciones.
+* La correcta aplicación de estas técnicas es crucial para optimizar el rendimiento de los sistemas, garantizando que las soluciones sean efectivas y realizables en la práctica, por esto es crucial encontrar un equilibrio entre la simplicidad y la precisión al desarrollar modelos matemáticos, ya que un modelo simplificado puede omitir propiedades importantes que afectan el rendimiento del sistema en diferentes condiciones.
+
 ## 4. Referencias
 [1] "Apuntes Clase - Jueves 12 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>

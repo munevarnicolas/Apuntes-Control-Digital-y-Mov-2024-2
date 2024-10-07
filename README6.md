@@ -177,15 +177,11 @@ M_{r} = \frac{1}{2\sqrt{\frac{(\ln(0.7621))^2}{\pi^2 + (\ln(0.7621))^2}} \sqrt{1
 $$
 
 
-
-## 3. Ejercicios
-FALTANNNN
-
-## 4. Conclusiones
+## 3. Conclusiones
 *
 *
 *
-## 5. Referencias
+## 4. Referencias
 [1] "Apuntes Clase - Jueves 19 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>
 [3] "Diseño de control Análogo y Digital, Chen" <br/>

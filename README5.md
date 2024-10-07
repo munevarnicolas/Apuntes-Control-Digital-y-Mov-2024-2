@@ -144,11 +144,11 @@ $$
 </p>
 
 
-## 4. Conclusiones
+## 3. Conclusiones
 * 
 *
 *
-## 5. Referencias
+## 4. Referencias
 [1] "Apuntes Clase - Jueves 12 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>
 [3] "Diseño de control Análogo y Digital, Chen" <br/>

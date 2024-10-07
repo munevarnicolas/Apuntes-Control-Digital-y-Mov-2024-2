@@ -98,14 +98,12 @@ $$
 
 Donde 𝜔𝐺 es la frecuencia de cruce de la ganancia, y la ganancia que es necesario atenuar en el diagrama (1 década antes de la nueva frecuencia).
 
-## 3. Ejercicios
-FALTANNNN
 
-## 4. Conclusiones
+## 3. Conclusiones
 *
 *
 *
-## 5. Referencias
+## 4. Referencias
 [1] "Apuntes Clase - Jueves 26 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>
 [3] "Diseño de control Análogo y Digital, Chen" <br/>

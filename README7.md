@@ -1,6 +1,6 @@
 # Diseño de redes de atraso por análisis en frecuencia
-La clase estuvo dirigida al análisis en frecuencia, la cual es una técnica esencial en el diseño y análisis de sistemas de control, especialmente en el ámbito de la instrumentación industrial, debido a que permite evaluar cómo un sistema responde a diferentes frecuencias de entrada, lo que es crucial para garantizar un rendimiento óptimo en aplicaciones industriales.
-## 1. Igualación de modelo por metodos algebraicos
+La clase estuvo dirigida a las redes de atraso por analisis en frecuencia, en donde su función principal es modificar la respuesta estacionaria del sistema, minimizando el error sin alterar significativamente la respuesta transitoria. Se utilizan herramientas como los diagramas de Bode porque permiten visualizar la magnitud y la fase de la respuesta del sistema.
+## 1. Controladores por análisis en frecuencia
 El método algebraico por igualación de modelo es una técnica utilizada en la resolución de sistemas de ecuaciones lineales, particularmente en el contexto de la teoría de control y la modelación matemática. Este método permite encontrar los valores de las incógnitas en un sistema de ecuaciones al igualar expresiones derivadas de las mismas incógnitas. En control si se tiene la función de lazo abierto G(z), y sabemos cuál es la respuesta que quiere lograr, expresada a través de la función de transferencia de lazo cerrado Go(z), se puede calcular la función de transferencia del controlador, C(z) que permitirá alcanzar ese comportamiento deseado. Sin embargo este metodo debe tener en cuenta las siguientes carateristicas:
 
 * No deben resultar cancelaciones polo-zero.

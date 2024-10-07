@@ -179,8 +179,8 @@ $$
 
 ## 3. Conclusiones
 * El análisis de frecuencia proporciona datos cruciales sobre el comportamiento de los sistemas dinámicos en relación con la amplitud y la fase que brinda una perspectiva sobre la manera en que los sistemas dinámicos reaccionan a diferentes frecuencias de entrada. 
-*
-*
+* En control, los diagramas de Bode y Nyquist son dos de los métodos de análisis más útiles porque permiten realizar un estudio de las condiciones de estabilidad del sistema y obtener sus características; el método de Nyquist solo se aplica a sistemas de valores reales, al igual que el diagrama de Bode, brinda la oportunidad de comprender varias características del sistema, incluyendo su operación en un régimen estacionario con entrada senoidal y analizar las condiciones de estabilidad.
+
 ## 4. Referencias
 [1] "Apuntes Clase - Jueves 19 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>

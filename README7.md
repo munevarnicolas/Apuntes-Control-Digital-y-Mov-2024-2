@@ -7,6 +7,9 @@ El método algebraico por igualación de modelo es una técnica utilizada en la 
 * La compensacion de atraso de fase se caracteriza por generar un retraso de fase a frecuencias más bajas en comparación con el punto cero, lo que resulta en un compensador que retrasa la fase dentro de un rango específico de frecuencias. Este tipo de compensador se utiliza principalmente para aumentar el margen de fase en sistemas de control. Su diseño se basa en la adición de un polo y un cero en la función de transferencia, donde el cero se coloca a una frecuencia más baja que el polo, permitiendo así mejorar la estabilidad del sistema al optimizar su respuesta en frecuencia.
 * El compensador de adelanto-retraso de fase permite mejorar los márgenes de estabilidad, aumentar el ancho de banda y reducir el error en estado estacionario, minimizando así los problemas relacionados con el ruido. Este compensador se forma a partir del producto de las funciones de transferencia de un compensador de adelanto y uno de retraso, donde el compensador de retraso se sitúa a frecuencias más bajas que el de adelanto.
 
+### 1.1 Control PID 
+
+El control PID puede considerarse un caso especial de una red de atraso-adelanto, ya que combina las características de ambos tipos de compensación. En un controlador PID, se integran tres acciones proporcional, integral y derivativa, lo que permite mejorar tanto la respuesta transitoria como la precisión en estado estacionario. La parte proporcional actúa como un compensador de adelanto, aumentando la rapidez de respuesta, mientras que la parte integral ayuda a eliminar el error en estado estacionario, similar al efecto de un compensador de atraso. Al combinar estas funciones, el controlador PID optimiza el rendimiento del sistema, mejorando los márgenes de estabilidad y el ancho de banda.
 
 💡**Ejemplo 1:** <br/>
 FALTA HACER EJEMPLO 1

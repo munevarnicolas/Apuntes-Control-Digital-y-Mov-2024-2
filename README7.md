@@ -57,6 +57,13 @@ Este metodo debe tener unas consideraciones importantes para su implementación:
 * Se multiplican B(z) y N(z) por lo tanto las funciones de la planta y del controlador deben ser propias.
 
 
+💡**Figura 1:** <br/>
+
+![Figura de prueba](images/diagramabodegananciayfase.png)
+
+Figura 1. Medidas de Margenes de Ganancia y Fase en Diagrama de Bode. 
+
+
 
 
 💡**Ejemplo 2:** <br/>

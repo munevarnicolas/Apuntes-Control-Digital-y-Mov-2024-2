@@ -178,7 +178,7 @@ $$
 
 
 ## 3. Conclusiones
-* 
+* El análisis de frecuencia proporciona datos cruciales sobre el comportamiento de los sistemas dinámicos en relación con la amplitud y la fase que brinda una perspectiva sobre la manera en que los sistemas dinámicos reaccionan a diferentes frecuencias de entrada. 
 *
 *
 ## 4. Referencias

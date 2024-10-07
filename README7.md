@@ -9,6 +9,12 @@ El método algebraico por igualación de modelo es una técnica utilizada en la 
 
 ### 1.1 Control PID 
 
+Un controlador PID (Proporcional, Integral y Derivativo) es un mecanismo de control ampliamente utilizado en sistemas de automatización y control industrial. Su función principal es regular variables como temperatura, presión, velocidad y flujo, mediante un lazo de retroalimentación que ajusta continuamente las salidas en función de la diferencia entre un valor deseado (set-point) y el valor medido del proceso. Tiene tres aspectos fundamentales loscuales son:
+
+*Proporcional (P): Este componente genera una salida proporcional al error actual. Cuanto mayor sea el error, mayor será la acción correctiva aplicada. Esto permite una respuesta rápida a las variaciones.
+*Integral (I): Este término acumula el error a lo largo del tiempo, corrigiendo cualquier desviación persistente del set-point. Ayuda a eliminar el error en estado estacionario, pero puede causar oscilaciones si no se sintoniza adecuadamente.
+*Derivativo (D): Este componente anticipa futuros errores basándose en la tasa de cambio del error actual. Proporciona una acción correctiva que ayuda a suavizar la respuesta del sistema y reduce el sobreimpulso.
+
 El control PID puede considerarse un caso especial de una red de atraso-adelanto, ya que combina las características de ambos tipos de compensación. En un controlador PID, se integran tres acciones proporcional, integral y derivativa, lo que permite mejorar tanto la respuesta transitoria como la precisión en estado estacionario. La parte proporcional actúa como un compensador de adelanto, aumentando la rapidez de respuesta, mientras que la parte integral ayuda a eliminar el error en estado estacionario, similar al efecto de un compensador de atraso. Al combinar estas funciones, el controlador PID optimiza el rendimiento del sistema, mejorando los márgenes de estabilidad y el ancho de banda.
 
 💡**Ejemplo 1:** <br/>

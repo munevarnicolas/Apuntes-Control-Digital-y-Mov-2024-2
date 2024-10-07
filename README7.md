@@ -54,19 +54,48 @@ Figura 1. Medidas de Margenes de Ganancia y Fase en Diagrama de Bode.
 
 En loa diagramas de bode se puede analizar los margenes de ganancia y de fase. Si los márgenes de ganancia (MG) y de fase (MP) son positivos, el sistema es estable en lazo cerrado; por lo tanto, es deseable que estos márgenes sean lo más grandes posible. Sin embargo, si MG y MP son cero o negativos, el sistema puede volverse inestable en lazo cerrado.
 
+## 2. Redes de Atraso
+
+
+$$
+C_w = \frac{1 + a T_1 w}{1 + T_1 w}; \quad 0 < a < 1
+$$
+
+
 
 El diseño de una red de atraso para un sistema análogo implica varios pasos que permiten transformar la planta analógica en un sistema discreto, asegurando que se mantenga la estabilidad y el rendimiento deseado. A continuación se detalla el procedimiento:
 * Discretización de la Planta Analógica: Comienza por discretizar la función de transferencia de la planta analógica, obteniendo así su equivalente en el dominio Z, denotado como  G(z). Esto se puede lograr utilizando métodos como la transformación bilineal o el método de retención.
 * Transformación a Frecuencia: Una vez que se tiene G(z), se transforma a G(w), donde w es la frecuencia en el dominio continuo. Esta transformación permite analizar cómo se comporta el sistema en términos de frecuencia y es crucial para el diseño del compensador.
 * Graficar Diagramas de Bode: A partir de G(w), se generan los diagramas de Bode que representan la magnitud y la fase del sistema en función de la frecuencia. Estos gráficos son esenciales para evaluar las características del sistema, como los márgenes de ganancia y fase para evaluar su comportamiento.
 Aplicar el Método de Diseño para C(w): Con los diagramas de Bode, se aplica un método de diseño para determinar el compensador C(w). Este paso implica ajustar los parámetros del controlador para lograr los márgenes deseados y mejorar la estabilidad del sistema.
-* Recuperar C(z):
-Finalmente, se transforma C(w) a su equivalente en el dominio Z, denotado como C(z). Esto es necesario para poder implementar el controlador en un sistema digital. La relación entre las frecuencias se puede expresar como:
+* Recuperar C(z): Se transforma C(w) a su equivalente en el dominio Z, denotado como C(z). Esto es necesario para poder implementar el controlador en un sistema digital. La relación entre las frecuencias se puede expresar como:
 
 $$
 w = \frac{T}{2} \cdot \frac{z + 1}{z - 1}
 $$
 
+* Calcular KP: Esto se hace con el fin de garantizar el Requerimiento de error, se determina el valor de la ganancia proporcional que satisfaga los requisitos del sistema, específicamente en términos de error en estado estacionario. Esto implica evaluar la constante de error estacionario y asegurarse de que el sistema pueda alcanzar el nivel deseado de precisión.
+* Medicion de Márgenes: Se tiene en cuenta el Kp, luego quese ha establecido, se debe medir los márgenes de ganancia y fase del sistema. Estos márgenes son indicadores clave de la estabilidad del sistema en lazo cerrado. Se utilizan herramientas como diagramas de Bode para visualizar cómo estos márgenes se ven afectados por el ajuste de Kp.
+* Calcular Frecuencia: Para poder cumplir con Mp +6°, de debe identificar una nueva frecuencia de cruce donde el margen de fase deseado sea al menos Mp +6°, esta frecuencia se convierte en el nuevo punto donde la ganancia es igual a 0 dB, lo que permite evaluar cómo se comporta el sistema en esta nueva configuración.
+* Medir la Atenuación: En este paso, se calcula la atenuación necesaria en la frecuencia seleccionada para cumplir con el margen de fase requerido. La atenuación se puede calcular utilizando la fórmula:
+
+$$
+\alpha = -20 \log a
+$$
+
+
+$$
+a = 10^{-\frac{\alpha}{20}}
+$$
+
+
+* Calcular T1: Finalmente, se determina el tiempo constante T1 necesario para lograr la atenuación deseada a la frecuencia seleccionada, esto se relaciona con la frecuencia angular ω y se expresa como:
+
+$$
+\frac{1}{T_1 a} = \frac{\omega_G}{10}
+$$
+
+1 década antes de la nueva frecuencia.
 
 
 ## 2. Igualación de coeficientes

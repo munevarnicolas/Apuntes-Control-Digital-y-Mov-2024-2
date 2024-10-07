@@ -3,11 +3,10 @@ La clase estuvo dirigida a las redes de atraso por analisis en frecuencia, en do
 ## 1. Controladores por análisis en frecuencia
 El método algebraico por igualación de modelo es una técnica utilizada en la resolución de sistemas de ecuaciones lineales, particularmente en el contexto de la teoría de control y la modelación matemática. Este método permite encontrar los valores de las incógnitas en un sistema de ecuaciones al igualar expresiones derivadas de las mismas incógnitas. En control si se tiene la función de lazo abierto G(z), y sabemos cuál es la respuesta que quiere lograr, expresada a través de la función de transferencia de lazo cerrado Go(z), se puede calcular la función de transferencia del controlador, C(z) que permitirá alcanzar ese comportamiento deseado. Sin embargo este metodo debe tener en cuenta las siguientes carateristicas:
 
-* No deben resultar cancelaciones polo-zero.
-* El modelo objetivo debe ser estable.
-* Los zeros (fase no mínima) de la planta serán retenidos en lazo cerrado.
-* Los compensadores deben ser causales.
-*  𝑟 ≤ 𝑟o
+* La compensación de adelanto de fase mejora razonablemente la respuesta transitoria del sistema, aunque provoca un cambio pequeño en la precisión en estado estable y puede acentuar los efectos del ruido de alta frecuencia. Esto se debe a que el cero del compensador genera un adelanto de fase a bajas frecuencias en relación con el polo, lo que resulta en que el compensador adelanta fase en un rango específico de frecuencias.
+* La compensacion de atraso de fase se caracteriza por generar un retraso de fase a frecuencias más bajas en comparación con el punto cero, lo que resulta en un compensador que retrasa la fase dentro de un rango específico de frecuencias. Este tipo de compensador se utiliza principalmente para aumentar el margen de fase en sistemas de control. Su diseño se basa en la adición de un polo y un cero en la función de transferencia, donde el cero se coloca a una frecuencia más baja que el polo, permitiendo así mejorar la estabilidad del sistema al optimizar su respuesta en frecuencia.
+* El compensador de adelanto-retraso de fase permite mejorar los márgenes de estabilidad, aumentar el ancho de banda y reducir el error en estado estacionario, minimizando así los problemas relacionados con el ruido. Este compensador se forma a partir del producto de las funciones de transferencia de un compensador de adelanto y uno de retraso, donde el compensador de retraso se sitúa a frecuencias más bajas que el de adelanto.
+
 
 💡**Ejemplo 1:** <br/>
 FALTA HACER EJEMPLO 1

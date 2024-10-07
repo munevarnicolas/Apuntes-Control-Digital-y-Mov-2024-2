@@ -54,6 +54,21 @@ Figura 1. Medidas de Margenes de Ganancia y Fase en Diagrama de Bode.
 
 En loa diagramas de bode se puede analizar los margenes de ganancia y de fase. Si los márgenes de ganancia (MG) y de fase (MP) son positivos, el sistema es estable en lazo cerrado; por lo tanto, es deseable que estos márgenes sean lo más grandes posible. Sin embargo, si MG y MP son cero o negativos, el sistema puede volverse inestable en lazo cerrado.
 
+
+El diseño de una red de atraso para un sistema análogo implica varios pasos que permiten transformar la planta analógica en un sistema discreto, asegurando que se mantenga la estabilidad y el rendimiento deseado. A continuación se detalla el procedimiento:
+* Discretización de la Planta Analógica: Comienza por discretizar la función de transferencia de la planta analógica, obteniendo así su equivalente en el dominio Z, denotado como  G(z). Esto se puede lograr utilizando métodos como la transformación bilineal o el método de retención.
+* Transformación a Frecuencia: Una vez que se tiene G(z), se transforma a G(w), donde w es la frecuencia en el dominio continuo. Esta transformación permite analizar cómo se comporta el sistema en términos de frecuencia y es crucial para el diseño del compensador.
+* Graficar Diagramas de Bode: A partir de G(w), se generan los diagramas de Bode que representan la magnitud y la fase del sistema en función de la frecuencia. Estos gráficos son esenciales para evaluar las características del sistema, como los márgenes de ganancia y fase para evaluar su comportamiento.
+Aplicar el Método de Diseño para C(w): Con los diagramas de Bode, se aplica un método de diseño para determinar el compensador C(w). Este paso implica ajustar los parámetros del controlador para lograr los márgenes deseados y mejorar la estabilidad del sistema.
+* Recuperar C(z):
+Finalmente, se transforma C(w) a su equivalente en el dominio Z, denotado como C(z). Esto es necesario para poder implementar el controlador en un sistema digital. La relación entre las frecuencias se puede expresar como:
+
+$$
+w = \frac{T}{2} \cdot \frac{z + 1}{z - 1}
+$$
+
+
+
 ## 2. Igualación de coeficientes
 
 El metodo de igualacion de coeficientes, es un metodo algebraico que tabien permite encontrar los valores de las incógnitas en un sistema de ecuaciones al igualar expresiones derivadas de las mismas incógnitas, sin embargo para este metodo enfocado a control, cuando se conoce la función de transferencia en lazo abierto G(z), y también se sabe dónde se quiere que estén los polos según la respuesta deseada, se puede expresar esto en un polinomio característico. Con esta información, se puede determinar la función de transferencia del controlador C(z) que garantice el comportamiento deseado del sistema.

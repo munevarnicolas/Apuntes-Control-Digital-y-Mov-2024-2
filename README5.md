@@ -78,10 +78,35 @@ El Sistema es inestable debido a que hay 2 polos por fuera del círculo unitario
 ### 2.1. Ecuaciones diofánticas
 Las ecuaciones diofánticas son ecuaciones algebraicas que involucran dos o más incógnitas y cuyos coeficientes son números enteros. Este metodo algebraico es de gran ayuda debido a que simplifica el metodo de igualacion de coeficientes.
 
+
+<p align="center">
+  <img src= images/diofanticas.png />
+</p>
+
+
 💡**Ejemplo 3:** <br/>
-FALTA HACER EL EJEMPLO 3
 
 
+$$
+G(z) = \frac{0.09016z - 0.1102}{z^2 - 2.01z + 1}
+$$
+
+
+$$
+C(z) = \frac{B_{0} + B_{1} \cdot z}{A_{0} + A_{1} \cdot z}
+$$
+
+$$
+𝐺o(𝑠) = \frac{\frac{B_{0} + B_{1} z}{A_{0} + A_{1} z} \cdot \frac{0.09016 z - 0.1102}{z^2 - 2.01 z + 1}}{1 + \frac{B_{0} + B_{1} z}{A_{0} + A_{1} z} \cdot \frac{0.09016 z - 0.1102}{z^2 - 2.01 z + 1}}
+$$
+
+$$
+𝐺o(𝑠) = \frac{(0.09016 z - 0.1102)(B_{0} + B_{1} z)}{(z^2 - 2.01 z + 1)(A_{0} + A_{1} z) + (0.09016 z - 0.1102)(B_{0} + B_{1} z)}
+$$
+
+$$
+D_{0} = (z + 0.3)(z + 0.2 - 0.1j)(z + 0.2 + 0.1j) = z^3 + 0.7z^2 + 0.17z + 0.015
+$$
 
 ## 3. Ejercicios
 FALTANNNN

@@ -11,6 +11,16 @@ El espacio de estados, segun Ogata, es una representación matemática de los si
 >🔑 *Ecuaciones de estado:* Las ecuaciones de estado son expresiones matemáticas que describen las relaciones entre las variables de estado de un sistema
 
 
+La representación general en espacio de estados utiliza un conjunto de ecuaciones para describir la evolución de las variables de estado. Este enfoque permite modelar tanto sistemas continuos como discretos:
+
+* **Ecuación de estado:**
+  
+$$ X(k+1) = f(X(k), U(k), k)$$
+
+* **Ecuación de salida:**
+  
+$$Y(k) = g(X(k), U(k), k) $$
+
 
 * La compensación de adelanto de fase mejora razonablemente la respuesta transitoria del sistema, aunque provoca un cambio pequeño en la precisión en estado estable y puede acentuar los efectos del ruido de alta frecuencia. Esto se debe a que el cero del compensador genera un adelanto de fase a bajas frecuencias en relación con el polo, lo que resulta en que el compensador adelanta fase en un rango específico de frecuencias.
 * La compensacion de atraso de fase se caracteriza por generar un retraso de fase a frecuencias más bajas en comparación con el punto cero, lo que resulta en un compensador que retrasa la fase dentro de un rango específico de frecuencias. Este tipo de compensador se utiliza principalmente para aumentar el margen de fase en sistemas de control. Su diseño se basa en la adición de un polo y un cero en la función de transferencia, donde el cero se coloca a una frecuencia más baja que el polo, permitiendo así mejorar la estabilidad del sistema al optimizar su respuesta en frecuencia.

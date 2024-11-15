@@ -30,6 +30,14 @@ $$
 $$
 
 
+$$
+(z^5 + 4z^4 + 11.45z^3 + 300 z^4 + 1.2 * 10^3 z^3 + 3.4 * 10^3 z^2 + 3 * 10^4 z^3 + 12 * 10^4 z^2 + 343.5 * 10^3 z + 10^6 z^2 + 4* 10^6 z + 11.45*10^6)        
+$$
+
+$$
+(z^5 + 304z^4 + 31,21 * 10^3 z^3 + 1,12 * 10^6 z^2 + 4.34 * 10^6 z + 11.45 * 10^6) 
+$$
+
 ## 3. Conclusiones
 * En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.
 * Los controladores PID tienen redes de atraso y adelanto lo que proporciona mayor flexibilidad en el diseño, esta combinación puede compensar tanto retrasos como avances en el sistema, lo que mejora su rendimiento y capacidad de respuesta en todo el sistema. Además, el proceso de diseño y ajuste de estas redes permite una comprensión de la dinámica del sistema, que contribuye al analisis y la optimización continua de sistemas de control.

@@ -58,7 +58,21 @@ $$
 (z^3 - 2.87z + 2.75z - 0.88)(B_{0} + B_1 z + B_2 z^2) + \left( 1.61 \times 10^{-7} z^2 + 6.25 \times 10^{-7} z + 1.53 \times 10^{-3} \right) (A_{0} + A_{1}z + A_{2}z^2)
 $$
 
+$$
+(z^3B_0 + z^4B_1 + B_2z^5 - 2.87z^2B_0 - 2.87Bz^3 - 2.87B_2z^4 + 2.75B_0z +2.75B_1z^2 + 2.75B_2z^3 - 0.88B_0 - 0.88B_1z - 0.88B_2z^2 + 1.61 \times 10^{-7} A_0z^2 + 1.61 \times 10^{-7} A_1z^3 + 1.61 \times 10^{-7} A_2z^4 + 6.25 \times 10^{-7} A_0z + 6.25 \times 10^{-7} A_1z^2 + 6.25 \times 10^{-7} A_2z^3 + 1.53 \times 10^{-7} A_0 + 1.53 \times 10^{-7} A_1z + 1.53 \times 10^{-7} A_2z^2)
+$$
 
+- $$1 = B_2 $$
+
+- $$304 = B_1 - 2.87B_2 + 1.61 \times 10^{-7} A_2$$
+
+- $$31.21 \times 10^{3} = -2.87B_1 + 2.75B_2 + 1.61 \times 10^{-7} A_1 + 6.25 \times 10^{-7} A_2 + B_0$$
+
+- $$1.12 \times 10^{6} = -2.87B_0 + 2.75B_1 + 1.61 \times 10^{-7} A_0 + 6.25 \times 10^{-7} A_1 - 0.88B_2 + 1.55 \times 10^{-7} A_2$$
+
+- $$4.34 \times 10^{6} = 2.75B_0 - 0.84B_1 + 6.25 \times 10^{-7}A_0 + 1.53 \times 10^{-7}A_1$$
+
+- $$11.45 \times 10^{6} = -0.88B_0 + 1.53 \times 10^{-7}A_0$$
 
 ## 3. Conclusiones
 * En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.

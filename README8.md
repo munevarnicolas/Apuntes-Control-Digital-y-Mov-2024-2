@@ -42,6 +42,20 @@ $$
 G_0(z) = \frac{1}{z^5 + 304z^4 + 31,21 * 10^3 z^3 + 1,12 * 10^6 z^2 + 4.34 * 10^6 z + 11.45 * 10^6}
 $$
 
+$$
+C = \frac{A_{0} + A_{1}z + A_{2}z^2}{B_{0} + B_{1}z + B_{2}z^2}
+$$
+
+$$
+G_0 = \left( \frac{1.61 \times 10^{-7} \cdot 2^2 + 6.75 \times 10^{-7} \cdot z + 1.53 \times 10^{7}}{2^3 - 7.87x^2 + 2.75z - 0.88} \right) \left( \frac{A_{0} + A_{1}z + A_{2}z^2}{B_{0} + B_{1}z + B_{2}z^2} \right)
+$$
+
+$$
+G_0 = \frac{\left( \frac{1.61 \times 10^{-7} \cdot z^2 + 6.25 \times 10^{-7} \cdot z + 1.53 \times 10^{-7}}{z^3 - 2.87x^2 + 2.75z - 0.88} \right) \left( \frac{A_{0} + A_{1}z + A_{2}z^2}{B_{0} + B_{1}z + B_{2}z^2} \right)}{1 + \left( \frac{1.61 \times 10^{-7} \cdot z^2 + 6.25 \times 10^{-7} \cdot z + 1.53 \times 10^{-7}}{z^3 - 2.87x^2 + 2.75z - 0.88} \cdot \frac{A_{0} + A_{1}z + A_{2}z^2}{B_{0} + B_{1}z + B_{2}z^2} \right)}
+$$
+
+
+
 
 ## 3. Conclusiones
 * En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.

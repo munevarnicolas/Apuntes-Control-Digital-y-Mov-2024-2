@@ -11,13 +11,14 @@ El espacio de estados, segun Ogata, es una representación matemática de los si
 >🔑 *Ecuaciones de estado:* Las ecuaciones de estado son expresiones matemáticas que describen las relaciones entre las variables de estado de un sistema
 
 
+
 La representación general en espacio de estados utiliza un conjunto de ecuaciones para describir la evolución de las variables de estado. Este enfoque permite modelar tanto sistemas continuos como discretos:
 
-* **Ecuación de estado:**
+* Ecuación de estado:*
   
 $$ X(k+1) = f(X(k), U(k), k)$$
 
-* **Ecuación de salida:**
+* Ecuación de salida:
   
 $$Y(k) = g(X(k), U(k), k) $$
 

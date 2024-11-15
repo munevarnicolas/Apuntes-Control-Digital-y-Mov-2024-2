@@ -54,6 +54,9 @@ $$
 G_0 = \frac{\left( \frac{1.61 \times 10^{-7} \cdot z^2 + 6.25 \times 10^{-7} \cdot z + 1.53 \times 10^{-7}}{z^3 - 2.87x^2 + 2.75z - 0.88} \right) \left( \frac{A_{0} + A_{1}z + A_{2}z^2}{B_{0} + B_{1}z + B_{2}z^2} \right)}{1 + \left( \frac{1.61 \times 10^{-7} \cdot z^2 + 6.25 \times 10^{-7} \cdot z + 1.53 \times 10^{-7}}{z^3 - 2.87x^2 + 2.75z - 0.88} \cdot \frac{A_{0} + A_{1}z + A_{2}z^2}{B_{0} + B_{1}z + B_{2}z^2} \right)}
 $$
 
+$$
+(z^3 - 2.87z + 2.75z - 0.88)(B_{0} + B_1 z + B_2 z^2) + \left( 1.61 \times 10^{-7} z^2 + 6.25 \times 10^{-7} z + 1.53 \times 10^{-3} \right) (A_{0} + A_{1}z + A_{2}z^2)
+$$
 
 
 

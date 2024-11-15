@@ -8,7 +8,7 @@ El espacio de estados, segun Ogata, es una representación matemática de los si
 
 >🔑 *Variables de estado:* Son las variables internas que determinan el comportamiento dinámico de un sistema y permiten su descripción completa.
 
->🔑 *Variables de estado:* Las ecuaciones de estado son expresiones matemáticas que describen las relaciones entre las variables de estado de un sistema
+>🔑 *Ecuaciones de estado:* Las ecuaciones de estado son expresiones matemáticas que describen las relaciones entre las variables de estado de un sistema
 
 
 

@@ -1,7 +1,7 @@
 # Correción Parcial 2do corte 2024-II
 La clase estuvo dirigida a la correcion del parcial de segundo corte del semestre 2 del 2024, de la clase control digital.
 
-## 2. Procedimientos:
+## 1. Procedimientos:
 
 $$
 G(z) = \frac{1.61 \times 10^{-7} z^3 + 6.25 \times 10^{-7} z + 4.15 \times 10^{-7}}{z^3 - 2.87z^2 + 2.75z - 0.88}

@@ -1,4 +1,4 @@
-# Espacio de Estados 
+# Espacio de Estados y algunas operaciones
 La clase estuvo dirigida a comprender el concepto de espacio de estados, una representación matemática de sistemas dinámicos que incluye no solo las entradas y salidas, sino también variables internas que describen completamente el comportamiento del sistema. Se exploraron las diferencias entre la representación interna, que utiliza variables de estado y ecuaciones de estado, y la representación externa, que se basa en funciones de transferencia. Se enfatizó la importancia del espacio de estados en el análisis de propiedades críticas como la controlabilidad y la observabilidad, especialmente en sistemas complejos como los MIMO (Múltiples Entradas, Múltiples Salidas).
 
 ## 1. Espacio de Estados 
@@ -159,14 +159,198 @@ x_{2}(k)
 \end{bmatrix} u
 $$
 
+## 3. Operaciones en el Espacio de Estados
 
-## 3. Conclusiones
+### Espacio de estados a partir de Función de transferencia
+
+Existen diversas formas de estado para obtener la forma de espacio desde la funcion de transferencia, algunas son:
+- Forma canónica controlable
+- Forma canónica observable
+- Forma de Jordan
+- Otras.
+
+### Forma Canónica Controlable
+
+$$
+G(z) = \frac{b_0 z^n + b_1 z^{n-1} + \dots + b_{n-1} z + b_n}{z^n + a_1 z^{n-1} + \dots + a_{n-1} z + a_n}
+$$
+
+Sea el sistema de ecuaciones en forma matricial:
+
+$$
+\[\begin{bmatrix}
+x_1(k+1) \\
+x_2(k+1) \\
+\vdots \\
+x_{n-1}(k+1) \\
+x_n(k+1)
+\end{bmatrix}
+=\begin{bmatrix}
+0 & 1 & 0 & \cdots & 0 \\
+0 & 0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & 0 & \cdots & 1 \\
+-a_n & -a_{n-1} & -a_{n-2} & \cdots & -a_1
+\end{bmatrix}
+\begin{bmatrix}
+x_1(k) \\
+x_2(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_n(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+0 \\
+\vdots \\
+0 \\
+1
+\end{bmatrix}
+u(k)
+\]
+$$
+
+La salida del sistema está definida como:
+
+$$
+\[
+y(k) =
+\begin{bmatrix}
+b_n & b_{n-1} & \cdots & b_1
+\end{bmatrix}
+\begin{bmatrix}
+x_1(k) \\
+x_2(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_n(k)
+\end{bmatrix}
+\]
+$$
+
+### Forma Canónica Observable
+
+$$
+G(z) = \frac{b_0 z^n + b_1 z^{n-1} + \dots + b_{n-1} z + b_n}{z^n + a_1 z^{n-1} + \dots + a_{n-1} z + a_n}
+$$
+
+El sistema de ecuaciones se representa como:
+
+$$
+\[
+\begin{bmatrix}
+x_1(k+1) \\
+x_2(k+1) \\
+\vdots \\
+x_{n-1}(k+1) \\
+x_n(k+1)
+\end{bmatrix}=
+\begin{bmatrix}
+0 & 0 & \cdots & 0 & -a_n \\
+1 & 0 & \cdots & 0 & -a_{n-1}\\
+\vdots & \ddots & \ddots & \vdots & \vdots \\
+0 & 0 & \cdots & 0  & -a_2\\
+0 & 0 & \cdots & 1 & -a_1
+\end{bmatrix}
+\begin{bmatrix}
+x_1(k) \\
+x_2(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_n(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+b_n \\
+b_{n-1} \\
+\vdots \\
+b_2 \\
+b_1
+\end{bmatrix}
+u(k)
+\]
+$$
+
+$$
+y(k) = 
+\begin{bmatrix}
+0 & 0 & \cdots & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x_{1}(k) \\
+x_{2}(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_{n}(k)
+\end{bmatrix}
+$$
+
+### Forma Canónica Observable
+
+Si se conocen los polos de la función de transferencia y todos son diferentes:
+
+$$
+P_1 = z_1; \quad P_2 = z_2; \quad \ldots ; \quad P_n = z_n
+$$
+
+El sistema de ecuaciones se representa como:
+
+$$
+\begin{bmatrix}
+x_1(k+1) \\
+x_2(k+1) \\
+\vdots \\
+x_{n-1}(k+1) \\
+x_n(k+1)
+\end{bmatrix}
+=\begin{bmatrix}
+P_1 & 0 & \cdots & 0 & 0 \\
+0 & P_2 & \cdots & 0 & 0 \\
+\vdots & \vdots & \ddots & \vdots & \vdots \\
+0 & 0 & \cdots & P_{i} & 0 \\
+0 & 0 & \cdots & 0 & P_n
+\end{bmatrix}
+\begin{bmatrix}
+x_1(k) \\
+x_2(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_n(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+1 \\
+1 \\
+\vdots \\
+1 \\
+1
+\end{bmatrix} u(k)
+$$
+
+$$
+y(k) = 
+\begin{bmatrix}
+c_1 & c_2 & \cdots & c_{n-1} & c_n
+\end{bmatrix}
+\begin{bmatrix}
+x_{1}(k) \\
+x_{2}(k) \\
+\vdots \\
+x_{n-1}(k) \\
+x_{n}(k)
+\end{bmatrix}
+$$
+
+
+
+## 4. Conclusiones
 * El espacio de estados facilita el análisis de propiedades críticas como la controlabilidad y la observabilidad, que son de gran importancia para el diseño de controladores efectivos, la comprension de cómo se pueden manipular los estados internos del sistema mediante las entradas, y cómo estos estados pueden ser inferidos a partir de las salidas, es fundamental para garantizar un control robusto y eficiente en aplicaciones industriales.
 * A diferencia de la representación mediante funciones de transferencia, que se restringe a sistemas lineales y en estado estacionario, el enfoque del espacio de estados ofrece una flexibilidad considerable al permitir la modelación de sistemas no lineales y dependientes del tiempo, esta capacidad es fundamental, ya que muchos sistemas reales en diversas disciplinas, como la ingeniería eléctrica, la robótica y la automatización, tienen comportamientos con multiples entradas y salidad complejas que no pueden ser capturados adecuadamente por las funciones de transferencia tradicionales.
 * La organización de las ecuaciones en matrices A, B, C y D simplifica el análisis matemático, ademas  también proporciona una estructura clara para implementar algoritmos computacionales en simulaciones y control para mayor precision con herramientas como MatLab, para mejorar la efectividad del control en sistemas dinámicos, permitiendo un rendimiento mejor y adaptable en diversas aplicaciones.
 * 
 
-## 4. Referencias
+## 5. Referencias
 [1] "Apuntes Clase - Jueves 26 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>
 [3] "Diseño de control Análogo y Digital, Chen" <br/>

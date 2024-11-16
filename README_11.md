@@ -4,7 +4,7 @@ La clase estuvo dirigida XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ## 1. Problemas de Control
 Tanto en control digital como analogico se tienen porblemas de control debido a diversos factores, pero uno que resalta es el error de estado estacionario.
 
-### Regulacion 
+### Regulación 
 La regulación se refiere al proceso mediante el cual un sistema de control mantiene una variable en un valor deseado (referencia) que es igual a cero. En este contexto, el objetivo principal es eliminar cualquier desviación de este valor, asegurando que la salida del sistema permanezca constante a pesar de las perturbaciones externas. Este tipo de control es crucial en aplicaciones donde es necesario estabilizar una variable, como la temperatura en un horno o la presión en un tanque.
 
 $$

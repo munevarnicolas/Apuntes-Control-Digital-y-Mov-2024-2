@@ -1,22 +1,48 @@
-# Espacio de Estados 24 octubre
+# Espacio de Estados 
 La clase estuvo dirigida en comprender 
 
-## 1. Controladores por análisis en frecuencia
+## 1. CXXXXXXXXXXXXXXXXX
 El espacio de estados, segun Ogata, es una representación matemática de los sistemas dinámicos que no solo considera las entradas y salidas, sino también otras variables que ayudan a representar de manera más precisa la dinámica del sistema. Esta representación, conocida como representación interna, utiliza variables de estado para describir completamente el comportamiento del sistema en un momento dado, estableciendo relaciones a través de ecuaciones de estado y ecuaciones de salida. En contraste, la función de transferencia se conoce como representación externa, ya que se centra en la relación entre las entradas y salidas sin considerar las variables internas. La flexibilidad del espacio de estados para abordar sistemas complejos facilita el análisis de propiedades críticas como la controlabilidad y la observabilidad, convirtiéndolo en una herramienta invaluable en diversas aplicaciones, desde la ingeniería eléctrica hasta la robótica, donde se requiere un control preciso y efectivo.
+
 
 💡**Figura 1:** <br/>
 ![Ejemplo sistema MIMO](images/carro.jpg)
 
 
-La representación general en espacio de estados utiliza un conjunto de ecuaciones para describir la evolución de las variables de estado. Este enfoque permite modelar tanto sistemas continuos como discretos:
+La representacion de estados permite representar sistemas MIMO (Multiple Inputs Multiple Output) las cuales son un poco mas complejas que simplemente las SISO (Single Input Single Output), debido a que permiten representar cambios en el modelo a medida que transcurre el tiempo como lo es un carro autonomo en la Figura 1.
 
-* Ecuación de estado:*
+## Estado:
+Es el conjunto de variables que permiten conocercompletamente el comportamiento de un sistema.
+
+## Variables de estado: 
+Son las variables que determinan el comportamiento de un Sistema y no necesariamente son medibles.
+
+### Ecuaciones de Estados: 
+Son un conjunto de varias ecuaciones que describen la dinámica de un sistema mediante un modelo matemático. Este modelo se basa en la relación entre las variables de entrada, salida y estado del sistema.
+
+## Representación Matematica:
+
+Para realizar esta representacion matematica se al menos se debe tener dos varibles de estado, de no ser asi se podria realizar por medio de funcion de transferencia o ecuacion diferencial.
+
+* Ecuación de estado:
   
 $$ X(k+1) = f(X(k), U(k), k)$$
 
 * Ecuación de salida:
   
 $$Y(k) = g(X(k), U(k), k) $$
+
+Tienen como carateristicas que característicasque Las funciones f y g pueden ser no lineales y dependen del tiempo.
+
+## Representacion Matricial:
+
+$$
+X(k + 1) = A(k) \cdot X(k) + B(k) \cdot u(k)
+$$
+
+$$
+y(k) = C(k)X(k) + D(k)u(k)
+$$
 
 
 * La compensación de adelanto de fase mejora razonablemente la respuesta transitoria del sistema, aunque provoca un cambio pequeño en la precisión en estado estable y puede acentuar los efectos del ruido de alta frecuencia. Esto se debe a que el cero del compensador genera un adelanto de fase a bajas frecuencias en relación con el polo, lo que resulta en que el compensador adelanta fase en un rango específico de frecuencias.

@@ -79,7 +79,7 @@ $$
 ## 3. Conclusiones
 * Sin lugar a duda, se requiere preparar de mejor manera los parciales, priorizando el manejo del tiempo adecuado junto con ejercicios que fortalezcan y permitan apropiar conceptos de la materia, que son pueden llegar a ser sencillos pero requieren de atencion y preparacion.
 ## 4. Referencias
-[1] "Apuntes Clase - Jueves 26 Septiembre 2024" <br/>
+[1] "Apuntes Clase - Jueves 10 Octubre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>
 [3] "Diseño de control Análogo y Digital, Chen" <br/>
 [4] "E.P.1. Control digital y de mov-05909-2463 - Aulas ECCI" <br/>

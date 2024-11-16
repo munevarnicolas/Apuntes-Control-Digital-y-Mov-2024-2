@@ -20,6 +20,72 @@ $$
 
 La matriz de controlabilidad tiene dimensiones que coinciden con las de la matriz $$ A $$ del sistema. Un sistema se considera controlable si el determinante de la matriz de controlabilidad es diferente de cero, lo que indica que existe una entrada que permite llevar el sistema a cualquier estado deseado. Además, en un sistema controlable, el rango de la matriz de controlabilidad es igual al número total de variables de estado del sistema. Esto significa que, para lograr un control efectivo sobre el sistema, es esencial que la matriz de controlabilidad tenga rango completo, lo cual garantiza que se pueden alcanzar todos los estados posibles dentro del espacio de estados del sistema.
 
+💡**Ejemplo 1:** 
+
+$$
+\begin{bmatrix}
+\chi_1(k+1) \\
+\chi_2(k+1)
+\end{bmatrix}=
+\begin{bmatrix}
+1.5 & 1 \\
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+\chi_{1}(k) \\
+\chi_{2}(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+u(k)
+$$
+
+Se verifica si el sistema es controlable:
+
+$$
+U = [BAB]
+$$
+
+$$
+AB = 
+\begin{bmatrix}
+1.5 & 1 \\
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}=
+\begin{bmatrix}
+1.5 \\
+1
+\end{bmatrix}
+$$
+
+$$
+U = 
+\begin{bmatrix}
+1 & 1.5 \\
+0 & 1
+\end{bmatrix}
+$$
+
+Luego, se calcula el determinante para saber si es controlable:
+
+$$
+U = \left| 
+\begin{matrix} 
+1 & 1.5 \\ 
+0 & 1 
+\end{matrix} 
+\right| = 1
+$$
+
+El sistema si es controlable.
+
 ### 1.2 Observabilidad
 
 Un sistema es observable si, dada cualquier secuencia de vectores de estado y de control, se puede determinar el estado actual en un tiempo finito utilizando únicamente las salidas. Esto significa que la información proporcionada por las salidas es suficiente para reconstruir el estado del sistema sin ambigüedades. Si un sistema no es observable, hay estados internos que no pueden ser inferidos a partir de las salidas, lo que puede llevar a situaciones donde el controlador no tiene conocimiento completo del sistema y, por lo tanto, no puede cumplir con los requisitos de rendimiento deseados.
@@ -47,6 +113,73 @@ $$
 
 La matriz de observabilidad tiene dimensiones que coinciden con las de la matriz $$ A $$ del sistema. Un sistema se considera observable si el determinante de la matriz de observabilidad es diferente de cero, lo que indica que es posible inferir el estado interno del sistema a partir de las salidas observadas. Además, en un sistema observable, el rango de la matriz de observabilidad es igual al número total de variables de estado. Esto significa que, para garantizar una observación efectiva del sistema, es esencial que la matriz de observabilidad tenga rango completo, lo que permite deducir todos los estados internos a partir de las salidas y asegura que el controlador tenga suficiente información para operar adecuadamente.
 
+💡**Ejemplo 2:** 
+
+$$
+\begin{bmatrix}
+\chi_1(k+1) \\
+\chi_2(k+1)
+\end{bmatrix}=
+\begin{bmatrix}
+1.5 & 1 \\
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+\chi_{1}(k) \\
+\chi_{2}(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+u(k)
+$$
+
+Se verifica si el sistema es observable:
+
+$$
+v = 
+\begin{bmatrix}
+C \\
+CA
+\end{bmatrix}
+$$
+
+$$
+CA = 
+\begin{bmatrix}
+2 & -1
+\end{bmatrix}
+\begin{bmatrix}
+1.5 & 1 \\
+1 & 0
+\end{bmatrix}=
+\begin{bmatrix}
+2 & 2
+\end{bmatrix}
+$$
+
+$$
+v = 
+\begin{bmatrix}
+2 & -1 \\
+2 & 2
+\end{bmatrix}
+$$
+
+Se calcula el determinante para saber si es observable:
+
+$$
+U = \det 
+\begin{bmatrix}
+2 & -1 \\
+2 & 2
+\end{bmatrix}
+= 6
+$$
+
+El Sistema si es observable
 ## 3. Conclusiones
 * En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.
 * Los controladores PID tienen redes de atraso y adelanto lo que proporciona mayor flexibilidad en el diseño, esta combinación puede compensar tanto retrasos como avances en el sistema, lo que mejora su rendimiento y capacidad de respuesta en todo el sistema. Además, el proceso de diseño y ajuste de estas redes permite una comprensión de la dinámica del sistema, que contribuye al analisis y la optimización continua de sistemas de control.

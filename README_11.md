@@ -188,11 +188,7 @@ $$
 e(k+1) = (A - K_{e} C) (x(k) - \overline{x}(k))
 $$
 
-La ecuación 
-
-$$ e(k + 1) = (A - K_e C) e(k) $$ 
-
-describe cómo evoluciona el error de estimación en un sistema controlado. Aquí, $$ e(k) $$ representa el error en el instante $$ k $$, $$ A $$ es la matriz que describe la dinámica del sistema, $$ K_e $$ es la ganancia del observador, y $$ C $$ es la matriz que relaciona los estados con las salidas.
+La ecuación $$e(k + 1) = (A - K_e C) e(k)$$ describe cómo evoluciona el error de estimación en un sistema controlado. Aquí, $$e(k)$$ representa el error en el instante $$k$$, $$A$$ es la matriz que describe la dinámica del sistema, $$K_e$$ es la ganancia del observador, y $$C$$ es la matriz que relaciona los estados con las salidas.
 
 💡**Ejemplo 1:**
 
@@ -265,8 +261,10 @@ $$
 
 ## 3. Conclusiones
 * Los observadores de estado permiten estimar variables internas de un sistema que no son medibles directamente, lo que es crucial en aplicaciones industriales donde el monitoreo completo del sistema es costoso o poco viable de ejecutar.
-* Los controladores PID tienen redes de atraso y adelanto lo que proporciona mayor flexibilidad en el diseño, esta combinación puede compensar tanto retrasos como avances en el sistema, lo que mejora su rendimiento y capacidad de respuesta en todo el sistema. Además, el proceso de diseño y ajuste de estas redes permite una comprensión de la dinámica del sistema, que contribuye al analisis y la optimización continua de sistemas de control.
-
+* Las variables de estado ofrecen una representación moderna y efectiva para describir el comportamiento de sistemas dinámicos, superando las limitaciones de los modelos tradicionales basados en funciones de transferencia.
+* El diseño de un observador depende de la condición de observabilidad del sistema. Esto significa que debe ser posible reconstruir todos los estados a partir de las salidas disponibles, lo que garantiza la efectividad del controlador.
+* El uso de diagramas de bloques en la representación en espacio de estados ayuda a visualizar y analizar las interacciones entre diferentes variables, lo que es fundamental para entender el comportamiento global del sistema.
+* La implementación adecuada de observadores puede mejorar significativamente el rendimiento del sistema al permitir un control más efectivo y una respuesta más rápida ante perturbaciones externas.
 ## 4. Referencias
 [1] "Apuntes Clase - Jueves 7 Noviembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>

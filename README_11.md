@@ -2,7 +2,7 @@
 La clase estuvo dirigida XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## 1. Problemas de Control
-Tanto en control digital como analogico se tienen porblemas de control debido a diversos factores, pero uno que resalta es el error de estado estacionario.
+Tanto en control digital como analogico se tienen problemas de control debido a diversos factores, pero uno que resalta es el error de estado estacionario, por eso se utilizan tecnicas para mitigar o eliminar este error.
 
 ### Regulación 
 La regulación se refiere al proceso mediante el cual un sistema de control mantiene una variable en un valor deseado (referencia) que es igual a cero. En este contexto, el objetivo principal es eliminar cualquier desviación de este valor, asegurando que la salida del sistema permanezca constante a pesar de las perturbaciones externas. Este tipo de control es crucial en aplicaciones donde es necesario estabilizar una variable, como la temperatura en un horno o la presión en un tanque.
@@ -152,6 +152,11 @@ $$
 $$
 x(k + 1) = A_{aLC} x_{a} + B_{r} r
 $$
+
+## 2. Observador de Estados
+
+
+
 
 ## 3. Conclusiones
 * En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.

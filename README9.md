@@ -161,8 +161,10 @@ $$
 
 
 ## 3. Conclusiones
-* En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.
-* Los controladores PID tienen redes de atraso y adelanto lo que proporciona mayor flexibilidad en el diseño, esta combinación puede compensar tanto retrasos como avances en el sistema, lo que mejora su rendimiento y capacidad de respuesta en todo el sistema. Además, el proceso de diseño y ajuste de estas redes permite una comprensión de la dinámica del sistema, que contribuye al analisis y la optimización continua de sistemas de control.
+* El espacio de estados facilita el análisis de propiedades críticas como la controlabilidad y la observabilidad, que son de gran importancia para el diseño de controladores efectivos, la comprension de cómo se pueden manipular los estados internos del sistema mediante las entradas, y cómo estos estados pueden ser inferidos a partir de las salidas, es fundamental para garantizar un control robusto y eficiente en aplicaciones industriales.
+* A diferencia de la representación mediante funciones de transferencia, que se restringe a sistemas lineales y en estado estacionario, el enfoque del espacio de estados ofrece una flexibilidad considerable al permitir la modelación de sistemas no lineales y dependientes del tiempo, esta capacidad es fundamental, ya que muchos sistemas reales en diversas disciplinas, como la ingeniería eléctrica, la robótica y la automatización, tienen comportamientos con multiples entradas y salidad complejas que no pueden ser capturados adecuadamente por las funciones de transferencia tradicionales.
+* La organización de las ecuaciones en matrices A, B, C y D simplifica el análisis matemático, ademas  también proporciona una estructura clara para implementar algoritmos computacionales en simulaciones y control para mayor precision con herramientas como MatLab, para mejorar la efectividad del control en sistemas dinámicos, permitiendo un rendimiento mejor y adaptable en diversas aplicaciones.
+* 
 
 ## 4. Referencias
 [1] "Apuntes Clase - Jueves 26 Septiembre 2024" <br/>

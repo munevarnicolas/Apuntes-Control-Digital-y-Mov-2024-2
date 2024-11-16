@@ -7,7 +7,7 @@ El espacio de estados, segun Ogata, es una representación matemática de los si
 
 💡**Figura 1:** <br/>
 ![Ejemplo sistema MIMO](images/carro.jpg)
-
+Figura 1. Carro autonomo sistema MIMO.
 
 La representacion de estados permite representar sistemas MIMO (Multiple Inputs Multiple Output) las cuales son un poco mas complejas que simplemente las SISO (Single Input Single Output), debido a que permiten representar cambios en el modelo a medida que transcurre el tiempo como lo es un carro autonomo en la Figura 1.
 

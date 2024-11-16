@@ -11,13 +11,13 @@ El espacio de estados, segun Ogata, es una representación matemática de los si
 
 La representacion de estados permite representar sistemas MIMO (Multiple Inputs Multiple Output) las cuales son un poco mas complejas que simplemente las SISO (Single Input Single Output), debido a que permiten representar cambios en el modelo a medida que transcurre el tiempo como lo es un carro autonomo en la Figura 1.
 
-## Estado:
+### 1.1 Estado:
 Es el conjunto de variables que permiten conocercompletamente el comportamiento de un sistema.
 
-## Variables de estado: 
+### 1.2 Variables de estado: 
 Son las variables que determinan el comportamiento de un Sistema y no necesariamente son medibles.
 
-### Ecuaciones de Estados: 
+### 1.3 Ecuaciones de Estados: 
 Son un conjunto de varias ecuaciones que describen la dinámica de un sistema mediante un modelo matemático. Este modelo se basa en la relación entre las variables de entrada, salida y estado del sistema.
 
 ## Representación Matematica:
@@ -34,7 +34,7 @@ $$Y(k) = g(X(k), U(k), k) $$
 
 Tienen como carateristicas que característicasque Las funciones f y g pueden ser no lineales y dependen del tiempo.
 
-## Representacion Matricial:
+## 2. Representacion Matricial:
 
 $$
 X(k + 1) = A(k) \cdot X(k) + B(k) \cdot u(k)
@@ -44,10 +44,21 @@ $$
 y(k) = C(k)X(k) + D(k)u(k)
 $$
 
+Simplificando queda:
 
-* La compensación de adelanto de fase mejora razonablemente la respuesta transitoria del sistema, aunque provoca un cambio pequeño en la precisión en estado estable y puede acentuar los efectos del ruido de alta frecuencia. Esto se debe a que el cero del compensador genera un adelanto de fase a bajas frecuencias en relación con el polo, lo que resulta en que el compensador adelanta fase en un rango específico de frecuencias.
-* La compensacion de atraso de fase se caracteriza por generar un retraso de fase a frecuencias más bajas en comparación con el punto cero, lo que resulta en un compensador que retrasa la fase dentro de un rango específico de frecuencias. Este tipo de compensador se utiliza principalmente para aumentar el margen de fase en sistemas de control. Su diseño se basa en la adición de un polo y un cero en la función de transferencia, donde el cero se coloca a una frecuencia más baja que el polo, permitiendo así mejorar la estabilidad del sistema al optimizar su respuesta en frecuencia.
-* El compensador de adelanto-retraso de fase permite mejorar los márgenes de estabilidad, aumentar el ancho de banda y reducir el error en estado estacionario, minimizando así los problemas relacionados con el ruido. Este compensador se forma a partir del producto de las funciones de transferencia de un compensador de adelanto y uno de retraso, donde el compensador de retraso se sitúa a frecuencias más bajas que el de adelanto.
+$$
+X(k + 1) = AX(k) + Bu(k)
+$$
+
+$$
+y(k) = CX(k) + Du(k)
+$$
+
+Donde:
+- **A**: Matriz de estados. Esta matriz describe la dinámica del sistema y relaciona el estado actual del sistema con su evolución futura.
+- **B**: Matriz de entrada. Esta matriz relaciona las entradas del sistema con los estados, determinando cómo las señales de entrada afectan la evolución del estado.
+- **C**: Matriz de salida. Esta matriz conecta los estados del sistema con las salidas, permitiendo la observación del comportamiento del sistema a partir de sus estados internos.
+- **D**: Matriz de transmisión directa. Esta matriz representa la relación directa entre las entradas y las salidas, indicando cómo una entrada afecta inmediatamente a la salida sin pasar por el estado del sistema.
 
 ### 1.1 Control PID 
 

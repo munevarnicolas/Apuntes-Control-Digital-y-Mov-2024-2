@@ -60,6 +60,10 @@ Donde:
 - **C**: Matriz de salida, la cual conecta los estados del sistema con las salidas, permitiendo la observación del comportamiento del sistema a partir de sus estados internos.
 - **D**: Matriz de transmisión directa, que representa la relación directa entre las entradas y las salidas, indicando cómo una entrada afecta inmediatamente a la salida sin pasar por el estado del sistema.
 
+💡**Ejemplo 1:** <br/>
+* Sea la función de transferencia:
+
+
 ### 1.1 Control PID 
 
 Un controlador PID (Proporcional, Integral y Derivativo) es un mecanismo de control ampliamente utilizado en sistemas de automatización y control industrial. Su función principal es regular variables como temperatura, presión, velocidad y flujo, mediante un lazo de retroalimentación que ajusta continuamente las salidas en función de la diferencia entre un valor deseado (set-point) y el valor medido del proceso. Tiene tres aspectos fundamentales loscuales son:

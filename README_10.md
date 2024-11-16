@@ -207,8 +207,11 @@ Esta matriz K permite implementar la retroalimentación del estado en el control
 
 
 ## 4. Conclusiones
-* En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.
-* Los controladores PID tienen redes de atraso y adelanto lo que proporciona mayor flexibilidad en el diseño, esta combinación puede compensar tanto retrasos como avances en el sistema, lo que mejora su rendimiento y capacidad de respuesta en todo el sistema. Además, el proceso de diseño y ajuste de estas redes permite una comprensión de la dinámica del sistema, que contribuye al analisis y la optimización continua de sistemas de control.
+* El método de retroalimentación de estados proporciona una forma efectiva de ubicar los polos del sistema en posiciones deseadas dentro del espacio complejo, esta capacidad de asignar polos permite ajustar características dinámicas como la estabilidad, el tiempo de respuesta y el sobreimpulso del sistema. Al modificar estos parámetros, se puede optimizar el rendimiento del sistema según las necesidades específicas de la aplicación.
+* Trabajar con sistemas en forma canónica controlable simplifica significativamente el proceso de diseño del controlador. En esta forma, se reduce la complejidad computacional y se minimizan los cálculos necesarios para determinar las ganancias de retroalimentación.
+* La controlabilidad y la observabilidad son esenciales en la industria para garantizar que los sistemas de control puedan ser diseñados de manera efectiva, estos conceptos determinan si un sistema puede ser controlado adecuadamente y si se puede obtener información suficiente sobre su estado interno a partir de las salidas, sin estos, un sistema podría no cumplir con los requisitos de rendimiento, lo que podría resultar en fallos operativos o ineficiencias.
+* La observabilidad permite tomar decisiones informadas basadas en el estado real del sistema, es importante en entornos donde las condiciones pueden cambiar rápidamente, como en el control de procesos en industrias químicos o en sistemas de transporte, debido a la capacidad de inferir el estado interno a partir de las salidas observadas mejora la capacidad de respuesta ante situaciones imprevistas.
+
 ## 5. Referencias
 [1] "Apuntes Clase - Jueves 31 Octubre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>

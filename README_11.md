@@ -1,5 +1,5 @@
 # Observadores de estados y error de estado estacionario
-La clase estuvo dirigida XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+En esta clase se abordaron los problemas de control en sistemas dinámicos, destacando la importancia de mitigar el error en estado estacionario mediante técnicas de regulación y servosistemas. Se explicó que la regulación busca mantener una variable en un valor deseado, mientras que los servosistemas responden a referencias distintas de cero. Se introdujo el concepto de seguimiento integral, donde se utilizan leyes de control con vectores de ganancias para mejorar el seguimiento de referencias y reducir el error. Además, se discutieron los observadores de estado, que estiman variables no medibles a partir de salidas y entradas, asegurando la convergencia de las estimaciones mediante retroalimentación del error. Finalmente, se concluyó que el diseño efectivo de observadores depende de la observabilidad del sistema y puede mejorar significativamente el rendimiento y la precisión en el control industrial.
 
 ## 1. Problemas de Control
 Tanto en control digital como analogico se tienen problemas de control debido a diversos factores, pero uno que resalta es el error de estado estacionario, por eso se utilizan tecnicas para mitigar o eliminar este error.
@@ -265,6 +265,7 @@ $$
 * El diseño de un observador depende de la condición de observabilidad del sistema. Esto significa que debe ser posible reconstruir todos los estados a partir de las salidas disponibles, lo que garantiza la efectividad del controlador.
 * El uso de diagramas de bloques en la representación en espacio de estados ayuda a visualizar y analizar las interacciones entre diferentes variables, lo que es fundamental para entender el comportamiento global del sistema.
 * La implementación adecuada de observadores puede mejorar significativamente el rendimiento del sistema al permitir un control más efectivo y una respuesta más rápida ante perturbaciones externas.
+
 ## 4. Referencias
 [1] "Apuntes Clase - Jueves 7 Noviembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>

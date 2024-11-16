@@ -55,10 +55,10 @@ y(k) = CX(k) + Du(k)
 $$
 
 Donde:
-- **A**: Matriz de estados. Esta matriz describe la dinámica del sistema y relaciona el estado actual del sistema con su evolución futura.
-- **B**: Matriz de entrada. Esta matriz relaciona las entradas del sistema con los estados, determinando cómo las señales de entrada afectan la evolución del estado.
-- **C**: Matriz de salida. Esta matriz conecta los estados del sistema con las salidas, permitiendo la observación del comportamiento del sistema a partir de sus estados internos.
-- **D**: Matriz de transmisión directa. Esta matriz representa la relación directa entre las entradas y las salidas, indicando cómo una entrada afecta inmediatamente a la salida sin pasar por el estado del sistema.
+- **A**: Matriz de estados, la cual describe la dinámica del sistema y relaciona el estado actual del sistema con su evolución futura.
+- **B**: Matriz de entrada, que relaciona las entradas del sistema con los estados, determinando cómo las señales de entrada afectan la evolución del estado.
+- **C**: Matriz de salida, la cual conecta los estados del sistema con las salidas, permitiendo la observación del comportamiento del sistema a partir de sus estados internos.
+- **D**: Matriz de transmisión directa, que representa la relación directa entre las entradas y las salidas, indicando cómo una entrada afecta inmediatamente a la salida sin pasar por el estado del sistema.
 
 ### 1.1 Control PID 
 

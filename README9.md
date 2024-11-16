@@ -124,6 +124,26 @@ $$y(k) = x_1(k)$$
 $$y(k + 1) = x_{1}(k + 1) = x_{2}(k)$$
 $$y(k + 2) = x_{2}(k + 1) = -x_{2}(k) - 0.16 x_{1}(k) + 2 u(k)$$
 
+$$ \begin{bmatrix}
+\chi_1(k + 1) \\
+\chi_2(k + 2)
+\end{bmatrix}
+=\begin{bmatrix}
+0 & 1 \\
+-0.16 & -1
+\end{bmatrix}
+\begin{bmatrix}
+\chi_{1}(k) \\
+\chi_{2}(k)
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+2
+\end{bmatrix}
+u
+$$
+
 
 
 ## 3. Conclusiones

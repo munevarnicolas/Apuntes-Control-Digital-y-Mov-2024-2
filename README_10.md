@@ -180,6 +180,10 @@ U = \det
 $$
 
 El Sistema si es observable
+
+
+La importancia  de la controlabilidad y observabilidad es de gran relevancia para asegurar que un sistema pueda ser controlado y monitoreado adecuadamente, debido a que determinan la existencia de las soluciones para un problema determinado de control, la falta de estas propiedades puede resultar en sistemas ineficaces o incapaces de alcanzar sus objetivos operativos.
+
 ## 3. Conclusiones
 * En los sistemas de control, las redes de atraso son esenciales porque mejoran la precisión en estado estable, lo que permite que el sistema funcione de manera más confiable, estas se utilizan para reducir la ganancia a altas frecuencias, evitar oscilaciones indeseables y mejorar la estabilidad del sistema. Sin embargo, debido a que su uso puede prolongar el tiempo de respuesta transitoria, se utilizan con frecuencia junto con compensadores de adelanto para optimizar ambos aspectos.
 * Los controladores PID tienen redes de atraso y adelanto lo que proporciona mayor flexibilidad en el diseño, esta combinación puede compensar tanto retrasos como avances en el sistema, lo que mejora su rendimiento y capacidad de respuesta en todo el sistema. Además, el proceso de diseño y ajuste de estas redes permite una comprensión de la dinámica del sistema, que contribuye al analisis y la optimización continua de sistemas de control.

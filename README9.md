@@ -60,9 +60,33 @@ Donde:
 - **C**: Matriz de salida, la cual conecta los estados del sistema con las salidas, permitiendo la observación del comportamiento del sistema a partir de sus estados internos.
 - **D**: Matriz de transmisión directa, que representa la relación directa entre las entradas y las salidas, indicando cómo una entrada afecta inmediatamente a la salida sin pasar por el estado del sistema.
 
-💡**Ejemplo 1:** <br/>
-* Sea la función de transferencia:
 
+💡**Ejemplo 1:** <br/>
+![Ejemplo sistema MIMO](images/ejemplo_1.jpg)
+
+* Ecuación Diferencial
+
+$$
+u(t) - F_k - F_B = m \cdot a
+$$
+
+$$
+u(t) - K y(t) - B y(t) = M \ddot{y}(t)
+$$
+
+* La ley de Hooke se expresa como:
+
+$$
+F_k = k \cdot x
+$$
+
+<p align="center">Donde x es la elongación del resorte. .</p>
+
+* Fuerza del Amortiguador:
+
+$$
+F_b = B^* \frac{dx}{dt}
+$$
 
 ### 1.1 Control PID 
 

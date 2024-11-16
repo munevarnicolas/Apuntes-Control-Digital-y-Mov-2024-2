@@ -144,6 +144,20 @@ $$ \begin{bmatrix}
 u
 $$
 
+$$
+y = 
+\begin{bmatrix}
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+x_{1}(k) \\
+x_{2}(k)
+\end{bmatrix}
++ 
+\begin{bmatrix}
+0
+\end{bmatrix} u
+$$
 
 
 ## 3. Conclusiones

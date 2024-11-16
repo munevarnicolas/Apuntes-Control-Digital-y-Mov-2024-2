@@ -89,15 +89,31 @@ $$
 B \dot{y}(t) ---> F_b = B^* \frac{dx}{dt}
 $$
 
-### 1.1 Control PID 
+Se discretiza la siguiente ecuación:
 
-Un controlador PID (Proporcional, Integral y Derivativo) es un mecanismo de control ampliamente utilizado en sistemas de automatización y control industrial. Su función principal es regular variables como temperatura, presión, velocidad y flujo, mediante un lazo de retroalimentación que ajusta continuamente las salidas en función de la diferencia entre un valor deseado (set-point) y el valor medido del proceso. Tiene tres aspectos fundamentales loscuales son:
+$$
+u(t) - K y(t) - B \dot{y}(t) = M \ddot{y}(t)
+$$
 
-*Proporcional (P): Este componente genera una salida proporcional al error actual. Cuanto mayor sea el error, mayor será la acción correctiva aplicada. Esto permite una respuesta rápida a las variaciones.
-*Integral (I): Este término acumula el error a lo largo del tiempo, corrigiendo cualquier desviación persistente del set-point. Ayuda a eliminar el error en estado estacionario, pero puede causar oscilaciones si no se sintoniza adecuadamente.
-*Derivativo (D): Este componente anticipa futuros errores basándose en la tasa de cambio del error actual. Proporciona una acción correctiva que ayuda a suavizar la respuesta del sistema y reduce el sobreimpulso.
+$$
+\frac{d}{dkT} x(kT) = \frac{x(k + 1) - x(k)}{T}
+$$
 
-El control PID puede considerarse un caso especial de una red de atraso-adelanto, ya que combina las características de ambos tipos de compensación. En un controlador PID, se integran tres acciones proporcional, integral y derivativa, lo que permite mejorar tanto la respuesta transitoria como la precisión en estado estacionario. La parte proporcional actúa como un compensador de adelanto, aumentando la rapidez de respuesta, mientras que la parte integral ayuda a eliminar el error en estado estacionario, similar al efecto de un compensador de atraso. Al combinar estas funciones, el controlador PID optimiza el rendimiento del sistema, mejorando los márgenes de estabilidad y el ancho de banda.
+$$
+M Y(k + 2) - 2M Y(k + 1) + M Y(k) + B T Y(k + 1) - B T Y(k) + T^2 K Y(k) = U T^2
+$$
+
+$$
+M Y(k + 2) + (B T - 2M) Y(k + 1) + (M - B T + T^2 K) Y(k) = U(k) T^2
+$$
+
+
+## 3. Metodologia: 
+
+- Despejar el Máximo Adelanto de la Ecuación en Diferencias: Identificar y despejar el término que tiene el mayor adelanto temporal (es decir, el término que representa la próxima instancia del sistema). Esto es crucial porque permite establecer una relación clara entre los estados actuales y futuros del sistema. En general, se busca expresar la variable dependiente (como la salida o el estado) en función de sus valores anteriores y las entradas.
+- Igualar la Salida a la Variable de Estado: Se establece que la salida del sistema es igual a una de las variables de estado. Esto es fundamental para definir cómo las variables de estado influyen en las salidas del sistema.
+- Desplazar Sucesivamente para Obtener las Derivadas de las Variables de Estado: Este paso implica tomar derivadas sucesivas (o diferencias) de las variables de estado para obtener sus tasas de cambio. Dependiendo del tipo de sistema (discreto o continuo), se pueden usar derivadas o diferencias finitas.
+- Organizar los Términos de las Ecuaciones de Estado dentro de las Matrices A, B, C y D: Finalmente, todos los términos obtenidos se organizan dentro de matrices específicas.
 
 ### 1.2  Márgenes de fase y ganancia
 

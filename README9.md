@@ -342,15 +342,121 @@ x_{n}(k)
 \end{bmatrix}
 $$
 
+## 4. Raices del Polinomio Caracteristico
 
+Cálculo de los polos en el espacio de estados
 
-## 4. Conclusiones
+$$
+|zI - A| = 0
+$$
+
+$$
+A = 
+\begin{bmatrix}
+0 & -1 & 0 \\
+0 & 0 & 1 \\
+-6 & -11 & -6
+\end{bmatrix}
+$$
+
+$$
+|z\cdot 
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}-
+\begin{bmatrix}
+0 & -1 & 0 \\
+0 & 0 & 1 \\
+-6 & -11 & -6
+\end{bmatrix}|
+$$
+
+$$
+\left| 
+\begin{bmatrix}
+z & 0 & 0 \\
+0 & z & 0 \\
+0 & 0 & z
+\end{bmatrix} - 
+\begin{bmatrix}
+0 & -1 & 0 \\
+0 & 0 & 1 \\
+-6 & -11 & -6
+\end{bmatrix} 
+\right|
+$$
+
+$$
+\det \begin{bmatrix}
+z & 1 & 0 \\
+0 & z & -1 \\
+6 & 11 & z + 6
+\end{bmatrix}
+$$
+
+Hallando los determinante por cofactores:
+
+$$
+=z \left( z(z + 6) - 11(-1) - (-1)(0(z + 6) - 6(-1)) + 0(0 \cdot 11 - 6z) \right)
+$$
+
+Polinomio Carateristico:
+
+$$
+z^3 + 6z^2 + 11z + 6 = 0
+$$
+
+- $z = -1$
+- $z = -2$
+- $z = -3$
+
+# 5. Espacio de Estados a Función de Transferencia
+
+Consideremos un sistema discreto representado por las siguientes ecuaciones en espacio de estados:
+
+$$\mathbf{x}(k+1) = A \mathbf{x}(k) + B \mathbf{u}(k)$$
+
+$$\mathbf{y}(k) = C \mathbf{x}(k) + D \mathbf{u}(k)$$
+
+Al aplicarse la transformada Z:
+
+$$z \mathbf{X}(z) = A \mathbf{X}(z) + B \mathbf{U}(z)$$
+   
+$$\mathbf{Y}(z) = C \mathbf{X}(z) + D \mathbf{U}(z)$$
+
+Despejar $$\frac{Y(z)}{U(z)}$$ :
+
+$$
+zX(z) - AX(z) = BU(z)
+$$
+
+$$
+(zI - A)X(z) = BU(z)
+$$
+
+$$
+X(z) = (zI - A)^{-1} BU(z)
+$$
+
+$$
+Y(z) = C X(z) + D U(z) \Rightarrow Y(z) = C \left( (zI - A)^{-1} B U(z) \right) + D U(z)
+$$
+
+$$
+Y(z) = \left( C \left( (zI - A)^{-1} B \right) + D \right) U(z) \longrightarrow \frac{Y(z)}{U(z)} = C \left( (zI - A)^{-1} B \right) + D
+$$
+
+   
+
+## 6. Conclusiones
 * El espacio de estados facilita el análisis de propiedades críticas como la controlabilidad y la observabilidad, que son de gran importancia para el diseño de controladores efectivos, la comprension de cómo se pueden manipular los estados internos del sistema mediante las entradas, y cómo estos estados pueden ser inferidos a partir de las salidas, es fundamental para garantizar un control robusto y eficiente en aplicaciones industriales.
 * A diferencia de la representación mediante funciones de transferencia, que se restringe a sistemas lineales y en estado estacionario, el enfoque del espacio de estados ofrece una flexibilidad considerable al permitir la modelación de sistemas no lineales y dependientes del tiempo, esta capacidad es fundamental, ya que muchos sistemas reales en diversas disciplinas, como la ingeniería eléctrica, la robótica y la automatización, tienen comportamientos con multiples entradas y salidad complejas que no pueden ser capturados adecuadamente por las funciones de transferencia tradicionales.
 * La organización de las ecuaciones en matrices A, B, C y D simplifica el análisis matemático, ademas  también proporciona una estructura clara para implementar algoritmos computacionales en simulaciones y control para mayor precision con herramientas como MatLab, para mejorar la efectividad del control en sistemas dinámicos, permitiendo un rendimiento mejor y adaptable en diversas aplicaciones.
 * 
 
-## 5. Referencias
+## 7. Referencias
 [1] "Apuntes Clase - Jueves 26 Septiembre 2024" <br/>
 [2] "Ingeniería de control Moderno, Ogata" <br/>
 [3] "Diseño de control Análogo y Digital, Chen" <br/>

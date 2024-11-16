@@ -20,7 +20,7 @@ Son las variables que determinan el comportamiento de un Sistema y no necesariam
 ### 1.3 Ecuaciones de Estados: 
 Son un conjunto de varias ecuaciones que describen la dinámica de un sistema mediante un modelo matemático. Este modelo se basa en la relación entre las variables de entrada, salida y estado del sistema.
 
-## Representación Matematica:
+### Representación Matematica:
 
 Para realizar esta representacion matematica se al menos se debe tener dos varibles de estado, de no ser asi se podria realizar por medio de funcion de transferencia o ecuacion diferencial.
 

@@ -71,13 +71,14 @@ u(t) - F_k - F_B = m \cdot a
 $$
 
 $$
-u(t) - K y(t) - B y(t) = M \ddot{y}(t)
+u(t) - K y(t) - B \dot{y}(t) = M \ddot{y}(t)
 $$
+
 
 * La ley de Hooke se expresa como:
 
 $$
-F_k = k \cdot x
+K y(t) ---> F_k = k \cdot x
 $$
 
 <p align="center">Donde x es la elongación del resorte. .</p>
@@ -85,7 +86,7 @@ $$
 * Fuerza del Amortiguador:
 
 $$
-F_b = B^* \frac{dx}{dt}
+B \dot{y}(t) ---> F_b = B^* \frac{dx}{dt}
 $$
 
 ### 1.1 Control PID 

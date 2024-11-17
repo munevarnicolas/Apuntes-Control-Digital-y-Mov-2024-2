@@ -26,9 +26,10 @@ Clase 1, pre-requsitos, contenido y evaluación para la materia en el periodo 20
 - Laboratorios (15%): <br/>
 
 3er Corte (50%): <br/>
-- Parcial (20%): <br/>
+- Parcial (15%): <br/>
 - Apuntes (5%): <br/>
-- Proyecto (25%): <br/>
+- Proyecto (20%): <br/>
+- Laboratorio (10%): <br/>
 
 ## 4. Referencias
 [1] "Apuntes Clase - Lunes 29 Julio 2024"

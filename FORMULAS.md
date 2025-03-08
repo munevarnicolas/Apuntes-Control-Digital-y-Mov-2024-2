@@ -18,6 +18,6 @@ $$
 
 ## Sintonizacion PID Ziegler y Nichols
 
-  - $$Kp = 0.0036$$
-  - $$Ki = 4.1841$$
-  - $$Kd = 0.0598$$
+  - $$Kc = 0.0036$$
+  - $$Ti = 4.1841$$
+  - $$Td = 0.0598$$

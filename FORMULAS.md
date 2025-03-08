@@ -12,9 +12,9 @@ $$
 
 ## Funcion de transferencia en tiempo discreto:
 
-$$
-G(z) = z^{-2} \* \frac{5.798z + 0.9986}{z - 0.5168}
-$$
+- $$G(z) = z^{-2} \* \frac{5.798z + 0.9986}{z - 0.5168}$$
+
+- $$T_{\text{muestreo}} = 0.001$$
 
 ## Sintonizacion PID Ziegler y Nichols
 
